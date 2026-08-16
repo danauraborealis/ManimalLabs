@@ -1,0 +1,1305 @@
+{
+ "source": "retail current Laboratory_LIGHT level114, diffed vs SPT 4.0",
+ "bounds": {
+  "center": [
+   -263.93,
+   6.03,
+   -374.96
+  ],
+  "x": [
+   -269.14011122861456,
+   -249.4976828981042
+  ],
+  "y": [
+   3.617000102996826,
+   7.806000232696533
+  ],
+  "z": [
+   -381.2485470130611,
+   -358.8953857421875
+  ]
+ },
+ "margin": 2.0,
+ "newLights": [
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (1)~1/Light_Round_Normal_275/Base",
+   "name": "Base",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -264.842,
+    7.226,
+    -375.51
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Point",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 4.0,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "VolumetricLight",
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (3)~1/Light_Round_Normal_275/MainSpot",
+   "name": "MainSpot",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -259.39,
+    8.142,
+    -373.443
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Spot",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 9.0,
+   "spotAngle": 90.0,
+   "innerSpotAngle": 1.0,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (5)/Light_Round_Normal_275/MainSpot",
+   "name": "MainSpot",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -262.029,
+    8.142,
+    -379.699
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Spot",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 9.0,
+   "spotAngle": 90.0,
+   "innerSpotAngle": 1.0,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off~1/Light_Round_Normal_275/Base",
+   "name": "Base",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -267.439,
+    7.226,
+    -375.51
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Point",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 4.0,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "VolumetricLight",
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (5)~1/Light_Round_Normal_275/Base",
+   "name": "Base",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -260.68,
+    7.226,
+    -375.017
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Point",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 4.0,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "VolumetricLight",
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (6)~1/Light_Round_Normal_275/MainSpot",
+   "name": "MainSpot",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -264.054,
+    8.142,
+    -379.699
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Spot",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 9.0,
+   "spotAngle": 90.0,
+   "innerSpotAngle": 1.0,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (3)/Light_Round_Normal_275/Base",
+   "name": "Base",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -260.68,
+    7.226,
+    -373.443
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Point",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 4.0,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "VolumetricLight",
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off~2/Light_Round_Normal_275/MainSpot",
+   "name": "MainSpot",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -267.439,
+    8.142,
+    -373.172
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Spot",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 9.0,
+   "spotAngle": 90.0,
+   "innerSpotAngle": 1.0,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (6)/Light_Round_Normal_275/MainSpot",
+   "name": "MainSpot",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -260.68,
+    8.142,
+    -379.699
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Spot",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 9.0,
+   "spotAngle": 90.0,
+   "innerSpotAngle": 1.0,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (4)/Light_Round_Normal_275/Base",
+   "name": "Base",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -259.39,
+    7.226,
+    -379.699
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Point",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 4.0,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "VolumetricLight",
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (1)/Light_Round_Normal_275/Base",
+   "name": "Base",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -262.979,
+    7.226,
+    -375.51
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Point",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 4.0,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "VolumetricLight",
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)/Light_Round_Normal_275/MainSpot",
+   "name": "MainSpot",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -259.39,
+    8.142,
+    -377.481
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Spot",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 9.0,
+   "spotAngle": 90.0,
+   "innerSpotAngle": 1.0,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off/Light_Round_Normal_275/MainSpot",
+   "name": "MainSpot",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -264.842,
+    8.142,
+    -373.172
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Spot",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 9.0,
+   "spotAngle": 90.0,
+   "innerSpotAngle": 1.0,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)~2/Light_Round_Normal_275/Base",
+   "name": "Base",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -262.979,
+    7.226,
+    -373.172
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Point",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 4.0,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "VolumetricLight",
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (4)~1/Light_Round_Normal_275/Base",
+   "name": "Base",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -260.68,
+    7.226,
+    -377.481
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Point",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 4.0,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "VolumetricLight",
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)~1/Light_Round_Normal_275/Base",
+   "name": "Base",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -259.39,
+    7.226,
+    -375.017
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Point",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 4.0,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "VolumetricLight",
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)~2/Light_Round_Normal_275/MainSpot",
+   "name": "MainSpot",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -262.979,
+    8.142,
+    -373.172
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Spot",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 9.0,
+   "spotAngle": 90.0,
+   "innerSpotAngle": 1.0,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (4)~1/Light_Round_Normal_275/MainSpot",
+   "name": "MainSpot",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -260.68,
+    8.142,
+    -377.481
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Spot",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 9.0,
+   "spotAngle": 90.0,
+   "innerSpotAngle": 1.0,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)~1/Light_Round_Normal_275/MainSpot",
+   "name": "MainSpot",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -259.39,
+    8.142,
+    -375.017
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Spot",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 9.0,
+   "spotAngle": 90.0,
+   "innerSpotAngle": 1.0,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (4)/Light_Round_Normal_275/MainSpot",
+   "name": "MainSpot",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -259.39,
+    8.142,
+    -379.699
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Spot",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 9.0,
+   "spotAngle": 90.0,
+   "innerSpotAngle": 1.0,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (1)/Light_Round_Normal_275/MainSpot",
+   "name": "MainSpot",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -262.979,
+    8.142,
+    -375.51
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Spot",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 9.0,
+   "spotAngle": 90.0,
+   "innerSpotAngle": 1.0,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off/Light_Round_Normal_275/Base",
+   "name": "Base",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -264.842,
+    7.226,
+    -373.172
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Point",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 4.0,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "VolumetricLight",
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)/Light_Round_Normal_275/Base",
+   "name": "Base",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -259.39,
+    7.226,
+    -377.481
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Point",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 4.0,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "VolumetricLight",
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (6)/Light_Round_Normal_275/Base",
+   "name": "Base",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -260.68,
+    7.226,
+    -379.699
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Point",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 4.0,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "VolumetricLight",
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off~2/Light_Round_Normal_275/Base",
+   "name": "Base",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -267.439,
+    7.226,
+    -373.172
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Point",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 4.0,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "VolumetricLight",
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (3)/Light_Round_Normal_275/MainSpot",
+   "name": "MainSpot",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -260.68,
+    8.142,
+    -373.443
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Spot",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 9.0,
+   "spotAngle": 90.0,
+   "innerSpotAngle": 1.0,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (6)~1/Light_Round_Normal_275/Base",
+   "name": "Base",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -264.054,
+    7.226,
+    -379.699
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Point",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 4.0,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "VolumetricLight",
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (1)~1/Light_Round_Normal_275/MainSpot",
+   "name": "MainSpot",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -264.842,
+    8.142,
+    -375.51
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Spot",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 9.0,
+   "spotAngle": 90.0,
+   "innerSpotAngle": 1.0,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (3)~1/Light_Round_Normal_275/Base",
+   "name": "Base",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -259.39,
+    7.226,
+    -373.443
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Point",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 4.0,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "VolumetricLight",
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (5)/Light_Round_Normal_275/Base",
+   "name": "Base",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -262.029,
+    7.226,
+    -379.699
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Point",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 4.0,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "VolumetricLight",
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (5)~1/Light_Round_Normal_275/MainSpot",
+   "name": "MainSpot",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -260.68,
+    8.142,
+    -375.017
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Spot",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 9.0,
+   "spotAngle": 90.0,
+   "innerSpotAngle": 1.0,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off~1/Light_Round_Normal_275/MainSpot",
+   "name": "MainSpot",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -267.439,
+    8.142,
+    -375.51
+   ],
+   "worldRot": [
+    -2e-06,
+    0.707107,
+    -0.707107,
+    2e-06
+   ],
+   "type": "Spot",
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 9.0,
+   "spotAngle": 90.0,
+   "innerSpotAngle": 1.0,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/ON/Glowstick_01_source_on/glowstick light",
+   "name": "glowstick light",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -263.53,
+    5.143,
+    -376.714
+   ],
+   "worldRot": [
+    0.688388,
+    -0.161623,
+    0.161623,
+    0.688388
+   ],
+   "type": "Point",
+   "color": [
+    1.0,
+    0.603,
+    0.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 3.15,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4294967295,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "VolumetricLight",
+    "CullingLightObject"
+   ]
+  }
+ ],
+ "sptLightsInBox": [
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Boiler_Room_floor_1/part1/emergency_exit_light_emissive (2)/emergency_exit_light 1/Point light (1)",
+   "name": "Point light (1)",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -251.365,
+    2.248,
+    -370.504
+   ],
+   "worldRot": [
+    0.0,
+    0.0,
+    -0.0,
+    1.0
+   ],
+   "type": "Point",
+   "color": [
+    0.3655,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 1.144,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 0,
+   "cullingMask": 4260888343,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Boiler_Room_floor_1/part1/emergency_exit_light_emissive (2)/emergency_exit_light 1/Point light",
+   "name": "Point light",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -251.365,
+    2.406,
+    -371.548
+   ],
+   "worldRot": [
+    0.0,
+    0.0,
+    -0.0,
+    1.0
+   ],
+   "type": "Point",
+   "color": [
+    0.3655,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 0.5,
+   "spotAngle": 30.0,
+   "innerSpotAngle": 21.8,
+   "shadows": 0,
+   "renderMode": 0,
+   "cullingMask": 4260888343,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_relax_zone/Laboratory_relax_zone_lift_02_O/Point light (10)",
+   "name": "Point light (10)",
+   "active": true,
+   "enabled": true,
+   "world": [
+    -253.7,
+    6.024,
+    -379.394
+   ],
+   "worldRot": [
+    0.727137,
+    2e-06,
+    0.686492,
+    2e-06
+   ],
+   "type": "Point",
+   "color": [
+    0.3254,
+    0.6973,
+    0.75,
+    1.0
+   ],
+   "intensity": 0.0,
+   "range": 3.55,
+   "spotAngle": 163.5,
+   "innerSpotAngle": 157.19,
+   "shadows": 0,
+   "renderMode": 2,
+   "cullingMask": 4260888343,
+   "bounceIntensity": 1.0,
+   "siblingScripts": [
+    "CullingLightObject"
+   ]
+  }
+ ],
+ "retailLevel74LightsInBox": []
+}

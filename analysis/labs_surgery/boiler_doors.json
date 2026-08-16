@@ -1,0 +1,1091 @@
+{
+ "source": "retail current (post-1.0) labs level74",
+ "components": {
+  "Door": [
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/DOORS/Inside_Door_Wood_22_R_210-100_gray/Inside_Door_Wood_22_R_210-100_Door",
+    "world": [
+     -249.668,
+     5.157,
+     -362.027
+    ],
+    "class": "EFT.Interactive.Door",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "specificInteractionContext": 0,
+     "InteractionDot": 0.0,
+     "InteractionDirection": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "TriggersMap": [],
+     "Snap": 3,
+     "KeyId": "",
+     "HasSkillRequirement": 0,
+     "SkillRequirement": 0,
+     "SkillMinLevelRequirement": 0,
+     "Id": "door_Laboratory_Office_Above_Boiler_Room_floor_1_00000",
+     "_currentAngle": 0.0,
+     "_keepRotation": 0,
+     "interactPosition1": {
+      "x": -0.8100000023841858,
+      "y": 0.03999999910593033,
+      "z": -0.019999999552965164
+     },
+     "interactPosition2": {
+      "x": -0.8100000023841858,
+      "y": -0.10999999940395355,
+      "z": -0.019999999552965164
+     },
+     "viewTarget1": {
+      "x": -0.7300000190734863,
+      "y": -0.05000000074505806,
+      "z": 0.0
+     },
+     "LockHandle": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/DOORS/Inside_Door_Wood_22_R_210-100_gray/Inside_Door_Wood_22_R_210-100_Door/Lock",
+      "refType": "DoorHandle"
+     },
+     "OpenAngle": -110.4000015258789,
+     "CloseAngle": 0.0,
+     "DoorAxis": 2,
+     "DoorForward": 3,
+     "interactWithoutAnimation": 0,
+     "ShutShift": 0.0,
+     "Obstacle": null,
+     "_doorState": 2,
+     "_handle": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/DOORS/Inside_Door_Wood_22_R_210-100_gray/Inside_Door_Wood_22_R_210-100_Door/Inside_Door_Wood_22_R_210-100_Door_Handle",
+      "refType": "DoorHandle"
+     },
+     "_forceLocalInteraction": 0,
+     "NoInteractionsAllowed": 0,
+     "retailExtra_f0": -1.0,
+     "retailExtra_i0": 0,
+     "retailDoorKeyOpen": 29,
+     "retailOperatable": 1,
+     "ShutSound": [
+      {
+       "externalRef": [
+        3,
+        1723
+       ]
+      },
+      {
+       "externalRef": [
+        3,
+        1736
+       ]
+      },
+      {
+       "externalRef": [
+        3,
+        1730
+       ]
+      }
+     ],
+     "SqueakSound": [
+      {
+       "externalRef": [
+        3,
+        1731
+       ]
+      }
+     ],
+     "OpenSound": [],
+     "_shutSoundRolloff": 50,
+     "_squeakSoundRolloff": 35,
+     "_openSoundRolloff": 35,
+     "HitClip": {
+      "externalRef": [
+       2,
+       4539628424389459968
+      ]
+     },
+     "BreachSound": null,
+     "_hitSoundRolloff": 0,
+     "_breachSoundRolloff": 0,
+     "IsBroken": 0,
+     "CanBeBreached": 0,
+     "CanInteractWithBreach": 0,
+     "KickCurve": {
+      "m_Curve": [],
+      "m_PreInfinity": 0,
+      "m_PostInfinity": 0,
+      "m_RotationOrder": 0
+     },
+     "HitEffect": {
+      "externalRef": [
+       2,
+       17179869186
+      ]
+     },
+     "_occlusionPortal": null
+    }
+   }
+  ],
+  "DoorHandle": [
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/DOORS~1/Inside_Door_Wood_22_R_210-100_gray (1)/Inside_Door_Wood_22_R_210-100_Door/Inside_Door_Wood_22_R_210-100_Door_Handle",
+    "world": [
+     -262.856,
+     5.15,
+     -381.04
+    ],
+    "class": "DoorHandle",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "OpenRotation": {
+      "x": -1.634320945242962e-08,
+      "y": 0.4186035096645355,
+      "z": -5.045002282599853e-08,
+      "w": 0.9081690311431885
+     },
+     "DefaultRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+     },
+     "OpenAnimation": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 6.896552085876465,
+        "outSlope": 6.896552085876465,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 0.14499999582767487,
+        "value": 1.0,
+        "inSlope": 6.896552085876465,
+        "outSlope": -0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 0.27300000190734863,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": -7.874017238616943,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 0.3999999761581421,
+        "value": 0.0,
+        "inSlope": -7.874017238616943,
+        "outSlope": -7.874017238616943,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 0
+     },
+     "LockedAnimation": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 1.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 0
+     },
+     "pos": 0,
+     "OpenPosition": {
+      "x": -0.8127241134643555,
+      "y": -0.03500000014901161,
+      "z": -0.007991790771484375
+     },
+     "DefaultPosition": {
+      "x": -0.8127241134643555,
+      "y": -0.03500000014901161,
+      "z": -0.007991790771484375
+     },
+     "DownSound": [
+      {
+       "externalRef": [
+        3,
+        1728
+       ]
+      },
+      {
+       "externalRef": [
+        3,
+        1734
+       ]
+      },
+      {
+       "externalRef": [
+        3,
+        1726
+       ]
+      }
+     ],
+     "UpSound": [
+      {
+       "externalRef": [
+        3,
+        1732
+       ]
+      },
+      {
+       "externalRef": [
+        3,
+        1729
+       ]
+      },
+      {
+       "externalRef": [
+        3,
+        1719
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/DOORS/Inside_Door_Wood_22_R_210-100_gray/Inside_Door_Wood_22_R_210-100_Door/Inside_Door_Wood_22_R_210-100_Door_Handle",
+    "world": [
+     -249.703,
+     5.148,
+     -362.839
+    ],
+    "class": "DoorHandle",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "OpenRotation": {
+      "x": -1.634320945242962e-08,
+      "y": 0.4186035096645355,
+      "z": -5.045002282599853e-08,
+      "w": 0.9081690311431885
+     },
+     "DefaultRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+     },
+     "OpenAnimation": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 6.896552085876465,
+        "outSlope": 6.896552085876465,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 0.14499999582767487,
+        "value": 1.0,
+        "inSlope": 6.896552085876465,
+        "outSlope": -0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 0.27300000190734863,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": -7.874017238616943,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 0.3999999761581421,
+        "value": 0.0,
+        "inSlope": -7.874017238616943,
+        "outSlope": -7.874017238616943,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 0
+     },
+     "LockedAnimation": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 1.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 0
+     },
+     "pos": 0,
+     "OpenPosition": {
+      "x": -0.8127241134643555,
+      "y": -0.03500000014901161,
+      "z": -0.007991790771484375
+     },
+     "DefaultPosition": {
+      "x": -0.8127241134643555,
+      "y": -0.03500000014901161,
+      "z": -0.007991790771484375
+     },
+     "DownSound": [
+      {
+       "externalRef": [
+        3,
+        1728
+       ]
+      },
+      {
+       "externalRef": [
+        3,
+        1734
+       ]
+      },
+      {
+       "externalRef": [
+        3,
+        1726
+       ]
+      }
+     ],
+     "UpSound": [
+      {
+       "externalRef": [
+        3,
+        1732
+       ]
+      },
+      {
+       "externalRef": [
+        3,
+        1729
+       ]
+      },
+      {
+       "externalRef": [
+        3,
+        1719
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/DOORS~1/Inside_Door_Wood_22_R_210-100_gray (1)~1/Inside_Door_Wood_22_R_210-100_Door/Inside_Door_Wood_22_R_210-100_Door_Handle",
+    "world": [
+     -266.102,
+     5.15,
+     -380.094
+    ],
+    "class": "DoorHandle",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "OpenRotation": {
+      "x": -1.634320945242962e-08,
+      "y": 0.4186035096645355,
+      "z": -5.045002282599853e-08,
+      "w": 0.9081690311431885
+     },
+     "DefaultRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+     },
+     "OpenAnimation": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 6.896552085876465,
+        "outSlope": 6.896552085876465,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 0.14499999582767487,
+        "value": 1.0,
+        "inSlope": 6.896552085876465,
+        "outSlope": -0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 0.27300000190734863,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": -7.874017238616943,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 0.3999999761581421,
+        "value": 0.0,
+        "inSlope": -7.874017238616943,
+        "outSlope": -7.874017238616943,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 0
+     },
+     "LockedAnimation": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 1.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 0
+     },
+     "pos": 0,
+     "OpenPosition": {
+      "x": -0.8127241134643555,
+      "y": -0.03500000014901161,
+      "z": -0.007991790771484375
+     },
+     "DefaultPosition": {
+      "x": -0.8127241134643555,
+      "y": -0.03500000014901161,
+      "z": -0.007991790771484375
+     },
+     "DownSound": [
+      {
+       "externalRef": [
+        3,
+        1728
+       ]
+      },
+      {
+       "externalRef": [
+        3,
+        1734
+       ]
+      },
+      {
+       "externalRef": [
+        3,
+        1726
+       ]
+      }
+     ],
+     "UpSound": [
+      {
+       "externalRef": [
+        3,
+        1732
+       ]
+      },
+      {
+       "externalRef": [
+        3,
+        1729
+       ]
+      },
+      {
+       "externalRef": [
+        3,
+        1719
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/DOORS~1/Inside_Door_Wood_22_R_210-100_gray (1)/Inside_Door_Wood_22_R_210-100_Door/Lock",
+    "world": [
+     -262.855,
+     5.05,
+     -381.042
+    ],
+    "class": "DoorHandle",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "OpenRotation": {
+      "x": -0.7071053981781006,
+      "y": 0.7071061730384827,
+      "z": 0.0011878310469910502,
+      "w": -0.0011879800586029887
+     },
+     "DefaultRotation": {
+      "x": -0.5391654372215271,
+      "y": 0.5391660928726196,
+      "z": 0.45749378204345703,
+      "w": -0.45749327540397644
+     },
+     "OpenAnimation": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 0.11499999463558197,
+        "value": 0.0,
+        "inSlope": -0.10346561670303345,
+        "outSlope": -0.10346561670303345,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 0.625,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 0
+     },
+     "LockedAnimation": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 0.3999999761581421,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 0
+     },
+     "pos": 0,
+     "OpenPosition": {
+      "x": 0.8748999834060669,
+      "y": -0.026900000870227814,
+      "z": -0.10999999940395355
+     },
+     "DefaultPosition": {
+      "x": 0.8748999834060669,
+      "y": -0.026900000870227814,
+      "z": -0.10999999940395355
+     },
+     "DownSound": [
+      {
+       "externalRef": [
+        14,
+        3906
+       ]
+      },
+      {
+       "externalRef": [
+        14,
+        4111
+       ]
+      },
+      {
+       "externalRef": [
+        14,
+        4261
+       ]
+      }
+     ],
+     "UpSound": [
+      {
+       "externalRef": [
+        14,
+        4016
+       ]
+      },
+      {
+       "externalRef": [
+        14,
+        4254
+       ]
+      },
+      {
+       "externalRef": [
+        14,
+        4204
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/DOORS/Inside_Door_Wood_22_R_210-100_gray/Inside_Door_Wood_22_R_210-100_Door/Lock",
+    "world": [
+     -249.705,
+     5.049,
+     -362.839
+    ],
+    "class": "DoorHandle",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "OpenRotation": {
+      "x": -0.7071053981781006,
+      "y": 0.7071061730384827,
+      "z": 0.0011878310469910502,
+      "w": -0.0011879800586029887
+     },
+     "DefaultRotation": {
+      "x": -0.5391654372215271,
+      "y": 0.5391660928726196,
+      "z": 0.45749378204345703,
+      "w": -0.45749327540397644
+     },
+     "OpenAnimation": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 0.11499999463558197,
+        "value": 0.0,
+        "inSlope": -0.10346561670303345,
+        "outSlope": -0.10346561670303345,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 0.625,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 0
+     },
+     "LockedAnimation": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 0.3999999761581421,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 0
+     },
+     "pos": 0,
+     "OpenPosition": {
+      "x": 0.8748999834060669,
+      "y": -0.026900000870227814,
+      "z": -0.10999999940395355
+     },
+     "DefaultPosition": {
+      "x": 0.8748999834060669,
+      "y": -0.026900000870227814,
+      "z": -0.10999999940395355
+     },
+     "DownSound": [
+      {
+       "externalRef": [
+        14,
+        3906
+       ]
+      },
+      {
+       "externalRef": [
+        14,
+        4111
+       ]
+      },
+      {
+       "externalRef": [
+        14,
+        4261
+       ]
+      }
+     ],
+     "UpSound": [
+      {
+       "externalRef": [
+        14,
+        4016
+       ]
+      },
+      {
+       "externalRef": [
+        14,
+        4254
+       ]
+      },
+      {
+       "externalRef": [
+        14,
+        4204
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/DOORS~1/Inside_Door_Wood_22_R_210-100_gray (1)~1/Inside_Door_Wood_22_R_210-100_Door/Lock",
+    "world": [
+     -266.103,
+     5.05,
+     -380.095
+    ],
+    "class": "DoorHandle",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "OpenRotation": {
+      "x": -0.7071053981781006,
+      "y": 0.7071061730384827,
+      "z": 0.0011878310469910502,
+      "w": -0.0011879800586029887
+     },
+     "DefaultRotation": {
+      "x": -0.5391654372215271,
+      "y": 0.5391660928726196,
+      "z": 0.45749378204345703,
+      "w": -0.45749327540397644
+     },
+     "OpenAnimation": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 0.11499999463558197,
+        "value": 0.0,
+        "inSlope": -0.10346561670303345,
+        "outSlope": -0.10346561670303345,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 0.625,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 0
+     },
+     "LockedAnimation": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 0.3999999761581421,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 0
+     },
+     "pos": 0,
+     "OpenPosition": {
+      "x": 0.8748999834060669,
+      "y": -0.026900000870227814,
+      "z": -0.10999999940395355
+     },
+     "DefaultPosition": {
+      "x": 0.8748999834060669,
+      "y": -0.026900000870227814,
+      "z": -0.10999999940395355
+     },
+     "DownSound": [
+      {
+       "externalRef": [
+        14,
+        3906
+       ]
+      },
+      {
+       "externalRef": [
+        14,
+        4111
+       ]
+      },
+      {
+       "externalRef": [
+        14,
+        4261
+       ]
+      }
+     ],
+     "UpSound": [
+      {
+       "externalRef": [
+        14,
+        4016
+       ]
+      },
+      {
+       "externalRef": [
+        14,
+        4254
+       ]
+      },
+      {
+       "externalRef": [
+        14,
+        4204
+       ]
+      }
+     ]
+    }
+   }
+  ],
+  "GripPose": [
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/DOORS~1/Inside_Door_Wood_22_R_210-100_gray (1)/Inside_Door_Wood_22_R_210-100_Door/Lock/KeyGrip",
+    "world": [
+     -262.827,
+     5.044,
+     -380.841
+    ],
+    "class": "GripPose",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "DoorState": 1,
+     "Hand": 0,
+     "GripType": 0,
+     "FingerTransforms": [],
+     "Fingers": [],
+     "DontCache": 0,
+     "_cached": 0
+    }
+   },
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/DOORS/Inside_Door_Wood_22_R_210-100_gray/Inside_Door_Wood_22_R_210-100_Door/Lock/KeyGrip",
+    "world": [
+     -249.504,
+     5.043,
+     -362.867
+    ],
+    "class": "GripPose",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "DoorState": 1,
+     "Hand": 0,
+     "GripType": 0,
+     "FingerTransforms": [],
+     "Fingers": [],
+     "DontCache": 0,
+     "_cached": 0
+    }
+   },
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/DOORS~1/Inside_Door_Wood_22_R_210-100_gray (1)~1/Inside_Door_Wood_22_R_210-100_Door/Lock/KeyGrip",
+    "world": [
+     -265.903,
+     5.044,
+     -380.123
+    ],
+    "class": "GripPose",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "DoorState": 1,
+     "Hand": 0,
+     "GripType": 0,
+     "FingerTransforms": [],
+     "Fingers": [],
+     "DontCache": 0,
+     "_cached": 0
+    }
+   },
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/DOORS/Inside_Door_Wood_22_R_210-100_gray/Inside_Door_Wood_22_R_210-100_Door/Lock/KeyGrip (1)",
+    "world": [
+     -249.905,
+     5.074,
+     -362.824
+    ],
+    "class": "GripPose",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "DoorState": 1,
+     "Hand": 0,
+     "GripType": 0,
+     "FingerTransforms": [],
+     "Fingers": [],
+     "DontCache": 0,
+     "_cached": 0
+    }
+   },
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/DOORS~1/Inside_Door_Wood_22_R_210-100_gray (1)/Inside_Door_Wood_22_R_210-100_Door/Lock/KeyGrip (1)",
+    "world": [
+     -262.87,
+     5.075,
+     -381.242
+    ],
+    "class": "GripPose",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "DoorState": 1,
+     "Hand": 0,
+     "GripType": 0,
+     "FingerTransforms": [],
+     "Fingers": [],
+     "DontCache": 0,
+     "_cached": 0
+    }
+   },
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/DOORS~1/Inside_Door_Wood_22_R_210-100_gray (1)~1/Inside_Door_Wood_22_R_210-100_Door/Lock/KeyGrip (1)",
+    "world": [
+     -266.304,
+     5.075,
+     -380.08
+    ],
+    "class": "GripPose",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "DoorState": 1,
+     "Hand": 0,
+     "GripType": 0,
+     "FingerTransforms": [],
+     "Fingers": [],
+     "DontCache": 0,
+     "_cached": 0
+    }
+   }
+  ]
+ }
+}

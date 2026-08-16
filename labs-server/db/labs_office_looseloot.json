@@ -1,0 +1,7606 @@
+{
+ "spawnpoints": [
+  {
+   "locationId": "(-142.167, 5.801, -397.711)",
+   "probability": 0.429,
+   "template": {
+    "Id": "Flyer (14) [737a17a5-c51b-4a93-89dd-9d23641c233f]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -142.167,
+     "y": 5.801,
+     "z": -397.711
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 180.000168,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937cf77cb7613294dcc1b",
+    "Items": [
+     {
+      "_id": "6a6937cf77cb7613294dcc1b",
+      "_tpl": "675a0fbbb98bf391510bafcd",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937cf77cb7613294dcc1b"
+     },
+     {
+      "_id": "6a6937de7720d799795578c3",
+      "_tpl": "675a06b84ff23436160d802f",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937de7720d799795578c3"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937cf77cb7613294dcc1b"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937de7720d799795578c3"
+     },
+     "relativeProbability": 2
+    }
+   ]
+  },
+  {
+   "locationId": "(-180.877, 1.926, -318.172)",
+   "probability": 0.429,
+   "template": {
+    "Id": "Flyer (18) [e5c9a632-8169-4f7c-acf6-a05eee60ab47]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -180.877,
+     "y": 1.926,
+     "z": -318.172
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.000167339633,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937bf809e6f88ae4cc703",
+    "Items": [
+     {
+      "_id": "6a6937bf809e6f88ae4cc703",
+      "_tpl": "675a04c01474133a0d0bb212",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937bf809e6f88ae4cc703"
+     },
+     {
+      "_id": "6a6937cf77cb7613294dcc21",
+      "_tpl": "68f25a8acacd763bbc0e2bf9",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937cf77cb7613294dcc21"
+     },
+     {
+      "_id": "6a693d49b6d73a5dbe5f5ec5",
+      "_tpl": "68f25a45b2b53abd200b954d",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d49b6d73a5dbe5f5ec5"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937bf809e6f88ae4cc703"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937cf77cb7613294dcc21"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a693d49b6d73a5dbe5f5ec5"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-262.354, 5.280, -375.885)",
+   "probability": 0.571,
+   "template": {
+    "Id": "Jewerly [68eb65fb-52d2-4874-8f9b-9002c617723a]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -262.3538,
+     "y": 5.279812,
+     "z": -375.884949
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 310.401947,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f73d6",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f73d6",
+      "_tpl": "59e3639286f7741777737013",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f73d6"
+     },
+     {
+      "_id": "6a6937bf809e6f88ae4cc752",
+      "_tpl": "5d235b4d86f7742e017bc88a",
+      "upd": {
+       "StackObjectsCount": 17
+      },
+      "composedKey": "6a6937bf809e6f88ae4cc752"
+     },
+     {
+      "_id": "6a6937fc4a320418e24aa1fc",
+      "_tpl": "5e54f62086f774219b0f1937",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937fc4a320418e24aa1fc"
+     },
+     {
+      "_id": "6a693d49b6d73a5dbe5f5f2e",
+      "_tpl": "590de71386f774347051a052",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d49b6d73a5dbe5f5f2e"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f73d6"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937bf809e6f88ae4cc752"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937fc4a320418e24aa1fc"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a693d49b6d73a5dbe5f5f2e"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-263.170, 5.280, -375.920)",
+   "probability": 0.429,
+   "template": {
+    "Id": "Jewerly (1) [5e3ea208-e2d5-45b2-9545-e1ad799711c6]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -263.1703,
+     "y": 5.279812,
+     "z": -375.920074
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 310.401947,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937bf809e6f88ae4cc740",
+    "Items": [
+     {
+      "_id": "6a6937bf809e6f88ae4cc740",
+      "_tpl": "5bc9bc53d4351e00367fbcee",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937bf809e6f88ae4cc740"
+     },
+     {
+      "_id": "6a6937fc4a320418e24aa1e8",
+      "_tpl": "59faf7ca86f7740dbe19f6c2",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937fc4a320418e24aa1e8"
+     },
+     {
+      "_id": "6a693d49b6d73a5dbe5f5f1c",
+      "_tpl": "62a09cfe4f842e1bd12da3e4",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d49b6d73a5dbe5f5f1c"
+     },
+     {
+      "composedKey": "a6e8804a869c054c9969e9ed",
+      "_id": "a6e8804a869c054c9969e9ed",
+      "_tpl": "68f11224197b61ffe703b16f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "2eb09847dc6ed1e659569cbe",
+      "_id": "2eb09847dc6ed1e659569cbe",
+      "_tpl": "68f25c64b2b53abd200b954f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "059457b72ab9b4910fb62521",
+      "_id": "059457b72ab9b4910fb62521",
+      "_tpl": "68f25ce9b2b53abd200b9551",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "503d00f1b100bf57542ac8eb",
+      "_id": "503d00f1b100bf57542ac8eb",
+      "_tpl": "68f25da3b84c6e1f8a09cffb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "31fad7bc0ef7ab6a0c297f28",
+      "_id": "31fad7bc0ef7ab6a0c297f28",
+      "_tpl": "68f25eba19a2b503d70dc28f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "b2c245eedda9b20cb0e4bcf4",
+      "_id": "b2c245eedda9b20cb0e4bcf4",
+      "_tpl": "68f25eef19a2b503d70dc291",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "302501a4f48ad80452b5cef7",
+      "_id": "302501a4f48ad80452b5cef7",
+      "_tpl": "68f25f1201fb9de974058be4",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "f3392de449eba69545690642",
+      "_id": "f3392de449eba69545690642",
+      "_tpl": "68f25f3a5d977110860c3350",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "de227a62a8ae95657b06b496",
+      "_id": "de227a62a8ae95657b06b496",
+      "_tpl": "68f25faa22c8979ee308f4da",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "e5ccc9904ec3e42105f81fe9",
+      "_id": "e5ccc9904ec3e42105f81fe9",
+      "_tpl": "68f25fdf928cd23ddf0471fb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "0d307100c97945a50380a73a",
+      "_id": "0d307100c97945a50380a73a",
+      "_tpl": "68f26063b2b53abd200b9553",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "43bdcab043c596f2fb62d939",
+      "_id": "43bdcab043c596f2fb62d939",
+      "_tpl": "68f2608301fb9de974058be6",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "3fbfad37fb0b71ec8eda5384",
+      "_id": "3fbfad37fb0b71ec8eda5384",
+      "_tpl": "68f260d7b84c6e1f8a09cffd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "6bc9d5602eb14f96ba209854",
+      "_id": "6bc9d5602eb14f96ba209854",
+      "_tpl": "68f26124b84c6e1f8a09cfff",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "ce7b06101ed217ed3670a07c",
+      "_id": "ce7b06101ed217ed3670a07c",
+      "_tpl": "68f26161b84c6e1f8a09d001",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "c689ff77cef2b8cc944a705f",
+      "_id": "c689ff77cef2b8cc944a705f",
+      "_tpl": "68f261f6928cd23ddf0471fd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "d766fb2eb97a7c4d45abc228",
+      "_id": "d766fb2eb97a7c4d45abc228",
+      "_tpl": "690c70a2a1461a01d605a1bd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "7055e04b66f26f6b0088763f",
+      "_id": "7055e04b66f26f6b0088763f",
+      "_tpl": "6937ed118715e9fd1b0f286d",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "b2f2e218ae51970dbf54b0f6",
+      "_id": "b2f2e218ae51970dbf54b0f6",
+      "_tpl": "6937edb912d456a817083e82",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "7b6969d6e0213ebf4631154a",
+      "_id": "7b6969d6e0213ebf4631154a",
+      "_tpl": "69f9d547b98cc4120608692a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "cb57769502f6da88f3437891",
+      "_id": "cb57769502f6da88f3437891",
+      "_tpl": "6a3d38063357ef2b260d1891",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "bc709e2f7ebc1d6d6108db80",
+      "_id": "bc709e2f7ebc1d6d6108db80",
+      "_tpl": "6a4ce086b5644e9f0a08d08a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "262cabf9d976a300beaacaee",
+      "_id": "262cabf9d976a300beaacaee",
+      "_tpl": "6a4ff1e23e95f68a650fcb13",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937bf809e6f88ae4cc740"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937fc4a320418e24aa1e8"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a693d49b6d73a5dbe5f5f1c"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "a6e8804a869c054c9969e9ed"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "2eb09847dc6ed1e659569cbe"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "059457b72ab9b4910fb62521"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "503d00f1b100bf57542ac8eb"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "31fad7bc0ef7ab6a0c297f28"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "b2c245eedda9b20cb0e4bcf4"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "302501a4f48ad80452b5cef7"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "f3392de449eba69545690642"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "de227a62a8ae95657b06b496"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "e5ccc9904ec3e42105f81fe9"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "0d307100c97945a50380a73a"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "43bdcab043c596f2fb62d939"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "3fbfad37fb0b71ec8eda5384"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "6bc9d5602eb14f96ba209854"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "ce7b06101ed217ed3670a07c"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "c689ff77cef2b8cc944a705f"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "d766fb2eb97a7c4d45abc228"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "7055e04b66f26f6b0088763f"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "b2f2e218ae51970dbf54b0f6"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "7b6969d6e0213ebf4631154a"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "cb57769502f6da88f3437891"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "bc709e2f7ebc1d6d6108db80"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "262cabf9d976a300beaacaee"
+     },
+     "relativeProbability": 0.0652
+    }
+   ]
+  },
+  {
+   "locationId": "(-262.791, 5.280, -375.970)",
+   "probability": 0.571,
+   "template": {
+    "Id": "Jewerly (2) [a02430c0-5d38-4d67-ab66-ec9c6b504fe2]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -262.791016,
+     "y": 5.279812,
+     "z": -375.969727
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 310.401947,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937cf77cb7613294dcc6a",
+    "Items": [
+     {
+      "_id": "6a6937cf77cb7613294dcc6a",
+      "_tpl": "5e54f62086f774219b0f1937",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937cf77cb7613294dcc6a"
+     },
+     {
+      "_id": "6a6937de7720d7997955790c",
+      "_tpl": "5d235b4d86f7742e017bc88a",
+      "upd": {
+       "StackObjectsCount": 18
+      },
+      "composedKey": "6a6937de7720d7997955790c"
+     },
+     {
+      "_id": "6a6937fc4a320418e24aa1ee",
+      "_tpl": "5bc9bc53d4351e00367fbcee",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937fc4a320418e24aa1ee"
+     },
+     {
+      "_id": "6a693d55fc97b0e44957b6a3",
+      "_tpl": "59faff1d86f7746c51718c9c",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d55fc97b0e44957b6a3"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937cf77cb7613294dcc6a"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937de7720d7997955790c"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937fc4a320418e24aa1ee"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a693d55fc97b0e44957b6a3"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-265.178, 5.280, -376.091)",
+   "probability": 0.571,
+   "template": {
+    "Id": "Jewerly (3) [d876eaa1-727e-4f1f-80ad-2968ec79f542]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -265.1776,
+     "y": 5.279812,
+     "z": -376.090759
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 310.401947,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f73c2",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f73c2",
+      "_tpl": "5d235a5986f77443f6329bc6",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f73c2"
+     },
+     {
+      "_id": "6a6937cf77cb7613294dcc6c",
+      "_tpl": "59faff1d86f7746c51718c9c",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937cf77cb7613294dcc6c"
+     },
+     {
+      "_id": "6a6937fc4a320418e24aa1f0",
+      "_tpl": "59e3639286f7741777737013",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937fc4a320418e24aa1f0"
+     },
+     {
+      "composedKey": "7d23e312256d162658bb00a7",
+      "_id": "7d23e312256d162658bb00a7",
+      "_tpl": "68f11224197b61ffe703b16f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "5f7812ffa647ed87e10f1aa1",
+      "_id": "5f7812ffa647ed87e10f1aa1",
+      "_tpl": "68f25c64b2b53abd200b954f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "49602d3aa36eb8cb4b7c27bc",
+      "_id": "49602d3aa36eb8cb4b7c27bc",
+      "_tpl": "68f25ce9b2b53abd200b9551",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "707c87d85fc7f8ccaaa512bb",
+      "_id": "707c87d85fc7f8ccaaa512bb",
+      "_tpl": "68f25da3b84c6e1f8a09cffb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "484b068f1fd9387c4ab8b542",
+      "_id": "484b068f1fd9387c4ab8b542",
+      "_tpl": "68f25eba19a2b503d70dc28f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "508fa4d35c20711cec1d3f35",
+      "_id": "508fa4d35c20711cec1d3f35",
+      "_tpl": "68f25eef19a2b503d70dc291",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "20862140fc9110a3592ee0e4",
+      "_id": "20862140fc9110a3592ee0e4",
+      "_tpl": "68f25f1201fb9de974058be4",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "1627e40639f0f5d8b194cdec",
+      "_id": "1627e40639f0f5d8b194cdec",
+      "_tpl": "68f25f3a5d977110860c3350",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "aa2ccf8decd20ce6bb74fe8d",
+      "_id": "aa2ccf8decd20ce6bb74fe8d",
+      "_tpl": "68f25faa22c8979ee308f4da",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "a0e79ab5f95b3e85e6c6f6ab",
+      "_id": "a0e79ab5f95b3e85e6c6f6ab",
+      "_tpl": "68f25fdf928cd23ddf0471fb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "bfbbf835b580bf85275d4647",
+      "_id": "bfbbf835b580bf85275d4647",
+      "_tpl": "68f26063b2b53abd200b9553",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "c169db730327db71e0fbc4f7",
+      "_id": "c169db730327db71e0fbc4f7",
+      "_tpl": "68f2608301fb9de974058be6",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "e70855a5a846ccfe3eeb4853",
+      "_id": "e70855a5a846ccfe3eeb4853",
+      "_tpl": "68f260d7b84c6e1f8a09cffd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "2fef6fa023507d222a1fa918",
+      "_id": "2fef6fa023507d222a1fa918",
+      "_tpl": "68f26124b84c6e1f8a09cfff",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "24cf5aa4e13c42ac21557299",
+      "_id": "24cf5aa4e13c42ac21557299",
+      "_tpl": "68f26161b84c6e1f8a09d001",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "1dca1dcd83f28fdd34540304",
+      "_id": "1dca1dcd83f28fdd34540304",
+      "_tpl": "68f261f6928cd23ddf0471fd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "0318163ec3edf4ebea8eda9b",
+      "_id": "0318163ec3edf4ebea8eda9b",
+      "_tpl": "690c70a2a1461a01d605a1bd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "e69534ac34280e51a8e2eabd",
+      "_id": "e69534ac34280e51a8e2eabd",
+      "_tpl": "6937ed118715e9fd1b0f286d",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "5b504f96f2abcddb5adcbd0a",
+      "_id": "5b504f96f2abcddb5adcbd0a",
+      "_tpl": "6937edb912d456a817083e82",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "f9509272bf015a7057995f3d",
+      "_id": "f9509272bf015a7057995f3d",
+      "_tpl": "69f9d547b98cc4120608692a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "9f7864bc72b50b40306146d8",
+      "_id": "9f7864bc72b50b40306146d8",
+      "_tpl": "6a3d38063357ef2b260d1891",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "ab2c7e26adf3c490707d2aa3",
+      "_id": "ab2c7e26adf3c490707d2aa3",
+      "_tpl": "6a4ce086b5644e9f0a08d08a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "c1edaa41159ec0e5336920c4",
+      "_id": "c1edaa41159ec0e5336920c4",
+      "_tpl": "6a4ff1e23e95f68a650fcb13",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f73c2"
+     },
+     "relativeProbability": 2
+    },
+    {
+     "composedKey": {
+      "key": "6a6937cf77cb7613294dcc6c"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937fc4a320418e24aa1f0"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "7d23e312256d162658bb00a7"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "5f7812ffa647ed87e10f1aa1"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "49602d3aa36eb8cb4b7c27bc"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "707c87d85fc7f8ccaaa512bb"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "484b068f1fd9387c4ab8b542"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "508fa4d35c20711cec1d3f35"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "20862140fc9110a3592ee0e4"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "1627e40639f0f5d8b194cdec"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "aa2ccf8decd20ce6bb74fe8d"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "a0e79ab5f95b3e85e6c6f6ab"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "bfbbf835b580bf85275d4647"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "c169db730327db71e0fbc4f7"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "e70855a5a846ccfe3eeb4853"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "2fef6fa023507d222a1fa918"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "24cf5aa4e13c42ac21557299"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "1dca1dcd83f28fdd34540304"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "0318163ec3edf4ebea8eda9b"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "e69534ac34280e51a8e2eabd"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "5b504f96f2abcddb5adcbd0a"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "f9509272bf015a7057995f3d"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "9f7864bc72b50b40306146d8"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "ab2c7e26adf3c490707d2aa3"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "c1edaa41159ec0e5336920c4"
+     },
+     "relativeProbability": 0.087
+    }
+   ]
+  },
+  {
+   "locationId": "(-264.798, 5.280, -376.413)",
+   "probability": 0.571,
+   "template": {
+    "Id": "Jewerly (4) [84d92bf9-cd82-4b11-89ae-52fa508002b6]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -264.79837,
+     "y": 5.279812,
+     "z": -376.4135
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 310.401947,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f73c8",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f73c8",
+      "_tpl": "59e3647686f774176a362507",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f73c8"
+     },
+     {
+      "_id": "6a6937de7720d7997955790e",
+      "_tpl": "59e3639286f7741777737013",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937de7720d7997955790e"
+     },
+     {
+      "_id": "6a693d49b6d73a5dbe5f5f26",
+      "_tpl": "5bc9bc53d4351e00367fbcee",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d49b6d73a5dbe5f5f26"
+     },
+     {
+      "_id": "6a693d55fc97b0e44957b6a7",
+      "_tpl": "5d235a5986f77443f6329bc6",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d55fc97b0e44957b6a7"
+     },
+     {
+      "composedKey": "c8e2c1f69f9f2c5cf2bd003f",
+      "_id": "c8e2c1f69f9f2c5cf2bd003f",
+      "_tpl": "68f11224197b61ffe703b16f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "48f76c0e0907666332c75d40",
+      "_id": "48f76c0e0907666332c75d40",
+      "_tpl": "68f25c64b2b53abd200b954f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "af3700d110c8c1a2b8d8b686",
+      "_id": "af3700d110c8c1a2b8d8b686",
+      "_tpl": "68f25ce9b2b53abd200b9551",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "2cab3ac2e9e025a00b60626d",
+      "_id": "2cab3ac2e9e025a00b60626d",
+      "_tpl": "68f25da3b84c6e1f8a09cffb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "0aaf153c03fa188358985302",
+      "_id": "0aaf153c03fa188358985302",
+      "_tpl": "68f25eba19a2b503d70dc28f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "7294b8eb5cec03e03c753898",
+      "_id": "7294b8eb5cec03e03c753898",
+      "_tpl": "68f25eef19a2b503d70dc291",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "746e310096c25d035f971306",
+      "_id": "746e310096c25d035f971306",
+      "_tpl": "68f25f1201fb9de974058be4",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "1057f652936794b719c5d1d7",
+      "_id": "1057f652936794b719c5d1d7",
+      "_tpl": "68f25f3a5d977110860c3350",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "eb1b4e27809c80b2a36060e5",
+      "_id": "eb1b4e27809c80b2a36060e5",
+      "_tpl": "68f25faa22c8979ee308f4da",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "f318333990deac7ba667c22c",
+      "_id": "f318333990deac7ba667c22c",
+      "_tpl": "68f25fdf928cd23ddf0471fb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "5bb0aa0ed954d3583267c3b0",
+      "_id": "5bb0aa0ed954d3583267c3b0",
+      "_tpl": "68f26063b2b53abd200b9553",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "63a1b1ffe1de057a8b56b173",
+      "_id": "63a1b1ffe1de057a8b56b173",
+      "_tpl": "68f2608301fb9de974058be6",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "1fa2a3946996ffcf53f73d65",
+      "_id": "1fa2a3946996ffcf53f73d65",
+      "_tpl": "68f260d7b84c6e1f8a09cffd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "a24978cfe18814d9accebd73",
+      "_id": "a24978cfe18814d9accebd73",
+      "_tpl": "68f26124b84c6e1f8a09cfff",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "3036593f43b8de869f2fa506",
+      "_id": "3036593f43b8de869f2fa506",
+      "_tpl": "68f26161b84c6e1f8a09d001",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "e2a0dff6f5c08889345a6e3c",
+      "_id": "e2a0dff6f5c08889345a6e3c",
+      "_tpl": "68f261f6928cd23ddf0471fd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "3ef4201df4515b42d46111b5",
+      "_id": "3ef4201df4515b42d46111b5",
+      "_tpl": "690c70a2a1461a01d605a1bd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "0c8f070b8b8b326bb8a1a37e",
+      "_id": "0c8f070b8b8b326bb8a1a37e",
+      "_tpl": "6937ed118715e9fd1b0f286d",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "1ff22ca03df04272e0e37b44",
+      "_id": "1ff22ca03df04272e0e37b44",
+      "_tpl": "6937edb912d456a817083e82",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "31dc71395e011ac284c12f46",
+      "_id": "31dc71395e011ac284c12f46",
+      "_tpl": "69f9d547b98cc4120608692a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "0f0720d5ad7093fdd7765fb9",
+      "_id": "0f0720d5ad7093fdd7765fb9",
+      "_tpl": "6a3d38063357ef2b260d1891",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "f31c5e0fbbae7a0ebae1bfce",
+      "_id": "f31c5e0fbbae7a0ebae1bfce",
+      "_tpl": "6a4ce086b5644e9f0a08d08a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "42a6db618b59f9c59e35a581",
+      "_id": "42a6db618b59f9c59e35a581",
+      "_tpl": "6a4ff1e23e95f68a650fcb13",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f73c8"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937de7720d7997955790e"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a693d49b6d73a5dbe5f5f26"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a693d55fc97b0e44957b6a7"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "c8e2c1f69f9f2c5cf2bd003f"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "48f76c0e0907666332c75d40"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "af3700d110c8c1a2b8d8b686"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "2cab3ac2e9e025a00b60626d"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "0aaf153c03fa188358985302"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "7294b8eb5cec03e03c753898"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "746e310096c25d035f971306"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "1057f652936794b719c5d1d7"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "eb1b4e27809c80b2a36060e5"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "f318333990deac7ba667c22c"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "5bb0aa0ed954d3583267c3b0"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "63a1b1ffe1de057a8b56b173"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "1fa2a3946996ffcf53f73d65"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "a24978cfe18814d9accebd73"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "3036593f43b8de869f2fa506"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "e2a0dff6f5c08889345a6e3c"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "3ef4201df4515b42d46111b5"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "0c8f070b8b8b326bb8a1a37e"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "1ff22ca03df04272e0e37b44"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "31dc71395e011ac284c12f46"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "0f0720d5ad7093fdd7765fb9"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "f31c5e0fbbae7a0ebae1bfce"
+     },
+     "relativeProbability": 0.087
+    },
+    {
+     "composedKey": {
+      "key": "42a6db618b59f9c59e35a581"
+     },
+     "relativeProbability": 0.087
+    }
+   ]
+  },
+  {
+   "locationId": "(-264.441, 5.280, -375.994)",
+   "probability": 0.286,
+   "template": {
+    "Id": "Jewerly (5) [99fd1476-1412-4371-af2a-0426ca63179a]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -264.441254,
+     "y": 5.279812,
+     "z": -375.993927
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 310.401947,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937de7720d79979557912",
+    "Items": [
+     {
+      "_id": "6a6937de7720d79979557912",
+      "_tpl": "59faff1d86f7746c51718c9c",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937de7720d79979557912"
+     },
+     {
+      "_id": "6a693d49b6d73a5dbe5f5f28",
+      "_tpl": "5bc9bc53d4351e00367fbcee",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d49b6d73a5dbe5f5f28"
+     },
+     {
+      "composedKey": "e14cc6d91e9b1dab678a7beb",
+      "_id": "e14cc6d91e9b1dab678a7beb",
+      "_tpl": "68f11224197b61ffe703b16f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "b082d077cc0b8e766766ce75",
+      "_id": "b082d077cc0b8e766766ce75",
+      "_tpl": "68f25c64b2b53abd200b954f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "dd25e35d948d727b31394e01",
+      "_id": "dd25e35d948d727b31394e01",
+      "_tpl": "68f25ce9b2b53abd200b9551",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "9a871a8681b3b0d9c5e10618",
+      "_id": "9a871a8681b3b0d9c5e10618",
+      "_tpl": "68f25da3b84c6e1f8a09cffb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "41482720f921e2f2827e0975",
+      "_id": "41482720f921e2f2827e0975",
+      "_tpl": "68f25eba19a2b503d70dc28f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "5a54bbaa96a212e991eccc7e",
+      "_id": "5a54bbaa96a212e991eccc7e",
+      "_tpl": "68f25eef19a2b503d70dc291",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "0f28bf8bf90f0a606ae842d1",
+      "_id": "0f28bf8bf90f0a606ae842d1",
+      "_tpl": "68f25f1201fb9de974058be4",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "181224e3f101626167a923c3",
+      "_id": "181224e3f101626167a923c3",
+      "_tpl": "68f25f3a5d977110860c3350",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "6f2d16b7a259c7758a3cd52e",
+      "_id": "6f2d16b7a259c7758a3cd52e",
+      "_tpl": "68f25faa22c8979ee308f4da",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "af91416b77b273004f03e84b",
+      "_id": "af91416b77b273004f03e84b",
+      "_tpl": "68f25fdf928cd23ddf0471fb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "ee0fa0f85bcbe4790a707bc6",
+      "_id": "ee0fa0f85bcbe4790a707bc6",
+      "_tpl": "68f26063b2b53abd200b9553",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "d90dce670691fba9c164e8ec",
+      "_id": "d90dce670691fba9c164e8ec",
+      "_tpl": "68f2608301fb9de974058be6",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "f544013e247c36bc183ad7c1",
+      "_id": "f544013e247c36bc183ad7c1",
+      "_tpl": "68f260d7b84c6e1f8a09cffd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "d43123509631cbf34a1fd3f9",
+      "_id": "d43123509631cbf34a1fd3f9",
+      "_tpl": "68f26124b84c6e1f8a09cfff",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "cafaa1bc785d2060a3cfd6cb",
+      "_id": "cafaa1bc785d2060a3cfd6cb",
+      "_tpl": "68f26161b84c6e1f8a09d001",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "8cfa956bafaddbaa0f33a98e",
+      "_id": "8cfa956bafaddbaa0f33a98e",
+      "_tpl": "68f261f6928cd23ddf0471fd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "38a0c6860d07c2f9649c571d",
+      "_id": "38a0c6860d07c2f9649c571d",
+      "_tpl": "690c70a2a1461a01d605a1bd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "ca24d5d621a85e908eaa29e3",
+      "_id": "ca24d5d621a85e908eaa29e3",
+      "_tpl": "6937ed118715e9fd1b0f286d",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "fd62cd0b45f99e02bd4a7ccf",
+      "_id": "fd62cd0b45f99e02bd4a7ccf",
+      "_tpl": "6937edb912d456a817083e82",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "9cf0d2ef6716b784279a5bfc",
+      "_id": "9cf0d2ef6716b784279a5bfc",
+      "_tpl": "69f9d547b98cc4120608692a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "3cdd8ec6647bbe5a199d0357",
+      "_id": "3cdd8ec6647bbe5a199d0357",
+      "_tpl": "6a3d38063357ef2b260d1891",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "e17afcfdef4a9d68dd4cc4c2",
+      "_id": "e17afcfdef4a9d68dd4cc4c2",
+      "_tpl": "6a4ce086b5644e9f0a08d08a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "1eea8be9d976b45bdfd7ae7b",
+      "_id": "1eea8be9d976b45bdfd7ae7b",
+      "_tpl": "6a4ff1e23e95f68a650fcb13",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937de7720d79979557912"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a693d49b6d73a5dbe5f5f28"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "e14cc6d91e9b1dab678a7beb"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "b082d077cc0b8e766766ce75"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "dd25e35d948d727b31394e01"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "9a871a8681b3b0d9c5e10618"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "41482720f921e2f2827e0975"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "5a54bbaa96a212e991eccc7e"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "0f28bf8bf90f0a606ae842d1"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "181224e3f101626167a923c3"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "6f2d16b7a259c7758a3cd52e"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "af91416b77b273004f03e84b"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "ee0fa0f85bcbe4790a707bc6"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "d90dce670691fba9c164e8ec"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "f544013e247c36bc183ad7c1"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "d43123509631cbf34a1fd3f9"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "cafaa1bc785d2060a3cfd6cb"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "8cfa956bafaddbaa0f33a98e"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "38a0c6860d07c2f9649c571d"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "ca24d5d621a85e908eaa29e3"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "fd62cd0b45f99e02bd4a7ccf"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "9cf0d2ef6716b784279a5bfc"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "3cdd8ec6647bbe5a199d0357"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "e17afcfdef4a9d68dd4cc4c2"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "1eea8be9d976b45bdfd7ae7b"
+     },
+     "relativeProbability": 0.0435
+    }
+   ]
+  },
+  {
+   "locationId": "(-265.348, 5.280, -376.928)",
+   "probability": 0.286,
+   "template": {
+    "Id": "Jewerly (6) [1f4e559c-8e70-4d56-8187-7a62250f1d71]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -265.347931,
+     "y": 5.279812,
+     "z": -376.92804
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 310.401947,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f73ca",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f73ca",
+      "_tpl": "59e3647686f774176a362507",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f73ca"
+     },
+     {
+      "_id": "6a693d49b6d73a5dbe5f5f2a",
+      "_tpl": "5f745ee30acaeb0d490d8c5b",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d49b6d73a5dbe5f5f2a"
+     },
+     {
+      "composedKey": "3e84c61b872a01e9897f2a96",
+      "_id": "3e84c61b872a01e9897f2a96",
+      "_tpl": "68f11224197b61ffe703b16f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "13c822625bb198d4de07f927",
+      "_id": "13c822625bb198d4de07f927",
+      "_tpl": "68f25c64b2b53abd200b954f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "3d06e42316dda26acb1a16b8",
+      "_id": "3d06e42316dda26acb1a16b8",
+      "_tpl": "68f25ce9b2b53abd200b9551",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "68473398927b68fe1a0f02a7",
+      "_id": "68473398927b68fe1a0f02a7",
+      "_tpl": "68f25da3b84c6e1f8a09cffb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "eabab8b0f7e89f44613d62dc",
+      "_id": "eabab8b0f7e89f44613d62dc",
+      "_tpl": "68f25eba19a2b503d70dc28f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "2cae7619a8710ccafc7c2009",
+      "_id": "2cae7619a8710ccafc7c2009",
+      "_tpl": "68f25eef19a2b503d70dc291",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "c7568eaded49c9cb59061f55",
+      "_id": "c7568eaded49c9cb59061f55",
+      "_tpl": "68f25f1201fb9de974058be4",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "f6d6c747436a1ac8a6cfe504",
+      "_id": "f6d6c747436a1ac8a6cfe504",
+      "_tpl": "68f25f3a5d977110860c3350",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "d78a9c5d021391add2f638a1",
+      "_id": "d78a9c5d021391add2f638a1",
+      "_tpl": "68f25faa22c8979ee308f4da",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "393aed137e93b8575a31f33d",
+      "_id": "393aed137e93b8575a31f33d",
+      "_tpl": "68f25fdf928cd23ddf0471fb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "f1610f8dd5de1e2baf280036",
+      "_id": "f1610f8dd5de1e2baf280036",
+      "_tpl": "68f26063b2b53abd200b9553",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "4625fdf66d22fb3b8eca58e4",
+      "_id": "4625fdf66d22fb3b8eca58e4",
+      "_tpl": "68f2608301fb9de974058be6",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "2c6fe03ebdf50d79d1192547",
+      "_id": "2c6fe03ebdf50d79d1192547",
+      "_tpl": "68f260d7b84c6e1f8a09cffd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "b8666f3fd143bcfe118411ea",
+      "_id": "b8666f3fd143bcfe118411ea",
+      "_tpl": "68f26124b84c6e1f8a09cfff",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "2dcc447fa46092564ebf0145",
+      "_id": "2dcc447fa46092564ebf0145",
+      "_tpl": "68f26161b84c6e1f8a09d001",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "78e2a76f1a66cabe9095d0f0",
+      "_id": "78e2a76f1a66cabe9095d0f0",
+      "_tpl": "68f261f6928cd23ddf0471fd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "04ea4edccc02ff2c2be8a2f9",
+      "_id": "04ea4edccc02ff2c2be8a2f9",
+      "_tpl": "690c70a2a1461a01d605a1bd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "cb7f92ec7b5e0b9f822390ea",
+      "_id": "cb7f92ec7b5e0b9f822390ea",
+      "_tpl": "6937ed118715e9fd1b0f286d",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "748732da1d9776ead9540f0e",
+      "_id": "748732da1d9776ead9540f0e",
+      "_tpl": "6937edb912d456a817083e82",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "5406412204c8b0a52410377b",
+      "_id": "5406412204c8b0a52410377b",
+      "_tpl": "69f9d547b98cc4120608692a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "c5edf275bf80062895e29c15",
+      "_id": "c5edf275bf80062895e29c15",
+      "_tpl": "6a3d38063357ef2b260d1891",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "72d117242c9d92c3ce5ba53c",
+      "_id": "72d117242c9d92c3ce5ba53c",
+      "_tpl": "6a4ce086b5644e9f0a08d08a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "789f761f6864b99c45c69b5d",
+      "_id": "789f761f6864b99c45c69b5d",
+      "_tpl": "6a4ff1e23e95f68a650fcb13",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f73ca"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a693d49b6d73a5dbe5f5f2a"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "3e84c61b872a01e9897f2a96"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "13c822625bb198d4de07f927"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "3d06e42316dda26acb1a16b8"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "68473398927b68fe1a0f02a7"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "eabab8b0f7e89f44613d62dc"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "2cae7619a8710ccafc7c2009"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "c7568eaded49c9cb59061f55"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "f6d6c747436a1ac8a6cfe504"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "d78a9c5d021391add2f638a1"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "393aed137e93b8575a31f33d"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "f1610f8dd5de1e2baf280036"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "4625fdf66d22fb3b8eca58e4"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "2c6fe03ebdf50d79d1192547"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "b8666f3fd143bcfe118411ea"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "2dcc447fa46092564ebf0145"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "78e2a76f1a66cabe9095d0f0"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "04ea4edccc02ff2c2be8a2f9"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "cb7f92ec7b5e0b9f822390ea"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "748732da1d9776ead9540f0e"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "5406412204c8b0a52410377b"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "c5edf275bf80062895e29c15"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "72d117242c9d92c3ce5ba53c"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "789f761f6864b99c45c69b5d"
+     },
+     "relativeProbability": 0.0435
+    }
+   ]
+  },
+  {
+   "locationId": "(-266.368, 5.280, -376.924)",
+   "probability": 0.429,
+   "template": {
+    "Id": "Jewerly (7) [2a8237b0-b9ed-4942-a591-889415e11a23]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -266.3684,
+     "y": 5.279812,
+     "z": -376.923553
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 310.401947,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f73d0",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f73d0",
+      "_tpl": "590de71386f774347051a052",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f73d0"
+     },
+     {
+      "_id": "6a6937cf77cb7613294dcc74",
+      "_tpl": "5d235b4d86f7742e017bc88a",
+      "upd": {
+       "StackObjectsCount": 13
+      },
+      "composedKey": "6a6937cf77cb7613294dcc74"
+     },
+     {
+      "_id": "6a6937fc4a320418e24aa1f4",
+      "_tpl": "62a09cfe4f842e1bd12da3e4",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937fc4a320418e24aa1f4"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f73d0"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937cf77cb7613294dcc74"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937fc4a320418e24aa1f4"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-268.126, 5.280, -376.402)",
+   "probability": 0.429,
+   "template": {
+    "Id": "Jewerly (8) [8947ed10-8473-4309-b790-32928671168a]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -268.126373,
+     "y": 5.279812,
+     "z": -376.401672
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 310.401947,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f73d4",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f73d4",
+      "_tpl": "62a09cfe4f842e1bd12da3e4",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f73d4"
+     },
+     {
+      "_id": "6a6937bf809e6f88ae4cc750",
+      "_tpl": "5d235a5986f77443f6329bc6",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937bf809e6f88ae4cc750"
+     },
+     {
+      "_id": "6a6937fc4a320418e24aa1fa",
+      "_tpl": "590de7e986f7741b096e5f32",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937fc4a320418e24aa1fa"
+     },
+     {
+      "composedKey": "09f16302173d575b42b4ad4c",
+      "_id": "09f16302173d575b42b4ad4c",
+      "_tpl": "68f11224197b61ffe703b16f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "93b1647bfde9d8b3ce57af57",
+      "_id": "93b1647bfde9d8b3ce57af57",
+      "_tpl": "68f25c64b2b53abd200b954f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "61d23a89cd2ebd3501d0009a",
+      "_id": "61d23a89cd2ebd3501d0009a",
+      "_tpl": "68f25ce9b2b53abd200b9551",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "a8722a6b393ac696242835cd",
+      "_id": "a8722a6b393ac696242835cd",
+      "_tpl": "68f25da3b84c6e1f8a09cffb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "5c4b9b594d81078d631434ca",
+      "_id": "5c4b9b594d81078d631434ca",
+      "_tpl": "68f25eba19a2b503d70dc28f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "4a0e59f6a8673b5fa785ad66",
+      "_id": "4a0e59f6a8673b5fa785ad66",
+      "_tpl": "68f25eef19a2b503d70dc291",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "515b0063e23a0705220a53c3",
+      "_id": "515b0063e23a0705220a53c3",
+      "_tpl": "68f25f1201fb9de974058be4",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "38b53f6831c8667ad704243b",
+      "_id": "38b53f6831c8667ad704243b",
+      "_tpl": "68f25f3a5d977110860c3350",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "0980117ddfdd3fbd549629b8",
+      "_id": "0980117ddfdd3fbd549629b8",
+      "_tpl": "68f25faa22c8979ee308f4da",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "ac9107192f1c31b2126a1b7e",
+      "_id": "ac9107192f1c31b2126a1b7e",
+      "_tpl": "68f25fdf928cd23ddf0471fb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "52535da111187ae8e3171ea2",
+      "_id": "52535da111187ae8e3171ea2",
+      "_tpl": "68f26063b2b53abd200b9553",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "445c5808e72ddd3289779440",
+      "_id": "445c5808e72ddd3289779440",
+      "_tpl": "68f2608301fb9de974058be6",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "71c99ff3a73390deb1c2d5c7",
+      "_id": "71c99ff3a73390deb1c2d5c7",
+      "_tpl": "68f260d7b84c6e1f8a09cffd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "52b5b0c442ae57b4f9fb794b",
+      "_id": "52b5b0c442ae57b4f9fb794b",
+      "_tpl": "68f26124b84c6e1f8a09cfff",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "d7ed8aba277ec05efa121adc",
+      "_id": "d7ed8aba277ec05efa121adc",
+      "_tpl": "68f26161b84c6e1f8a09d001",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "fc2cc17ca03dc9827bb61d3c",
+      "_id": "fc2cc17ca03dc9827bb61d3c",
+      "_tpl": "68f261f6928cd23ddf0471fd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "e939df117096fd813b8b2899",
+      "_id": "e939df117096fd813b8b2899",
+      "_tpl": "690c70a2a1461a01d605a1bd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "32dcd3bd41d94225285ebbe5",
+      "_id": "32dcd3bd41d94225285ebbe5",
+      "_tpl": "6937ed118715e9fd1b0f286d",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "48c8702fb6629321e824f530",
+      "_id": "48c8702fb6629321e824f530",
+      "_tpl": "6937edb912d456a817083e82",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "bb3afa224fb155eaadd7e034",
+      "_id": "bb3afa224fb155eaadd7e034",
+      "_tpl": "69f9d547b98cc4120608692a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "e3ef9b5c38c020c54698956b",
+      "_id": "e3ef9b5c38c020c54698956b",
+      "_tpl": "6a3d38063357ef2b260d1891",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "e8d5f9423c2fbf4fa283e37f",
+      "_id": "e8d5f9423c2fbf4fa283e37f",
+      "_tpl": "6a4ce086b5644e9f0a08d08a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "2ffc614a0beacc5a650619b1",
+      "_id": "2ffc614a0beacc5a650619b1",
+      "_tpl": "6a4ff1e23e95f68a650fcb13",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f73d4"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937bf809e6f88ae4cc750"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937fc4a320418e24aa1fa"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "09f16302173d575b42b4ad4c"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "93b1647bfde9d8b3ce57af57"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "61d23a89cd2ebd3501d0009a"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "a8722a6b393ac696242835cd"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "5c4b9b594d81078d631434ca"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "4a0e59f6a8673b5fa785ad66"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "515b0063e23a0705220a53c3"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "38b53f6831c8667ad704243b"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "0980117ddfdd3fbd549629b8"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "ac9107192f1c31b2126a1b7e"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "52535da111187ae8e3171ea2"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "445c5808e72ddd3289779440"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "71c99ff3a73390deb1c2d5c7"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "52b5b0c442ae57b4f9fb794b"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "d7ed8aba277ec05efa121adc"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "fc2cc17ca03dc9827bb61d3c"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "e939df117096fd813b8b2899"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "32dcd3bd41d94225285ebbe5"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "48c8702fb6629321e824f530"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "bb3afa224fb155eaadd7e034"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "e3ef9b5c38c020c54698956b"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "e8d5f9423c2fbf4fa283e37f"
+     },
+     "relativeProbability": 0.0652
+    },
+    {
+     "composedKey": {
+      "key": "2ffc614a0beacc5a650619b1"
+     },
+     "relativeProbability": 0.0652
+    }
+   ]
+  },
+  {
+   "locationId": "(-269.167, 5.248, -372.751)",
+   "probability": 0.143,
+   "template": {
+    "Id": "Labcards (2) [a0487c67-4065-4704-850f-884b0e695117]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -269.167267,
+     "y": 5.248312,
+     "z": -372.75058
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 275.965027,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f73ea",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f73ea",
+      "_tpl": "6711039f9e648049e50b3307",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f73ea"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f73ea"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-266.776, 5.726, -376.252)",
+   "probability": 0.143,
+   "template": {
+    "Id": "infow (5) [fee52a99-0a12-4724-959c-1d1320c879cf]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -266.7764,
+     "y": 5.725811,
+     "z": -376.251953
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 310.401947,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937bf809e6f88ae4cc716",
+    "Items": [
+     {
+      "_id": "6a6937bf809e6f88ae4cc716",
+      "_tpl": "590c37d286f77443be3d7827",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937bf809e6f88ae4cc716"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937bf809e6f88ae4cc716"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-229.073, 5.623, -354.921)",
+   "probability": 0.429,
+   "template": {
+    "Id": "item_ice_quest_barter_flyers_paradigm [110306c4-801b-42b0-84e9-a3da1de821dc]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -229.07341,
+     "y": 5.623,
+     "z": -354.920929
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 119.011154,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937bf809e6f88ae4cc71e",
+    "Items": [
+     {
+      "_id": "6a6937bf809e6f88ae4cc71e",
+      "_tpl": "699f0b877c23862b4b0ee19c",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937bf809e6f88ae4cc71e"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937bf809e6f88ae4cc71e"
+     },
+     "relativeProbability": 3
+    }
+   ]
+  },
+  {
+   "locationId": "(-218.809, 5.048, -308.937)",
+   "probability": 0.143,
+   "template": {
+    "Id": "item_ice_quest_barter_flyers_paradigm [110306c4-801b-42b0-84e9-a3da1de821dc]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -218.808884,
+     "y": 5.04800034,
+     "z": -308.9368
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 179.947632,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937de7720d799795578e6",
+    "Items": [
+     {
+      "_id": "6a6937de7720d799795578e6",
+      "_tpl": "699f0b877c23862b4b0ee19c",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937de7720d799795578e6"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937de7720d799795578e6"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-176.569, 6.398, -339.431)",
+   "probability": 0.429,
+   "template": {
+    "Id": "item_ice_quest_barter_flyers_paradigm [110306c4-801b-42b0-84e9-a3da1de821dc]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -176.5694,
+     "y": 6.39800024,
+     "z": -339.430756
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 269.957458,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f739a",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f739a",
+      "_tpl": "699f0b877c23862b4b0ee19c",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f739a"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f739a"
+     },
+     "relativeProbability": 3
+    }
+   ]
+  },
+  {
+   "locationId": "(-221.165, 5.599, -308.448)",
+   "probability": 0.286,
+   "template": {
+    "Id": "item_ice_quest_barter_flyers_paradigm (1) [0f6110f2-b3cf-4c9b-aed9-5fc07a56a573]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -221.1648,
+     "y": 5.599,
+     "z": -308.448334
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 270.018463,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f7398",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f7398",
+      "_tpl": "699f0b877c23862b4b0ee19c",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f7398"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f7398"
+     },
+     "relativeProbability": 2
+    }
+   ]
+  },
+  {
+   "locationId": "(-180.745, 5.764, -391.972)",
+   "probability": 0.143,
+   "template": {
+    "Id": "item_ice_quest_barter_flyers_paradigm (1) [0f6110f2-b3cf-4c9b-aed9-5fc07a56a573]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -180.745239,
+     "y": 5.764,
+     "z": -391.972382
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.284747481,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937de7720d799795578e4",
+    "Items": [
+     {
+      "_id": "6a6937de7720d799795578e4",
+      "_tpl": "699f0b877c23862b4b0ee19c",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937de7720d799795578e4"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937de7720d799795578e4"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-170.835, 5.440, -285.280)",
+   "probability": 0.571,
+   "template": {
+    "Id": "item_ice_quest_barter_flyers_paradigm (1) [0f6110f2-b3cf-4c9b-aed9-5fc07a56a573]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -170.834564,
+     "y": 5.44,
+     "z": -285.280457
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 179.769928,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937bf809e6f88ae4cc71c",
+    "Items": [
+     {
+      "_id": "6a6937bf809e6f88ae4cc71c",
+      "_tpl": "699f0b877c23862b4b0ee19c",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937bf809e6f88ae4cc71c"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937bf809e6f88ae4cc71c"
+     },
+     "relativeProbability": 4
+    }
+   ]
+  },
+  {
+   "locationId": "(-231.465, 4.837, -340.676)",
+   "probability": 0.571,
+   "template": {
+    "Id": "jammer [bd5c83f3-fee4-45cb-b7a5-589069110405]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -231.465,
+     "y": 4.8372,
+     "z": -340.676
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f73ba",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f73ba",
+      "_tpl": "67bdea3ecf0cc29475092196",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f73ba"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f73ba"
+     },
+     "relativeProbability": 4
+    }
+   ]
+  },
+  {
+   "locationId": "(-213.429, 1.141, -305.785)",
+   "probability": 0.714,
+   "template": {
+    "Id": "jammer [67859230-9ee3-4f4d-883c-3edb8ade435b]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -213.429123,
+     "y": 1.141,
+     "z": -305.785156
+    },
+    "Rotation": {
+     "x": 90.0,
+     "y": 22.6429176,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f73b8",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f73b8",
+      "_tpl": "67bdea3ecf0cc29475092196",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f73b8"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f73b8"
+     },
+     "relativeProbability": 5
+    }
+   ]
+  },
+  {
+   "locationId": "(-101.158, 0.942, -430.948)",
+   "probability": 0.429,
+   "template": {
+    "Id": "jammer [bd5c83f3-fee4-45cb-b7a5-589069110405]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -101.158,
+     "y": 0.942,
+     "z": -430.9481
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937bf809e6f88ae4cc73e",
+    "Items": [
+     {
+      "_id": "6a6937bf809e6f88ae4cc73e",
+      "_tpl": "67bdea3ecf0cc29475092196",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937bf809e6f88ae4cc73e"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937bf809e6f88ae4cc73e"
+     },
+     "relativeProbability": 3
+    }
+   ]
+  },
+  {
+   "locationId": "(-269.136, 5.168, -372.682)",
+   "probability": 1.0,
+   "template": {
+    "Id": "lab_krug_safe_loot1 [35d043f1-07d7-467a-8139-5240747ed2d5]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -269.1356,
+     "y": 5.168,
+     "z": -372.682
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 268.548,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": true,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f73de",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f73de",
+      "_tpl": "5c12613b86f7743bbe2c3f76",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f73de"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f73de"
+     },
+     "relativeProbability": 7
+    }
+   ]
+  },
+  {
+   "locationId": "(-268.950, 5.162, -372.568)",
+   "probability": 1.0,
+   "template": {
+    "Id": "lab_krug_safe_loot2 [9b3465ef-a5ff-4701-b346-13d978c29898]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -268.9496,
+     "y": 5.162,
+     "z": -372.5677
+    },
+    "Rotation": {
+     "x": 270.195831,
+     "y": 180.0,
+     "z": 180.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f73e6",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f73e6",
+      "_tpl": "59faf7ca86f7740dbe19f6c2",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f73e6"
+     },
+     {
+      "_id": "6a6937de7720d79979557924",
+      "_tpl": "59faff1d86f7746c51718c9c",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937de7720d79979557924"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f73e6"
+     },
+     "relativeProbability": 4
+    },
+    {
+     "composedKey": {
+      "key": "6a6937de7720d79979557924"
+     },
+     "relativeProbability": 3
+    }
+   ]
+  },
+  {
+   "locationId": "(-269.041, 5.249, -372.676)",
+   "probability": 1.0,
+   "template": {
+    "Id": "lab_krug_safe_loot2 (1) [90f2c0eb-21ac-4200-8572-959d2dcba4bd]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -269.041,
+     "y": 5.249,
+     "z": -372.676
+    },
+    "Rotation": {
+     "x": 270.195831,
+     "y": 180.0,
+     "z": 180.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f73e2",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f73e2",
+      "_tpl": "59faf7ca86f7740dbe19f6c2",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f73e2"
+     },
+     {
+      "_id": "6a6937cf77cb7613294dcc80",
+      "_tpl": "59faff1d86f7746c51718c9c",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937cf77cb7613294dcc80"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f73e2"
+     },
+     "relativeProbability": 4
+    },
+    {
+     "composedKey": {
+      "key": "6a6937cf77cb7613294dcc80"
+     },
+     "relativeProbability": 3
+    }
+   ]
+  },
+  {
+   "locationId": "(-171.961, 0.012, -370.092)",
+   "probability": 0.143,
+   "template": {
+    "Id": "loot_LEDx_5vs25 [35e0e3b6-b3db-4e96-b362-5492265a2e9d]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -171.960678,
+     "y": 0.012,
+     "z": -370.092163
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 76.553,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f74ac",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f74ac",
+      "_tpl": "5c0530ee86f774697952d952",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f74ac"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f74ac"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-169.581, 0.834, -372.312)",
+   "probability": 0.143,
+   "template": {
+    "Id": "loot_LEDx_5vs25 [35e0e3b6-b3db-4e96-b362-5492265a2e9d]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -169.58139,
+     "y": 0.834000051,
+     "z": -372.312378
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 43.8903847,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a693d49b6d73a5dbe5f6006",
+    "Items": [
+     {
+      "_id": "6a693d49b6d73a5dbe5f6006",
+      "_tpl": "5c0530ee86f774697952d952",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d49b6d73a5dbe5f6006"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a693d49b6d73a5dbe5f6006"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-164.019, -27.768, -342.966)",
+   "probability": 1.0,
+   "template": {
+    "Id": "loot_LEDx_5vs25 [6b45b8d8-ff67-4752-b30e-fdf250848260]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -164.019,
+     "y": -27.7680016,
+     "z": -342.966
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": true,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f74ae",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f74ae",
+      "_tpl": "5c0530ee86f774697952d952",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f74ae"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f74ae"
+     },
+     "relativeProbability": 7
+    }
+   ]
+  },
+  {
+   "locationId": "(-149.388, 5.058, -401.858)",
+   "probability": 0.143,
+   "template": {
+    "Id": "loot_Office_Stuff_w_Cigaretts (1) [03ff8f15-3e71-4336-9a4b-056e85163f75]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -149.388,
+     "y": 5.058,
+     "z": -401.858
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f7664",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f7664",
+      "_tpl": "573475fb24597737fb1379e1",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f7664"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f7664"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-154.757, 5.156, -392.618)",
+   "probability": 0.143,
+   "template": {
+    "Id": "loot_Office_Stuff_w_Cigaretts (3) [bb0a8b49-1fee-46dc-844c-f66e9498eee0]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -154.757,
+     "y": 5.156,
+     "z": -392.618
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f7666",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f7666",
+      "_tpl": "573475fb24597737fb1379e1",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f7666"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f7666"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-145.434, 5.378, -396.460)",
+   "probability": 0.286,
+   "template": {
+    "Id": "loot_electron_sup (3) [99ca43f4-752a-40ee-8a53-6d73ac0ebe2c]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -145.434,
+     "y": 5.378,
+     "z": -396.46
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937de7720d799795579b0",
+    "Items": [
+     {
+      "_id": "6a6937de7720d799795579b0",
+      "_tpl": "5d1b309586f77425227d1676",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937de7720d799795579b0"
+     },
+     {
+      "_id": "6a6937fc4a320418e24aa29e",
+      "_tpl": "590a391c86f774385a33c404",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937fc4a320418e24aa29e"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937de7720d799795579b0"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937fc4a320418e24aa29e"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-252.328, 5.019, -321.144)",
+   "probability": 0.143,
+   "template": {
+    "Id": "loot_intel_docs1 (20) [c23fcd36-2bbe-4c9f-83d1-72f7b346a2be]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -252.3282,
+     "y": 5.0191,
+     "z": -321.1439
+    },
+    "Rotation": {
+     "x": 3.31992245,
+     "y": 94.11709,
+     "z": 352.862427
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a693d49b6d73a5dbe5f5fe8",
+    "Items": [
+     {
+      "_id": "6a693d49b6d73a5dbe5f5fe8",
+      "_tpl": "6389c8c5dbfd5e4b95197e6b",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d49b6d73a5dbe5f5fe8"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a693d49b6d73a5dbe5f5fe8"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-264.455, 6.011, -376.834)",
+   "probability": 0.286,
+   "template": {
+    "Id": "loot_intel_docs1 (26) [6cee4073-2233-44e7-b829-dd662003b8f7]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -264.4546,
+     "y": 6.01061153,
+     "z": -376.8335
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 280.443573,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937bf809e6f88ae4cc810",
+    "Items": [
+     {
+      "_id": "6a6937bf809e6f88ae4cc810",
+      "_tpl": "6389c8c5dbfd5e4b95197e6b",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937bf809e6f88ae4cc810"
+     },
+     {
+      "_id": "6a693d49b6d73a5dbe5f5fee",
+      "_tpl": "5c12613b86f7743bbe2c3f76",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d49b6d73a5dbe5f5fee"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937bf809e6f88ae4cc810"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a693d49b6d73a5dbe5f5fee"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-265.054, 5.999, -376.865)",
+   "probability": 0.286,
+   "template": {
+    "Id": "loot_intel_docs1 (27) [ac1cb5b8-f333-49e2-ae7b-9888edf51233]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -265.05365,
+     "y": 5.99881172,
+     "z": -376.864624
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 263.3272,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937de7720d799795579d4",
+    "Items": [
+     {
+      "_id": "6a6937de7720d799795579d4",
+      "_tpl": "6389c8c5dbfd5e4b95197e6b",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937de7720d799795579d4"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937de7720d799795579d4"
+     },
+     "relativeProbability": 2
+    }
+   ]
+  },
+  {
+   "locationId": "(-257.196, 5.233, -368.951)",
+   "probability": 0.143,
+   "template": {
+    "Id": "loot_jeverly (20) [fb9b7c70-a661-4f2d-b7ba-37c2d88d3c63]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -257.196,
+     "y": 5.233,
+     "z": -368.951
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937bf809e6f88ae4cc814",
+    "Items": [
+     {
+      "_id": "6a6937bf809e6f88ae4cc814",
+      "_tpl": "5734758f24597738025ee253",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937bf809e6f88ae4cc814"
+     },
+     {
+      "composedKey": "21ef9c5243ed68f6b426896c",
+      "_id": "21ef9c5243ed68f6b426896c",
+      "_tpl": "68f11224197b61ffe703b16f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "b264cfc8274074c39f6054e9",
+      "_id": "b264cfc8274074c39f6054e9",
+      "_tpl": "68f25c64b2b53abd200b954f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "3a4e9f555f01f95702127577",
+      "_id": "3a4e9f555f01f95702127577",
+      "_tpl": "68f25ce9b2b53abd200b9551",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "b56ca7380ce831c03804c322",
+      "_id": "b56ca7380ce831c03804c322",
+      "_tpl": "68f25da3b84c6e1f8a09cffb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "ca360b2e33367cf16b20931a",
+      "_id": "ca360b2e33367cf16b20931a",
+      "_tpl": "68f25eba19a2b503d70dc28f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "91998c4c2dd69d9910f4cb07",
+      "_id": "91998c4c2dd69d9910f4cb07",
+      "_tpl": "68f25eef19a2b503d70dc291",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "3cadabb4bab5d7b2bf7a7d26",
+      "_id": "3cadabb4bab5d7b2bf7a7d26",
+      "_tpl": "68f25f1201fb9de974058be4",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "cb9f0d6057229b71a07fbdae",
+      "_id": "cb9f0d6057229b71a07fbdae",
+      "_tpl": "68f25f3a5d977110860c3350",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "b6acc74a6463488c01e46322",
+      "_id": "b6acc74a6463488c01e46322",
+      "_tpl": "68f25faa22c8979ee308f4da",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "ff4b057f1e391a945036c020",
+      "_id": "ff4b057f1e391a945036c020",
+      "_tpl": "68f25fdf928cd23ddf0471fb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "005edff71b7d62c93f6cfdeb",
+      "_id": "005edff71b7d62c93f6cfdeb",
+      "_tpl": "68f26063b2b53abd200b9553",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "66fa47f781693bfbc5405639",
+      "_id": "66fa47f781693bfbc5405639",
+      "_tpl": "68f2608301fb9de974058be6",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "5d5492b9e48d5dce64222add",
+      "_id": "5d5492b9e48d5dce64222add",
+      "_tpl": "68f260d7b84c6e1f8a09cffd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "d8fe78ad6647ea89d030ab90",
+      "_id": "d8fe78ad6647ea89d030ab90",
+      "_tpl": "68f26124b84c6e1f8a09cfff",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "e5155706f3431f1711d958cb",
+      "_id": "e5155706f3431f1711d958cb",
+      "_tpl": "68f26161b84c6e1f8a09d001",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "032e8bc2f743d2ac3a1754a0",
+      "_id": "032e8bc2f743d2ac3a1754a0",
+      "_tpl": "68f261f6928cd23ddf0471fd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "3dd170029e2e0171e792abda",
+      "_id": "3dd170029e2e0171e792abda",
+      "_tpl": "690c70a2a1461a01d605a1bd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "4b7a92ee32045d54f2482dc8",
+      "_id": "4b7a92ee32045d54f2482dc8",
+      "_tpl": "6937ed118715e9fd1b0f286d",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "16148a9bbd21dfb36cad17f4",
+      "_id": "16148a9bbd21dfb36cad17f4",
+      "_tpl": "6937edb912d456a817083e82",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "8aeab92ac44e736e5f56166b",
+      "_id": "8aeab92ac44e736e5f56166b",
+      "_tpl": "69f9d547b98cc4120608692a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "c0c9b87f74743b13e7e1dab9",
+      "_id": "c0c9b87f74743b13e7e1dab9",
+      "_tpl": "6a3d38063357ef2b260d1891",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "096dfe0255303223e02869f3",
+      "_id": "096dfe0255303223e02869f3",
+      "_tpl": "6a4ce086b5644e9f0a08d08a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "2571c7f10d5337f4a5543b2d",
+      "_id": "2571c7f10d5337f4a5543b2d",
+      "_tpl": "6a4ff1e23e95f68a650fcb13",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937bf809e6f88ae4cc814"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "21ef9c5243ed68f6b426896c"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "b264cfc8274074c39f6054e9"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "3a4e9f555f01f95702127577"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "b56ca7380ce831c03804c322"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "ca360b2e33367cf16b20931a"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "91998c4c2dd69d9910f4cb07"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "3cadabb4bab5d7b2bf7a7d26"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "cb9f0d6057229b71a07fbdae"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "b6acc74a6463488c01e46322"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "ff4b057f1e391a945036c020"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "005edff71b7d62c93f6cfdeb"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "66fa47f781693bfbc5405639"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "5d5492b9e48d5dce64222add"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "d8fe78ad6647ea89d030ab90"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "e5155706f3431f1711d958cb"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "032e8bc2f743d2ac3a1754a0"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "3dd170029e2e0171e792abda"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "4b7a92ee32045d54f2482dc8"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "16148a9bbd21dfb36cad17f4"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "8aeab92ac44e736e5f56166b"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "c0c9b87f74743b13e7e1dab9"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "096dfe0255303223e02869f3"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "2571c7f10d5337f4a5543b2d"
+     },
+     "relativeProbability": 0.0217
+    }
+   ]
+  },
+  {
+   "locationId": "(-142.205, 1.444, -400.168)",
+   "probability": 0.143,
+   "template": {
+    "Id": "loot_jeverly (26) [19ee2578-071b-4913-9d52-40a82aa47a90]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -142.205,
+     "y": 1.444,
+     "z": -400.168
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937de7720d799795579d8",
+    "Items": [
+     {
+      "_id": "6a6937de7720d799795579d8",
+      "_tpl": "5734758f24597738025ee253",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937de7720d799795579d8"
+     },
+     {
+      "composedKey": "fed7a64bcccc12745eb7d22c",
+      "_id": "fed7a64bcccc12745eb7d22c",
+      "_tpl": "68f11224197b61ffe703b16f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "89c40f04e3272e8ee72e9853",
+      "_id": "89c40f04e3272e8ee72e9853",
+      "_tpl": "68f25c64b2b53abd200b954f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "74855b9dd9eb5ea16b238c73",
+      "_id": "74855b9dd9eb5ea16b238c73",
+      "_tpl": "68f25ce9b2b53abd200b9551",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "9eabe4f80d9b589965e1ded8",
+      "_id": "9eabe4f80d9b589965e1ded8",
+      "_tpl": "68f25da3b84c6e1f8a09cffb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "e8f35974b9a2ded03b79bfcc",
+      "_id": "e8f35974b9a2ded03b79bfcc",
+      "_tpl": "68f25eba19a2b503d70dc28f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "004a57272cb7d3ce5d598ac1",
+      "_id": "004a57272cb7d3ce5d598ac1",
+      "_tpl": "68f25eef19a2b503d70dc291",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "91888159af33878d26b01eb9",
+      "_id": "91888159af33878d26b01eb9",
+      "_tpl": "68f25f1201fb9de974058be4",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "82f84f309a56595b6096a120",
+      "_id": "82f84f309a56595b6096a120",
+      "_tpl": "68f25f3a5d977110860c3350",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "e18c6efff93fe4c5e13042dc",
+      "_id": "e18c6efff93fe4c5e13042dc",
+      "_tpl": "68f25faa22c8979ee308f4da",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "fd13f95d56de04f3a98cb96a",
+      "_id": "fd13f95d56de04f3a98cb96a",
+      "_tpl": "68f25fdf928cd23ddf0471fb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "d094edd8bb9677860cda5629",
+      "_id": "d094edd8bb9677860cda5629",
+      "_tpl": "68f26063b2b53abd200b9553",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "27f614b53b5f6c608717208e",
+      "_id": "27f614b53b5f6c608717208e",
+      "_tpl": "68f2608301fb9de974058be6",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "b1239e7d4d4071b0ee483256",
+      "_id": "b1239e7d4d4071b0ee483256",
+      "_tpl": "68f260d7b84c6e1f8a09cffd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "1a56ac131868c3b9402a3c54",
+      "_id": "1a56ac131868c3b9402a3c54",
+      "_tpl": "68f26124b84c6e1f8a09cfff",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "9f9bc38cdf80d286d2342375",
+      "_id": "9f9bc38cdf80d286d2342375",
+      "_tpl": "68f26161b84c6e1f8a09d001",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "baf6d82b3df9ff844c215b65",
+      "_id": "baf6d82b3df9ff844c215b65",
+      "_tpl": "68f261f6928cd23ddf0471fd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "11110ee61957d5c385b5aaa3",
+      "_id": "11110ee61957d5c385b5aaa3",
+      "_tpl": "690c70a2a1461a01d605a1bd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "25914d2f9bc1a7fb310438df",
+      "_id": "25914d2f9bc1a7fb310438df",
+      "_tpl": "6937ed118715e9fd1b0f286d",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "df54b3cf38070835562c0378",
+      "_id": "df54b3cf38070835562c0378",
+      "_tpl": "6937edb912d456a817083e82",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "9108f655781f542b85cb9fd0",
+      "_id": "9108f655781f542b85cb9fd0",
+      "_tpl": "69f9d547b98cc4120608692a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "7b9f2b161ff88c80e3922a59",
+      "_id": "7b9f2b161ff88c80e3922a59",
+      "_tpl": "6a3d38063357ef2b260d1891",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "1cd3c9b2e534a561d8e292f4",
+      "_id": "1cd3c9b2e534a561d8e292f4",
+      "_tpl": "6a4ce086b5644e9f0a08d08a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "fb63606561d8d4e7b8b0ebe5",
+      "_id": "fb63606561d8d4e7b8b0ebe5",
+      "_tpl": "6a4ff1e23e95f68a650fcb13",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937de7720d799795579d8"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "fed7a64bcccc12745eb7d22c"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "89c40f04e3272e8ee72e9853"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "74855b9dd9eb5ea16b238c73"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "9eabe4f80d9b589965e1ded8"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "e8f35974b9a2ded03b79bfcc"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "004a57272cb7d3ce5d598ac1"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "91888159af33878d26b01eb9"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "82f84f309a56595b6096a120"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "e18c6efff93fe4c5e13042dc"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "fd13f95d56de04f3a98cb96a"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "d094edd8bb9677860cda5629"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "27f614b53b5f6c608717208e"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "b1239e7d4d4071b0ee483256"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "1a56ac131868c3b9402a3c54"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "9f9bc38cdf80d286d2342375"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "baf6d82b3df9ff844c215b65"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "11110ee61957d5c385b5aaa3"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "25914d2f9bc1a7fb310438df"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "df54b3cf38070835562c0378"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "9108f655781f542b85cb9fd0"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "7b9f2b161ff88c80e3922a59"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "1cd3c9b2e534a561d8e292f4"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "fb63606561d8d4e7b8b0ebe5"
+     },
+     "relativeProbability": 0.0217
+    }
+   ]
+  },
+  {
+   "locationId": "(-147.128, 1.098, -395.665)",
+   "probability": 0.143,
+   "template": {
+    "Id": "loot_jeverly (27) [b1ba3e0e-a73f-4a65-b102-6a501dc95d06]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -147.128,
+     "y": 1.098,
+     "z": -395.665
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937fc4a320418e24aa2c0",
+    "Items": [
+     {
+      "_id": "6a6937fc4a320418e24aa2c0",
+      "_tpl": "59e3639286f7741777737013",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937fc4a320418e24aa2c0"
+     },
+     {
+      "composedKey": "0479bf7eff216932716e24fb",
+      "_id": "0479bf7eff216932716e24fb",
+      "_tpl": "68f11224197b61ffe703b16f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "e6306200422d0a7fba3a1450",
+      "_id": "e6306200422d0a7fba3a1450",
+      "_tpl": "68f25c64b2b53abd200b954f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "fa12a558a5416b8b3b68e6b7",
+      "_id": "fa12a558a5416b8b3b68e6b7",
+      "_tpl": "68f25ce9b2b53abd200b9551",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "238190f8c329ea19ac03d25a",
+      "_id": "238190f8c329ea19ac03d25a",
+      "_tpl": "68f25da3b84c6e1f8a09cffb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "05475fcb2494b87f766fae78",
+      "_id": "05475fcb2494b87f766fae78",
+      "_tpl": "68f25eba19a2b503d70dc28f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "8ba8378c1eccd3b6100b10bc",
+      "_id": "8ba8378c1eccd3b6100b10bc",
+      "_tpl": "68f25eef19a2b503d70dc291",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "a2e890b1d491b59c73e79ca2",
+      "_id": "a2e890b1d491b59c73e79ca2",
+      "_tpl": "68f25f1201fb9de974058be4",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "7ca5345fc5740714683832a2",
+      "_id": "7ca5345fc5740714683832a2",
+      "_tpl": "68f25f3a5d977110860c3350",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "6c372661709b285baaa0b6d9",
+      "_id": "6c372661709b285baaa0b6d9",
+      "_tpl": "68f25faa22c8979ee308f4da",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "9debfeac5804adc5c52085b0",
+      "_id": "9debfeac5804adc5c52085b0",
+      "_tpl": "68f25fdf928cd23ddf0471fb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "e3a701abf5c580c9e53a4856",
+      "_id": "e3a701abf5c580c9e53a4856",
+      "_tpl": "68f26063b2b53abd200b9553",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "2abb924c7002aa663eb62410",
+      "_id": "2abb924c7002aa663eb62410",
+      "_tpl": "68f2608301fb9de974058be6",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "07a396688292f485ebbf2a3f",
+      "_id": "07a396688292f485ebbf2a3f",
+      "_tpl": "68f260d7b84c6e1f8a09cffd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "e85e4fa561ac1bf2973d937b",
+      "_id": "e85e4fa561ac1bf2973d937b",
+      "_tpl": "68f26124b84c6e1f8a09cfff",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "0559cb286a925de3c6cd2414",
+      "_id": "0559cb286a925de3c6cd2414",
+      "_tpl": "68f26161b84c6e1f8a09d001",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "bac29ead51a9cc2afcd47842",
+      "_id": "bac29ead51a9cc2afcd47842",
+      "_tpl": "68f261f6928cd23ddf0471fd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "345f2488a94fcd258b716153",
+      "_id": "345f2488a94fcd258b716153",
+      "_tpl": "690c70a2a1461a01d605a1bd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "5c0f32724bd976ae498d1d5f",
+      "_id": "5c0f32724bd976ae498d1d5f",
+      "_tpl": "6937ed118715e9fd1b0f286d",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "f34359456b11286fb3065caf",
+      "_id": "f34359456b11286fb3065caf",
+      "_tpl": "6937edb912d456a817083e82",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "f85c376cd05d65944b4920e6",
+      "_id": "f85c376cd05d65944b4920e6",
+      "_tpl": "69f9d547b98cc4120608692a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "4433582691d454d5014e11a1",
+      "_id": "4433582691d454d5014e11a1",
+      "_tpl": "6a3d38063357ef2b260d1891",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "a942a2ed04783539f98dba83",
+      "_id": "a942a2ed04783539f98dba83",
+      "_tpl": "6a4ce086b5644e9f0a08d08a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "976f9a37706bd612737d4a43",
+      "_id": "976f9a37706bd612737d4a43",
+      "_tpl": "6a4ff1e23e95f68a650fcb13",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937fc4a320418e24aa2c0"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "0479bf7eff216932716e24fb"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "e6306200422d0a7fba3a1450"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "fa12a558a5416b8b3b68e6b7"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "238190f8c329ea19ac03d25a"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "05475fcb2494b87f766fae78"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "8ba8378c1eccd3b6100b10bc"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "a2e890b1d491b59c73e79ca2"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "7ca5345fc5740714683832a2"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "6c372661709b285baaa0b6d9"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "9debfeac5804adc5c52085b0"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "e3a701abf5c580c9e53a4856"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "2abb924c7002aa663eb62410"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "07a396688292f485ebbf2a3f"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "e85e4fa561ac1bf2973d937b"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "0559cb286a925de3c6cd2414"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "bac29ead51a9cc2afcd47842"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "345f2488a94fcd258b716153"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "5c0f32724bd976ae498d1d5f"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "f34359456b11286fb3065caf"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "f85c376cd05d65944b4920e6"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "4433582691d454d5014e11a1"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "a942a2ed04783539f98dba83"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "976f9a37706bd612737d4a43"
+     },
+     "relativeProbability": 0.0217
+    }
+   ]
+  },
+  {
+   "locationId": "(-156.530, 5.631, -397.371)",
+   "probability": 0.143,
+   "template": {
+    "Id": "loot_jeverly (3) [b0b35dab-e977-4181-b71a-7ee7ee9e0c8d]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -156.53,
+     "y": 5.631,
+     "z": -397.371
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 270.000183,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a693d55fc97b0e44957b765",
+    "Items": [
+     {
+      "_id": "6a693d55fc97b0e44957b765",
+      "_tpl": "573478bc24597738002c6175",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d55fc97b0e44957b765"
+     },
+     {
+      "composedKey": "c2dd68413eb75de784ef8e3f",
+      "_id": "c2dd68413eb75de784ef8e3f",
+      "_tpl": "68f11224197b61ffe703b16f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "83196802e5e6c3c0596507db",
+      "_id": "83196802e5e6c3c0596507db",
+      "_tpl": "68f25c64b2b53abd200b954f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "539ba972842fd4fb147ed65d",
+      "_id": "539ba972842fd4fb147ed65d",
+      "_tpl": "68f25ce9b2b53abd200b9551",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "aeee05f5292788ef37ccb4ad",
+      "_id": "aeee05f5292788ef37ccb4ad",
+      "_tpl": "68f25da3b84c6e1f8a09cffb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "1511f63d44a10c89518f7231",
+      "_id": "1511f63d44a10c89518f7231",
+      "_tpl": "68f25eba19a2b503d70dc28f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "a8b33127347e7908497ef394",
+      "_id": "a8b33127347e7908497ef394",
+      "_tpl": "68f25eef19a2b503d70dc291",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "3a74c599e8418027d2565045",
+      "_id": "3a74c599e8418027d2565045",
+      "_tpl": "68f25f1201fb9de974058be4",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "be7e90148e654dfbf113ba64",
+      "_id": "be7e90148e654dfbf113ba64",
+      "_tpl": "68f25f3a5d977110860c3350",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "7902782a455aa397c7150abd",
+      "_id": "7902782a455aa397c7150abd",
+      "_tpl": "68f25faa22c8979ee308f4da",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "0e8e72401537e7a51f53be89",
+      "_id": "0e8e72401537e7a51f53be89",
+      "_tpl": "68f25fdf928cd23ddf0471fb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "f5ccfafe72b473ecdfcea038",
+      "_id": "f5ccfafe72b473ecdfcea038",
+      "_tpl": "68f26063b2b53abd200b9553",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "d6ceb93850bbad14a6e17c29",
+      "_id": "d6ceb93850bbad14a6e17c29",
+      "_tpl": "68f2608301fb9de974058be6",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "7b8b99aed06f78443d30e5b9",
+      "_id": "7b8b99aed06f78443d30e5b9",
+      "_tpl": "68f260d7b84c6e1f8a09cffd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "2bcc4dd965d76d71fd9e077c",
+      "_id": "2bcc4dd965d76d71fd9e077c",
+      "_tpl": "68f26124b84c6e1f8a09cfff",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "604a8ddae5ed8990893fdd69",
+      "_id": "604a8ddae5ed8990893fdd69",
+      "_tpl": "68f26161b84c6e1f8a09d001",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "d4e6cfcea7a3bb7b623bf4f5",
+      "_id": "d4e6cfcea7a3bb7b623bf4f5",
+      "_tpl": "68f261f6928cd23ddf0471fd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "65659c0aabc270e42db69f91",
+      "_id": "65659c0aabc270e42db69f91",
+      "_tpl": "690c70a2a1461a01d605a1bd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "9a97237a2b50100647a792ee",
+      "_id": "9a97237a2b50100647a792ee",
+      "_tpl": "6937ed118715e9fd1b0f286d",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "583c5c41382b2e3a8fa41059",
+      "_id": "583c5c41382b2e3a8fa41059",
+      "_tpl": "6937edb912d456a817083e82",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "26f193c3699d7a5858c1fbf9",
+      "_id": "26f193c3699d7a5858c1fbf9",
+      "_tpl": "69f9d547b98cc4120608692a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "802b84b6cf3845488f5d668f",
+      "_id": "802b84b6cf3845488f5d668f",
+      "_tpl": "6a3d38063357ef2b260d1891",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "50d93a02c9e14301764ed90c",
+      "_id": "50d93a02c9e14301764ed90c",
+      "_tpl": "6a4ce086b5644e9f0a08d08a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "c31f9e4442fcd6ab82a1449f",
+      "_id": "c31f9e4442fcd6ab82a1449f",
+      "_tpl": "6a4ff1e23e95f68a650fcb13",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a693d55fc97b0e44957b765"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "c2dd68413eb75de784ef8e3f"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "83196802e5e6c3c0596507db"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "539ba972842fd4fb147ed65d"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "aeee05f5292788ef37ccb4ad"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "1511f63d44a10c89518f7231"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "a8b33127347e7908497ef394"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "3a74c599e8418027d2565045"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "be7e90148e654dfbf113ba64"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "7902782a455aa397c7150abd"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "0e8e72401537e7a51f53be89"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "f5ccfafe72b473ecdfcea038"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "d6ceb93850bbad14a6e17c29"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "7b8b99aed06f78443d30e5b9"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "2bcc4dd965d76d71fd9e077c"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "604a8ddae5ed8990893fdd69"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "d4e6cfcea7a3bb7b623bf4f5"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "65659c0aabc270e42db69f91"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "9a97237a2b50100647a792ee"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "583c5c41382b2e3a8fa41059"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "26f193c3699d7a5858c1fbf9"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "802b84b6cf3845488f5d668f"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "50d93a02c9e14301764ed90c"
+     },
+     "relativeProbability": 0.0217
+    },
+    {
+     "composedKey": {
+      "key": "c31f9e4442fcd6ab82a1449f"
+     },
+     "relativeProbability": 0.0217
+    }
+   ]
+  },
+  {
+   "locationId": "(-149.959, 4.748, -401.492)",
+   "probability": 0.286,
+   "template": {
+    "Id": "loot_jeverly (7) [005606e8-1a56-4591-bf9f-91d51ae4ceca]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -149.959,
+     "y": 4.748,
+     "z": -401.492
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f74aa",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f74aa",
+      "_tpl": "59e3658a86f7741776641ac4",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f74aa"
+     },
+     {
+      "composedKey": "e8c917969ae6dc409ceea550",
+      "_id": "e8c917969ae6dc409ceea550",
+      "_tpl": "68f11224197b61ffe703b16f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "63ab74a5178655e188ea375b",
+      "_id": "63ab74a5178655e188ea375b",
+      "_tpl": "68f25c64b2b53abd200b954f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "ace871874d3666513ae9646f",
+      "_id": "ace871874d3666513ae9646f",
+      "_tpl": "68f25ce9b2b53abd200b9551",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "aadc2924b44d47409dce53c0",
+      "_id": "aadc2924b44d47409dce53c0",
+      "_tpl": "68f25da3b84c6e1f8a09cffb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "d829b94ecba42ed45f293ccf",
+      "_id": "d829b94ecba42ed45f293ccf",
+      "_tpl": "68f25eba19a2b503d70dc28f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "51bee7f87c44dae8d4480349",
+      "_id": "51bee7f87c44dae8d4480349",
+      "_tpl": "68f25eef19a2b503d70dc291",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "1d21229fda0cf84fd189a3b0",
+      "_id": "1d21229fda0cf84fd189a3b0",
+      "_tpl": "68f25f1201fb9de974058be4",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "2c7c1cae6a698d9d282af0ce",
+      "_id": "2c7c1cae6a698d9d282af0ce",
+      "_tpl": "68f25f3a5d977110860c3350",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "4bcca3def3214514c612d626",
+      "_id": "4bcca3def3214514c612d626",
+      "_tpl": "68f25faa22c8979ee308f4da",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "673821ba0e7c4cadb7c28bef",
+      "_id": "673821ba0e7c4cadb7c28bef",
+      "_tpl": "68f25fdf928cd23ddf0471fb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "0d190e9540ceb324e5d081c2",
+      "_id": "0d190e9540ceb324e5d081c2",
+      "_tpl": "68f26063b2b53abd200b9553",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "1524bf2758f3bf0e598e8533",
+      "_id": "1524bf2758f3bf0e598e8533",
+      "_tpl": "68f2608301fb9de974058be6",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "4e65bd07f6c00be92d0b436e",
+      "_id": "4e65bd07f6c00be92d0b436e",
+      "_tpl": "68f260d7b84c6e1f8a09cffd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "8e4290c34810839ede930610",
+      "_id": "8e4290c34810839ede930610",
+      "_tpl": "68f26124b84c6e1f8a09cfff",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "fe6074f0cd655c490fa19cd3",
+      "_id": "fe6074f0cd655c490fa19cd3",
+      "_tpl": "68f26161b84c6e1f8a09d001",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "d895d26dc03f9f98b2dc8999",
+      "_id": "d895d26dc03f9f98b2dc8999",
+      "_tpl": "68f261f6928cd23ddf0471fd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "c419115bfdf256d7618c5834",
+      "_id": "c419115bfdf256d7618c5834",
+      "_tpl": "690c70a2a1461a01d605a1bd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "b6d4e0281d86d4956f82d86b",
+      "_id": "b6d4e0281d86d4956f82d86b",
+      "_tpl": "6937ed118715e9fd1b0f286d",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "b87ad69346e16c1076a0730a",
+      "_id": "b87ad69346e16c1076a0730a",
+      "_tpl": "6937edb912d456a817083e82",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "a45f72dd338d40f5cae892c8",
+      "_id": "a45f72dd338d40f5cae892c8",
+      "_tpl": "69f9d547b98cc4120608692a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "ef4a0102ec9036587ff38b2e",
+      "_id": "ef4a0102ec9036587ff38b2e",
+      "_tpl": "6a3d38063357ef2b260d1891",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "1876d883fc3f8416f3b1f42b",
+      "_id": "1876d883fc3f8416f3b1f42b",
+      "_tpl": "6a4ce086b5644e9f0a08d08a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "48d3a0126a04789d23760ab8",
+      "_id": "48d3a0126a04789d23760ab8",
+      "_tpl": "6a4ff1e23e95f68a650fcb13",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f74aa"
+     },
+     "relativeProbability": 2
+    },
+    {
+     "composedKey": {
+      "key": "e8c917969ae6dc409ceea550"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "63ab74a5178655e188ea375b"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "ace871874d3666513ae9646f"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "aadc2924b44d47409dce53c0"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "d829b94ecba42ed45f293ccf"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "51bee7f87c44dae8d4480349"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "1d21229fda0cf84fd189a3b0"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "2c7c1cae6a698d9d282af0ce"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "4bcca3def3214514c612d626"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "673821ba0e7c4cadb7c28bef"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "0d190e9540ceb324e5d081c2"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "1524bf2758f3bf0e598e8533"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "4e65bd07f6c00be92d0b436e"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "8e4290c34810839ede930610"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "fe6074f0cd655c490fa19cd3"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "d895d26dc03f9f98b2dc8999"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "c419115bfdf256d7618c5834"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "b6d4e0281d86d4956f82d86b"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "b87ad69346e16c1076a0730a"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "a45f72dd338d40f5cae892c8"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "ef4a0102ec9036587ff38b2e"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "1876d883fc3f8416f3b1f42b"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "48d3a0126a04789d23760ab8"
+     },
+     "relativeProbability": 0.0435
+    }
+   ]
+  },
+  {
+   "locationId": "(-125.364, 4.682, -418.227)",
+   "probability": 0.429,
+   "template": {
+    "Id": "loot_tool (26) [27dd54ff-5149-4b20-a939-5f070526f888]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -125.364,
+     "y": 4.682,
+     "z": -418.227
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f76a4",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f76a4",
+      "_tpl": "60391afc25aff57af81f7085",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f76a4"
+     },
+     {
+      "_id": "6a6937bf809e6f88ae4cc9e4",
+      "_tpl": "5d4042a986f7743185265463",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937bf809e6f88ae4cc9e4"
+     },
+     {
+      "_id": "6a6937de7720d79979557bb0",
+      "_tpl": "590c5bbd86f774785762df04",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937de7720d79979557bb0"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f76a4"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937bf809e6f88ae4cc9e4"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937de7720d79979557bb0"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-269.077, 5.249, -372.597)",
+   "probability": 1.0,
+   "template": {
+    "Id": "q_card_key_from_safe_krug [069d259f-731d-4252-9d58-18ca6d9357fd]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -269.0774,
+     "y": 5.2486,
+     "z": -372.597
+    },
+    "Rotation": {
+     "x": 90.0,
+     "y": 324.798767,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": true,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f7704",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f7704",
+      "_tpl": "68c165f1903341d88b092b2a",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f7704"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f7704"
+     },
+     "relativeProbability": 7
+    }
+   ]
+  },
+  {
+   "locationId": "(-269.087, 5.252, -372.768)",
+   "probability": 1.0,
+   "template": {
+    "Id": "q_master_access [4e10844d-0c2e-4ca8-8b50-afc4f5a606f7]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -269.087,
+     "y": 5.2523,
+     "z": -372.768
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 2.21468663,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": true,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f770e",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f770e",
+      "_tpl": "67bdf097600629c8f20322e5",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f770e"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f770e"
+     },
+     "relativeProbability": 7
+    }
+   ]
+  },
+  {
+   "locationId": "(-261.843, 4.952, -328.761)",
+   "probability": 0.571,
+   "template": {
+    "Id": "quest_blue_doc [5224c3a0-b193-4b65-99c0-fa8e02cc27aa]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -261.8431,
+     "y": 4.95210028,
+     "z": -328.7608
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 94.61735,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f7712",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f7712",
+      "_tpl": "67c034f0e7a5da1e070f6de8",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f7712"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f7712"
+     },
+     "relativeProbability": 4
+    }
+   ]
+  },
+  {
+   "locationId": "(-161.341, 4.796, -349.151)",
+   "probability": 0.714,
+   "template": {
+    "Id": "quest_blue_doc [5224c3a0-b193-4b65-99c0-fa8e02cc27aa]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -161.341,
+     "y": 4.7957,
+     "z": -349.151
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 90.8433456,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937cf77cb7613294dcf8a",
+    "Items": [
+     {
+      "_id": "6a6937cf77cb7613294dcf8a",
+      "_tpl": "67c034f0e7a5da1e070f6de8",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937cf77cb7613294dcf8a"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937cf77cb7613294dcf8a"
+     },
+     "relativeProbability": 5
+    }
+   ]
+  },
+  {
+   "locationId": "(-126.169, 5.010, -287.312)",
+   "probability": 0.286,
+   "template": {
+    "Id": "quest_blue_doc [769d3227-f1e7-4da0-a76e-1523e5b79217]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -126.169,
+     "y": 5.010415,
+     "z": -287.311523
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937bf809e6f88ae4cca30",
+    "Items": [
+     {
+      "_id": "6a6937bf809e6f88ae4cca30",
+      "_tpl": "67c034f0e7a5da1e070f6de8",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937bf809e6f88ae4cca30"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937bf809e6f88ae4cca30"
+     },
+     "relativeProbability": 2
+    }
+   ]
+  },
+  {
+   "locationId": "(-207.580, 1.746, -304.781)",
+   "probability": 0.286,
+   "template": {
+    "Id": "quest_blue_doc(1) [9beaa309-c4bc-4574-ba5d-def61b767154]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -207.58,
+     "y": 1.7456,
+     "z": -304.7809
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937de7720d79979557c14",
+    "Items": [
+     {
+      "_id": "6a6937de7720d79979557c14",
+      "_tpl": "67c035140610e91bea05699a",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937de7720d79979557c14"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937de7720d79979557c14"
+     },
+     "relativeProbability": 2
+    }
+   ]
+  },
+  {
+   "locationId": "(-172.375, 4.137, -342.415)",
+   "probability": 0.714,
+   "template": {
+    "Id": "quest_blue_doc(1) [9beaa309-c4bc-4574-ba5d-def61b767154]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -172.375244,
+     "y": 4.1369,
+     "z": -342.415
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f7716",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f7716",
+      "_tpl": "67c035140610e91bea05699a",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f7716"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f7716"
+     },
+     "relativeProbability": 5
+    }
+   ]
+  },
+  {
+   "locationId": "(-252.279, 4.630, -363.519)",
+   "probability": 0.429,
+   "template": {
+    "Id": "quest_blue_doc(2) [a5160730-ba95-40ea-b58f-d69dfabb9623]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -252.278717,
+     "y": 4.63,
+     "z": -363.519
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 86.2497253,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937cf77cb7613294dcf94",
+    "Items": [
+     {
+      "_id": "6a6937cf77cb7613294dcf94",
+      "_tpl": "67c0351e354fca26a0008038",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937cf77cb7613294dcf94"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937cf77cb7613294dcf94"
+     },
+     "relativeProbability": 3
+    }
+   ]
+  },
+  {
+   "locationId": "(-242.374, 5.008, -379.682)",
+   "probability": 1.0,
+   "template": {
+    "Id": "quest_blue_doc(2) [2157ab73-17f7-4950-9907-0572c36adc54]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -242.37439,
+     "y": 5.0081,
+     "z": -379.682
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 271.937622,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": true,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f771a",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f771a",
+      "_tpl": "67c0351e354fca26a0008038",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f771a"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f771a"
+     },
+     "relativeProbability": 7
+    }
+   ]
+  },
+  {
+   "locationId": "(-185.833, 1.021, -367.414)",
+   "probability": 0.143,
+   "template": {
+    "Id": "quest_blue_doc(2) [2157ab73-17f7-4950-9907-0572c36adc54]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -185.833,
+     "y": 1.0212,
+     "z": -367.414
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937de7720d79979557c18",
+    "Items": [
+     {
+      "_id": "6a6937de7720d79979557c18",
+      "_tpl": "67c0351e354fca26a0008038",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937de7720d79979557c18"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937de7720d79979557c18"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-148.951, 4.935, -406.759)",
+   "probability": 0.714,
+   "template": {
+    "Id": "quest_blue_doc(3) [d1ed3300-428d-49b9-8bf4-7acfc0306a00]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -148.9506,
+     "y": 4.935,
+     "z": -406.759
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 101.7657,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f7720",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f7720",
+      "_tpl": "67c0352dd98287be7b0923d6",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f7720"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f7720"
+     },
+     "relativeProbability": 5
+    }
+   ]
+  },
+  {
+   "locationId": "(-139.946, 5.067, -392.672)",
+   "probability": 0.714,
+   "template": {
+    "Id": "quest_blue_doc(3) [7dae87ea-cf4a-4341-b660-639406b34802]",
+    "IsContainer": false,
+    "useGravity": false,
+    "randomRotation": false,
+    "Position": {
+     "x": -139.9459,
+     "y": 5.067,
+     "z": -392.672
+    },
+    "Rotation": {
+     "x": 28.7610531,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f771e",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f771e",
+      "_tpl": "67c0352dd98287be7b0923d6",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f771e"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f771e"
+     },
+     "relativeProbability": 5
+    }
+   ]
+  },
+  {
+   "locationId": "(-142.243, 5.166, -401.018)",
+   "probability": 0.857,
+   "template": {
+    "Id": "univ_loot_sup1 (17) [f3f071f1-f912-4c97-8dae-ebbbe0c1d705]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -142.243,
+     "y": 5.166,
+     "z": -401.018
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937bf809e6f88ae4cca50",
+    "Items": [
+     {
+      "_id": "6a6937bf809e6f88ae4cca50",
+      "_tpl": "5d235a5986f77443f6329bc6",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937bf809e6f88ae4cca50"
+     },
+     {
+      "_id": "6a6937cf77cb7613294dcfa8",
+      "_tpl": "5c05300686f7746dce784e5d",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937cf77cb7613294dcfa8"
+     },
+     {
+      "_id": "6a6937de7720d79979557c30",
+      "_tpl": "590c5a7286f7747884343aea",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937de7720d79979557c30"
+     },
+     {
+      "_id": "6a6937fc4a320418e24aa532",
+      "_tpl": "5e54f62086f774219b0f1937",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937fc4a320418e24aa532"
+     },
+     {
+      "_id": "6a693d49b6d73a5dbe5f6270",
+      "_tpl": "5d0377ce86f774186372f689",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d49b6d73a5dbe5f6270"
+     },
+     {
+      "_id": "6a693d55fc97b0e44957b9d7",
+      "_tpl": "5d6fc87386f77449db3db94e",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d55fc97b0e44957b9d7"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937bf809e6f88ae4cca50"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937cf77cb7613294dcfa8"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937de7720d79979557c30"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937fc4a320418e24aa532"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a693d49b6d73a5dbe5f6270"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a693d55fc97b0e44957b9d7"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-158.273, 4.475, -410.807)",
+   "probability": 0.571,
+   "template": {
+    "Id": "univ_loot_sup1 (18) [d1fedc29-62d1-4ccb-be94-2fef07ef1d48]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -158.273,
+     "y": 4.475,
+     "z": -410.807
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f772e",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f772e",
+      "_tpl": "5e54f6af86f7742199090bf3",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f772e"
+     },
+     {
+      "_id": "6a6937bf809e6f88ae4cca52",
+      "_tpl": "62a09cfe4f842e1bd12da3e4",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937bf809e6f88ae4cca52"
+     },
+     {
+      "_id": "6a6937de7720d79979557c32",
+      "_tpl": "62a08f4c4f842e1bd12d9d62",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937de7720d79979557c32"
+     },
+     {
+      "_id": "6a693d49b6d73a5dbe5f6272",
+      "_tpl": "57347baf24597738002c6178",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d49b6d73a5dbe5f6272"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f772e"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937bf809e6f88ae4cca52"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937de7720d79979557c32"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a693d49b6d73a5dbe5f6272"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-148.830, 5.428, -393.608)",
+   "probability": 0.857,
+   "template": {
+    "Id": "univ_loot_sup1 (19) [5686d68b-af67-453a-9c1e-dedd340bb06a]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -148.83,
+     "y": 5.428,
+     "z": -393.608
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f7730",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f7730",
+      "_tpl": "590de71386f774347051a052",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f7730"
+     },
+     {
+      "_id": "6a6937bf809e6f88ae4cca54",
+      "_tpl": "69f9d547b98cc4120608692a",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937bf809e6f88ae4cca54"
+     },
+     {
+      "_id": "6a6937de7720d79979557c34",
+      "_tpl": "57347baf24597738002c6178",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937de7720d79979557c34"
+     },
+     {
+      "_id": "6a6937fc4a320418e24aa534",
+      "_tpl": "590de7e986f7741b096e5f32",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937fc4a320418e24aa534"
+     },
+     {
+      "_id": "6a693d49b6d73a5dbe5f6274",
+      "_tpl": "67586af7036d7f3da60c3612",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d49b6d73a5dbe5f6274"
+     },
+     {
+      "_id": "6a693d55fc97b0e44957b9d9",
+      "_tpl": "5bc9bdb8d4351e003562b8a1",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d55fc97b0e44957b9d9"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f7730"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937bf809e6f88ae4cca54"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937de7720d79979557c34"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937fc4a320418e24aa534"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a693d49b6d73a5dbe5f6274"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a693d55fc97b0e44957b9d9"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-219.055, 5.034, -378.172)",
+   "probability": 1.0,
+   "template": {
+    "Id": "univ_loot_sup1 (33) [7547efbb-9a68-4cd6-a8f7-a848ee02ead4]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -219.055,
+     "y": 5.034,
+     "z": -378.172
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f774e",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f774e",
+      "_tpl": "590de7e986f7741b096e5f32",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f774e"
+     },
+     {
+      "_id": "6a6937bf809e6f88ae4cca7c",
+      "_tpl": "62a09cfe4f842e1bd12da3e4",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937bf809e6f88ae4cca7c"
+     },
+     {
+      "_id": "6a6937cf77cb7613294dcfca",
+      "_tpl": "5bc9bdb8d4351e003562b8a1",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937cf77cb7613294dcfca"
+     },
+     {
+      "_id": "6a6937de7720d79979557c4e",
+      "_tpl": "5bc9bc53d4351e00367fbcee",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937de7720d79979557c4e"
+     },
+     {
+      "_id": "6a6937fc4a320418e24aa54c",
+      "_tpl": "5e54f6af86f7742199090bf3",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937fc4a320418e24aa54c"
+     },
+     {
+      "_id": "6a693d49b6d73a5dbe5f6294",
+      "_tpl": "57347baf24597738002c6178",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d49b6d73a5dbe5f6294"
+     },
+     {
+      "_id": "6a693d55fc97b0e44957b9f1",
+      "_tpl": "590de71386f774347051a052",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d55fc97b0e44957b9f1"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f774e"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937bf809e6f88ae4cca7c"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937cf77cb7613294dcfca"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937de7720d79979557c4e"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937fc4a320418e24aa54c"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a693d49b6d73a5dbe5f6294"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a693d55fc97b0e44957b9f1"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-188.930, 0.551, -341.505)",
+   "probability": 1.0,
+   "template": {
+    "Id": "univ_loot_sup1 (7) [10dcd377-be65-4808-ac18-f2b3b8c0598b]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -188.93,
+     "y": 0.551,
+     "z": -341.505
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937b1cfaddc356f2f7776",
+    "Items": [
+     {
+      "_id": "6a6937b1cfaddc356f2f7776",
+      "_tpl": "62a09cb7a04c0c5c6e0a84f8",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937b1cfaddc356f2f7776"
+     },
+     {
+      "_id": "6a6937bf809e6f88ae4cca9a",
+      "_tpl": "590de7e986f7741b096e5f32",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937bf809e6f88ae4cca9a"
+     },
+     {
+      "_id": "6a6937cf77cb7613294dcff2",
+      "_tpl": "59faff1d86f7746c51718c9c",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937cf77cb7613294dcff2"
+     },
+     {
+      "_id": "6a6937de7720d79979557c76",
+      "_tpl": "5d0377ce86f774186372f689",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937de7720d79979557c76"
+     },
+     {
+      "_id": "6a6937fc4a320418e24aa572",
+      "_tpl": "69f9d547b98cc4120608692a",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937fc4a320418e24aa572"
+     },
+     {
+      "_id": "6a693d49b6d73a5dbe5f62b8",
+      "_tpl": "5672cb124bdc2d1a0f8b4568",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d49b6d73a5dbe5f62b8"
+     },
+     {
+      "_id": "6a693d55fc97b0e44957ba1b",
+      "_tpl": "62a09cfe4f842e1bd12da3e4",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a693d55fc97b0e44957ba1b"
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937b1cfaddc356f2f7776"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937bf809e6f88ae4cca9a"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937cf77cb7613294dcff2"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937de7720d79979557c76"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937fc4a320418e24aa572"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a693d49b6d73a5dbe5f62b8"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a693d55fc97b0e44957ba1b"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-248.064, -3.491, -378.445)",
+   "probability": 0.286,
+   "template": {
+    "Id": "univ_loot_sup1 (8) [c574b933-6dc0-4943-b6d8-c19d8d505ec5]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -248.064,
+     "y": -3.49061775,
+     "z": -378.445
+    },
+    "Rotation": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "IsAlwaysSpawn": false,
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "Root": "6a6937bf809e6f88ae4cca9c",
+    "Items": [
+     {
+      "_id": "6a6937bf809e6f88ae4cca9c",
+      "_tpl": "59e3639286f7741777737013",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937bf809e6f88ae4cca9c"
+     },
+     {
+      "_id": "6a6937de7720d79979557c78",
+      "_tpl": "5c052fb986f7746b2101e909",
+      "upd": {
+       "StackObjectsCount": 1
+      },
+      "composedKey": "6a6937de7720d79979557c78"
+     },
+     {
+      "composedKey": "4041e59031e65e31e60ceac7",
+      "_id": "4041e59031e65e31e60ceac7",
+      "_tpl": "68f11224197b61ffe703b16f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "e4b636a48dacc5023f83d879",
+      "_id": "e4b636a48dacc5023f83d879",
+      "_tpl": "68f25c64b2b53abd200b954f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "85b818e44e2fde3dd7b08c12",
+      "_id": "85b818e44e2fde3dd7b08c12",
+      "_tpl": "68f25ce9b2b53abd200b9551",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "a20862ac1e29415823a20aa8",
+      "_id": "a20862ac1e29415823a20aa8",
+      "_tpl": "68f25da3b84c6e1f8a09cffb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "8645d701534f6118e1ee7d97",
+      "_id": "8645d701534f6118e1ee7d97",
+      "_tpl": "68f25eba19a2b503d70dc28f",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "5d35adb2dfd3e7f7a8d79f37",
+      "_id": "5d35adb2dfd3e7f7a8d79f37",
+      "_tpl": "68f25eef19a2b503d70dc291",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "1cfe7ca0a6eac5d35bd8a2fb",
+      "_id": "1cfe7ca0a6eac5d35bd8a2fb",
+      "_tpl": "68f25f1201fb9de974058be4",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "280e492c0e6385eab13497d5",
+      "_id": "280e492c0e6385eab13497d5",
+      "_tpl": "68f25f3a5d977110860c3350",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "00cbacc9379f5780f97de28a",
+      "_id": "00cbacc9379f5780f97de28a",
+      "_tpl": "68f25faa22c8979ee308f4da",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "7db8e0962235ed47a31af146",
+      "_id": "7db8e0962235ed47a31af146",
+      "_tpl": "68f25fdf928cd23ddf0471fb",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "8d83416ba8bada6dd12f2f91",
+      "_id": "8d83416ba8bada6dd12f2f91",
+      "_tpl": "68f26063b2b53abd200b9553",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "60c736c4003ecf2ce2b51b91",
+      "_id": "60c736c4003ecf2ce2b51b91",
+      "_tpl": "68f2608301fb9de974058be6",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "b67d76a1289751825a157601",
+      "_id": "b67d76a1289751825a157601",
+      "_tpl": "68f260d7b84c6e1f8a09cffd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "256fc460a5a9faad2d760b7e",
+      "_id": "256fc460a5a9faad2d760b7e",
+      "_tpl": "68f26124b84c6e1f8a09cfff",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "4e022273c420a544d6c0e0ef",
+      "_id": "4e022273c420a544d6c0e0ef",
+      "_tpl": "68f26161b84c6e1f8a09d001",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "91cc069f2a085284a829a726",
+      "_id": "91cc069f2a085284a829a726",
+      "_tpl": "68f261f6928cd23ddf0471fd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "8cb315443cc64c9e1d8c5866",
+      "_id": "8cb315443cc64c9e1d8c5866",
+      "_tpl": "690c70a2a1461a01d605a1bd",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "191bb3d5f1a53132af593f6c",
+      "_id": "191bb3d5f1a53132af593f6c",
+      "_tpl": "6937ed118715e9fd1b0f286d",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "86d178e82c3b1294c20551c1",
+      "_id": "86d178e82c3b1294c20551c1",
+      "_tpl": "6937edb912d456a817083e82",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "994f892841e0a6f98ee2f07a",
+      "_id": "994f892841e0a6f98ee2f07a",
+      "_tpl": "69f9d547b98cc4120608692a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "c1977f7771617b9e03b01b40",
+      "_id": "c1977f7771617b9e03b01b40",
+      "_tpl": "6a3d38063357ef2b260d1891",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "ddc9d0b729023a120995c352",
+      "_id": "ddc9d0b729023a120995c352",
+      "_tpl": "6a4ce086b5644e9f0a08d08a",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "1f87f1aa422fb0450126a7a9",
+      "_id": "1f87f1aa422fb0450126a7a9",
+      "_tpl": "6a4ff1e23e95f68a650fcb13",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "6a6937bf809e6f88ae4cca9c"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "6a6937de7720d79979557c78"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "4041e59031e65e31e60ceac7"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "e4b636a48dacc5023f83d879"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "85b818e44e2fde3dd7b08c12"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "a20862ac1e29415823a20aa8"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "8645d701534f6118e1ee7d97"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "5d35adb2dfd3e7f7a8d79f37"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "1cfe7ca0a6eac5d35bd8a2fb"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "280e492c0e6385eab13497d5"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "00cbacc9379f5780f97de28a"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "7db8e0962235ed47a31af146"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "8d83416ba8bada6dd12f2f91"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "60c736c4003ecf2ce2b51b91"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "b67d76a1289751825a157601"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "256fc460a5a9faad2d760b7e"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "4e022273c420a544d6c0e0ef"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "91cc069f2a085284a829a726"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "8cb315443cc64c9e1d8c5866"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "191bb3d5f1a53132af593f6c"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "86d178e82c3b1294c20551c1"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "994f892841e0a6f98ee2f07a"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "c1977f7771617b9e03b01b40"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "ddc9d0b729023a120995c352"
+     },
+     "relativeProbability": 0.0435
+    },
+    {
+     "composedKey": {
+      "key": "1f87f1aa422fb0450126a7a9"
+     },
+     "relativeProbability": 0.0435
+    }
+   ]
+  },
+  {
+   "locationId": "(-265.35, 6.0, -376.75)",
+   "probability": 0.0023588277340957824,
+   "template": {
+    "Id": "krug_desk_infoitem (0) [manimal-labsboiler]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -265.35,
+     "y": 6.0,
+     "z": -376.75
+    },
+    "Rotation": {
+     "x": 0,
+     "y": 310.40195,
+     "z": 0
+    },
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "IsAlwaysSpawn": false,
+    "Root": "67730570b734b0fb1b0df8c3",
+    "Items": [
+     {
+      "composedKey": "2004291987",
+      "_id": "67730570b734b0fb1b0df8c3",
+      "_tpl": "590c645c86f77412b01304d9",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "1838611151",
+      "_id": "68c317fd6f47317656065ff1",
+      "_tpl": "6389c8fb46b54c634724d847",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "-629100558",
+      "_id": "68c080bc758f982f5413bbf3",
+      "_tpl": "6889e4cd3ff7e9cfbc0c507c",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "-1948394157",
+      "_id": "68bf09b78e05fd070b0eb5b6",
+      "_tpl": "590c639286f774151567fa95",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "-94243013",
+      "_id": "68bdb38bf1ba7325df11b944",
+      "_tpl": "590c392f86f77444754deb29",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "129718816",
+      "_id": "67bd63b548078b05190af266",
+      "_tpl": "590c621186f774138d11ea29",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "2075679484",
+      "_id": "67bce9d5f18560ca8a0e17cc",
+      "_tpl": "61bf7c024770ee6f9c6b8b53",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "2004291987"
+     },
+     "relativeProbability": 3
+    },
+    {
+     "composedKey": {
+      "key": "1838611151"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "-629100558"
+     },
+     "relativeProbability": 12
+    },
+    {
+     "composedKey": {
+      "key": "-1948394157"
+     },
+     "relativeProbability": 9
+    },
+    {
+     "composedKey": {
+      "key": "-94243013"
+     },
+     "relativeProbability": 6
+    },
+    {
+     "composedKey": {
+      "key": "129718816"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "2075679484"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-265.1, 6.0, -376.95)",
+   "probability": 0.0031451036454610438,
+   "template": {
+    "Id": "krug_desk_infoitem (1) [manimal-labsboiler]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -265.1,
+     "y": 6.0,
+     "z": -376.95
+    },
+    "Rotation": {
+     "x": 0,
+     "y": 310.40195,
+     "z": 0
+    },
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "IsAlwaysSpawn": false,
+    "Root": "678826ced94f2eaeab0fea2d",
+    "Items": [
+     {
+      "composedKey": "-1948394157",
+      "_id": "678826ced94f2eaeab0fea2d",
+      "_tpl": "590c639286f774151567fa95",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "129718816",
+      "_id": "678818be3e7bf534b11306f9",
+      "_tpl": "590c621186f774138d11ea29",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "882867683",
+      "_id": "68c3df2129cf408a36080178",
+      "_tpl": "590c651286f7741e566b6461",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "-629100558",
+      "_id": "68c2f4c8b87bae27a413b9ab",
+      "_tpl": "6889e4cd3ff7e9cfbc0c507c",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "-94243013",
+      "_id": "68c03a676985326a021388da",
+      "_tpl": "590c392f86f77444754deb29",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "2004291987",
+      "_id": "68a8945e7475831499142e16",
+      "_tpl": "590c645c86f77412b01304d9",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "1973637103",
+      "_id": "68577db84fb056581c13f706",
+      "_tpl": "6389c8c5dbfd5e4b95197e6b",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "342773165",
+      "_id": "6848b6e7c35b3e2c250f2d4f",
+      "_tpl": "590c37d286f77443be3d7827",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "595636503",
+      "_id": "68213f02edd9eac07b12c5fe",
+      "_tpl": "6389c92d52123d5dd17f8876",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "854730130",
+      "_id": "6820c522b0fce53bb208d13b",
+      "_tpl": "5c12613b86f7743bbe2c3f76",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "-1948394157"
+     },
+     "relativeProbability": 8
+    },
+    {
+     "composedKey": {
+      "key": "129718816"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "882867683"
+     },
+     "relativeProbability": 2
+    },
+    {
+     "composedKey": {
+      "key": "-629100558"
+     },
+     "relativeProbability": 21
+    },
+    {
+     "composedKey": {
+      "key": "-94243013"
+     },
+     "relativeProbability": 5
+    },
+    {
+     "composedKey": {
+      "key": "2004291987"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "1973637103"
+     },
+     "relativeProbability": 2
+    },
+    {
+     "composedKey": {
+      "key": "342773165"
+     },
+     "relativeProbability": 2
+    },
+    {
+     "composedKey": {
+      "key": "595636503"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "854730130"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-264.45, 6.0, -376.9)",
+   "probability": 0.0032165832737669764,
+   "template": {
+    "Id": "krug_desk_infoitem (2) [manimal-labsboiler]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -264.45,
+     "y": 6.0,
+     "z": -376.9
+    },
+    "Rotation": {
+     "x": 0,
+     "y": 310.40195,
+     "z": 0
+    },
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "IsAlwaysSpawn": false,
+    "Root": "68c35be52feed0d03f0dbc16",
+    "Items": [
+     {
+      "composedKey": "-1948394157",
+      "_id": "68c35be52feed0d03f0dbc16",
+      "_tpl": "590c639286f774151567fa95",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "-629100558",
+      "_id": "68c2323e59a7e09781149d04",
+      "_tpl": "6889e4cd3ff7e9cfbc0c507c",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "129718816",
+      "_id": "68c147eaf401fa348a0dedba",
+      "_tpl": "590c621186f774138d11ea29",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "595636503",
+      "_id": "68bd1b2fa56e65cbea101fe1",
+      "_tpl": "6389c92d52123d5dd17f8876",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "2004291987",
+      "_id": "68b3af7800af255b741481b9",
+      "_tpl": "590c645c86f77412b01304d9",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "-94243013",
+      "_id": "68b337fb110069b483129a20",
+      "_tpl": "590c392f86f77444754deb29",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "1973637103",
+      "_id": "6792fb76cb30500d4f052b1f",
+      "_tpl": "6389c8c5dbfd5e4b95197e6b",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "-1948394157"
+     },
+     "relativeProbability": 11
+    },
+    {
+     "composedKey": {
+      "key": "-629100558"
+     },
+     "relativeProbability": 23
+    },
+    {
+     "composedKey": {
+      "key": "129718816"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "595636503"
+     },
+     "relativeProbability": 2
+    },
+    {
+     "composedKey": {
+      "key": "2004291987"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "-94243013"
+     },
+     "relativeProbability": 6
+    },
+    {
+     "composedKey": {
+      "key": "1973637103"
+     },
+     "relativeProbability": 1
+    }
+   ]
+  },
+  {
+   "locationId": "(-264.2, 6.0, -376.75)",
+   "probability": 0.0027162258756254468,
+   "template": {
+    "Id": "krug_desk_infoitem (3) [manimal-labsboiler]",
+    "IsContainer": false,
+    "useGravity": true,
+    "randomRotation": true,
+    "Position": {
+     "x": -264.2,
+     "y": 6.0,
+     "z": -376.75
+    },
+    "Rotation": {
+     "x": 0,
+     "y": 310.40195,
+     "z": 0
+    },
+    "IsGroupPosition": false,
+    "GroupPositions": [],
+    "IsAlwaysSpawn": false,
+    "Root": "677381b3c8d674fa770dc8b6",
+    "Items": [
+     {
+      "composedKey": "1973637103",
+      "_id": "677381b3c8d674fa770dc8b6",
+      "_tpl": "6389c8c5dbfd5e4b95197e6b",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "-94243013",
+      "_id": "68c373602f23cd6ad00c7e14",
+      "_tpl": "590c392f86f77444754deb29",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "-629100558",
+      "_id": "68c34b813b16c0df46073b60",
+      "_tpl": "6889e4cd3ff7e9cfbc0c507c",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "1838611151",
+      "_id": "68c27f9bbfb736ec0a0bdc8a",
+      "_tpl": "6389c8fb46b54c634724d847",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "882867683",
+      "_id": "68bde973adc0b9f09714e26c",
+      "_tpl": "590c651286f7741e566b6461",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "-1948394157",
+      "_id": "68bbecddaa4bd5b6c50a0d28",
+      "_tpl": "590c639286f774151567fa95",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     },
+     {
+      "composedKey": "2004291987",
+      "_id": "68b80d64aaf99a960d0c8a80",
+      "_tpl": "590c645c86f77412b01304d9",
+      "upd": {
+       "StackObjectsCount": 1
+      }
+     }
+    ]
+   },
+   "itemDistribution": [
+    {
+     "composedKey": {
+      "key": "1973637103"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "-94243013"
+     },
+     "relativeProbability": 7
+    },
+    {
+     "composedKey": {
+      "key": "-629100558"
+     },
+     "relativeProbability": 17
+    },
+    {
+     "composedKey": {
+      "key": "1838611151"
+     },
+     "relativeProbability": 2
+    },
+    {
+     "composedKey": {
+      "key": "882867683"
+     },
+     "relativeProbability": 1
+    },
+    {
+     "composedKey": {
+      "key": "-1948394157"
+     },
+     "relativeProbability": 7
+    },
+    {
+     "composedKey": {
+      "key": "2004291987"
+     },
+     "relativeProbability": 3
+    }
+   ]
+  }
+ ]
+}

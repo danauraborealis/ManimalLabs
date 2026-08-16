@@ -1,0 +1,102 @@
+{
+  "staticWeapons": [],
+  "staticContainers": [
+    {
+      "probability": 1,
+      "template": {
+        "Id": "container_Laboratory_DesignStuff_00279",
+        "IsContainer": true,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "65b6cea8380eb7bc629c4f4b",
+        "Items": [
+          {
+            "_id": "65b6cea8380eb7bc629c4f4b",
+            "_tpl": "578f8778245977358849a9b5",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "probability": 1,
+      "template": {
+        "Id": "container_Laboratory_DesignStuff_00304",
+        "IsContainer": true,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "38f7d53c1e3583c9edeb68f5",
+        "Items": [
+          {
+            "_id": "38f7d53c1e3583c9edeb68f5",
+            "_tpl": "578f87a3245977356274f2cb",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "probability": 1,
+      "template": {
+        "Id": "container_Laboratory_DesignStuff_00306",
+        "IsContainer": true,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": true,
+        "Root": "118a0a38989750873668887e",
+        "Items": [
+          {
+            "_id": "118a0a38989750873668887e",
+            "_tpl": "59139c2186f77411564f8e42",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "staticForced": []
+}

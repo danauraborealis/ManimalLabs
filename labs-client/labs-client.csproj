@@ -1,0 +1,117 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>Manimal.LabsBoiler</RootNamespace>
+    <AssemblyName>ManimalLabsBoiler</AssemblyName>
+    <Nullable>disable</Nullable>
+    <Authors>Manimal</Authors>
+    <AssemblyVersion>$(ModVersion).0</AssemblyVersion>
+    <FileVersion>$(AssemblyVersion)</FileVersion>
+    <Version>$(ModVersion)</Version>
+    <LangVersion>latest</LangVersion>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>$(SPTPath)\BepInEx\core\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>$(SPTPath)\BepInEx\core\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(SPTPath)\EscapeFromTarkov_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <!-- Player implements IDissonancePlayer, so any Player -> IPlayer conversion
+         (the audio-router AddPlayerCurrentRoom call) needs this on the ref path -->
+    <Reference Include="DissonanceVoip">
+      <HintPath>$(SPTPath)\EscapeFromTarkov_Data\Managed\DissonanceVoip.dll</HintPath>
+    </Reference>
+    <Reference Include="Comfort">
+      <HintPath>$(SPTPath)\EscapeFromTarkov_Data\Managed\Comfort.dll</HintPath>
+    </Reference>
+    <Reference Include="Comfort.Unity">
+      <HintPath>$(SPTPath)\EscapeFromTarkov_Data\Managed\Comfort.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>$(SPTPath)\EscapeFromTarkov_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>$(SPTPath)\EscapeFromTarkov_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <!-- RoomPair.AudioPortalData carries float2/float3 fields (bake-merge builds them) -->
+    <Reference Include="Unity.Mathematics">
+      <HintPath>$(SPTPath)\EscapeFromTarkov_Data\Managed\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(SPTPath)\EscapeFromTarkov_Data\Managed\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(SPTPath)\EscapeFromTarkov_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(SPTPath)\EscapeFromTarkov_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>$(SPTPath)\EscapeFromTarkov_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <!-- generate BuildInfo.g.cs from Directory.Build.props so [BepInPlugin] can use
+       BuildInfo.Version / BuildInfo.ModGuid as compile-time constants. -->
+  <Target Name="GenerateBuildInfo" BeforeTargets="CoreCompile">
+    <PropertyGroup>
+      <BuildInfoFile>$(IntermediateOutputPath)BuildInfo.g.cs</BuildInfoFile>
+    </PropertyGroup>
+    <ItemGroup>
+      <_BuildInfoLines Remove="@(_BuildInfoLines)" />
+      <_BuildInfoLines Include="// auto-generated from Directory.Build.props — do not edit" />
+      <_BuildInfoLines Include="namespace $(RootNamespace)" />
+      <_BuildInfoLines Include="{" />
+      <_BuildInfoLines Include="    internal static class BuildInfo" />
+      <_BuildInfoLines Include="    {" />
+      <_BuildInfoLines Include="        public const string Version = %22$(ModVersion)%22%3B" />
+      <_BuildInfoLines Include="        public const string ModGuid = %22$(ModGuid)%22%3B" />
+      <_BuildInfoLines Include="    }" />
+      <_BuildInfoLines Include="}" />
+    </ItemGroup>
+    <WriteLinesToFile File="$(BuildInfoFile)" Lines="@(_BuildInfoLines)" Overwrite="true" WriteOnlyWhenDifferent="true" />
+    <ItemGroup>
+      <Compile Include="$(BuildInfoFile)" />
+    </ItemGroup>
+  </Target>
+
+  <!-- deploy the dll next to the bundle the SDK build already dropped -->
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <ItemGroup>
+      <PluginData Include="$(ProjectDir)plugin-data\**\*.*" />
+    </ItemGroup>
+    <MakeDir Directories="$(SPTPath)\BepInEx\plugins\Manimal-LabsBoiler" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(SPTPath)\BepInEx\plugins\Manimal-LabsBoiler" />
+    <Copy SourceFiles="@(PluginData)" DestinationFiles="@(PluginData->'$(SPTPath)\BepInEx\plugins\Manimal-LabsBoiler\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(FikaPath)\BepInEx\plugins\Manimal-LabsBoiler" Condition="Exists('$(FikaPath)')" />
+    <Copy SourceFiles="@(PluginData)" DestinationFiles="@(PluginData->'$(FikaPath)\BepInEx\plugins\Manimal-LabsBoiler\%(RecursiveDir)%(Filename)%(Extension)')" Condition="Exists('$(FikaPath)')" />
+  </Target>
+
+  <!-- dll-update zip: client DLL + plugin-data only (NOT the 100MB scene bundle —
+       that ships in the combined release built by labs-server's PackageFullRelease) -->
+  <Target Name="PackageModForDistribution" AfterTargets="Build">
+    <PropertyGroup>
+      <ZipFileName>Manimal-LabsBoiler-client-DLL-UPDATE-$(ModVersion).zip</ZipFileName>
+      <TempPackageDir>$(ProjectDir)obj\Package</TempPackageDir>
+      <ModPackageDir>$(TempPackageDir)\BepInEx\plugins\Manimal-LabsBoiler</ModPackageDir>
+    </PropertyGroup>
+    <RemoveDir Directories="$(TempPackageDir)" />
+    <MakeDir Directories="$(ModPackageDir)" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModPackageDir)" />
+    <ItemGroup>
+      <PluginDataForZip Include="$(ProjectDir)plugin-data\**\*.*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(PluginDataForZip)" DestinationFiles="@(PluginDataForZip->'$(ModPackageDir)\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <ZipDirectory SourceDirectory="$(TempPackageDir)" DestinationFile="$(ProjectDir)$(ZipFileName)" Overwrite="true" />
+    <RemoveDir Directories="$(TempPackageDir)" />
+    <Message Text="--- dll-update zip at: $(ProjectDir)$(ZipFileName) ---" Importance="high" />
+  </Target>
+
+</Project>

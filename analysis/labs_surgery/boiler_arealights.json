@@ -1,0 +1,8777 @@
+{
+ "source": "retail current level114 area/tube lights in boiler expansion box, diffed vs SPT",
+ "bounds": {
+  "center": [
+   -263.93,
+   6.03,
+   -374.96
+  ],
+  "x": [
+   -269.14011122861456,
+   -249.4976828981042
+  ],
+  "y": [
+   3.617000102996826,
+   7.806000232696533
+  ],
+  "z": [
+   -381.2485470130611,
+   -358.8953857421875
+  ]
+ },
+ "margin": 2.0,
+ "newAreaLights": [
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Boiler_Room_floor_1/part1/ambient",
+   "name": "ambient",
+   "active": true,
+   "world": [
+    -264.653,
+    2.239,
+    -368.191
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    0.0,
+    0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.30000001192092896,
+    "length": 9.100000381469727,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 15.0,
+     "y": 15.0,
+     "z": 18.889999389648438
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.30000001192092896,
+    "m_Color": {
+     "r": 1.0,
+     "g": 0.9913792610168457,
+     "b": 0.875,
+     "a": 1.0
+    },
+    "m_Ambient": 1,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.336564941688201e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": null,
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      1065353216
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "unresolvedRef": 146028888064
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 2.0178697886277366e-43,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4228
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 2.2420775429197073e-44,
+    "m_LightFarSize": 0.0,
+    "m_ShadowBias": 0.0,
+    "m_Quad": {
+     "externalRef": [
+      16,
+      4545393031792033792
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1045891645,
+      4483423504134265897
+     ]
+    },
+    "m_ProxyShader": null,
+    "m_ShadowmapShader": {
+     "externalRef": [
+      143,
+      4294967296
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      3254
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 17.0,
+    "_radius": 12.601983070373535,
+    "_shift": {
+     "x": 5.045013427734375,
+     "y": -1.6700000762939453,
+     "z": 3.0889892578125
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 19073
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 65281
+    },
+    "_fadeStartDistance": 10.0,
+    "_fadeEndDistance": 17.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 0.07500000298023224,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_relax_zone/Laboratory_relax_zone_lift_02_O/Blue light logo TubeLight (29)",
+   "name": "Blue light logo TubeLight (29)",
+   "active": true,
+   "world": [
+    -255.433,
+    5.84,
+    -379.656
+   ],
+   "worldRot": [
+    4e-06,
+    -0.707109,
+    -0.0,
+    -0.707105
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "TubeLight",
+    "CullingAdvancedLightObject"
+   ],
+   "TubeLight": {
+    "m_Intensity": 0.0,
+    "m_Color": {
+     "r": 0.0,
+     "g": 0.5015211701393127,
+     "b": 0.6323529481887817,
+     "a": 1.0
+    },
+    "m_SpecularScale": 1.0,
+    "m_Range": 6.0,
+    "m_Radius": 0.9100000262260437,
+    "m_Length": 0.0,
+    "ShadowCube": {
+     "unresolvedRef": 38578
+    },
+    "InvertedShadowCube": {
+     "unresolvedRef": 38983
+    },
+    "ShadowRendererToDraw": {
+     "unresolvedRef": 146028888064
+    },
+    "ShadowRendererMaterial": {
+     "externalRef": [
+      10208,
+      4294967296
+     ]
+    },
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 0.0,
+    "InvertedShadowFeather": 0.0,
+    "m_Sphere": {
+     "externalRef": [
+      1063745255,
+      4575657222414070016
+     ]
+    },
+    "m_Capsule": {
+     "externalRef": [
+      1065353216,
+      274877906954
+     ]
+    },
+    "m_ProxyShader": null,
+    "m_Ambient": 62,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 1,
+    "m_SourceColor": {
+     "r": 4.559825202912955e-42,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": {
+     "externalRef": [
+      1065353216,
+      4575657222473777152
+     ]
+    }
+   },
+   "TubeLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 35.0,
+    "_radius": 6.909999847412109,
+    "_shift": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 19256
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 65339
+    },
+    "_fadeStartDistance": 25.0,
+    "_fadeEndDistance": 35.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 1.5,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Boiler_Room_floor_1/part1/ambient~2",
+   "name": "ambient",
+   "active": true,
+   "world": [
+    -258.886,
+    3.017,
+    -364.998
+   ],
+   "worldRot": [
+    0.5,
+    0.5,
+    -0.5,
+    0.5
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.30000001192092896,
+    "length": 9.100000381469727,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 15.0,
+     "y": 15.0,
+     "z": 18.889999389648438
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.30000001192092896,
+    "m_Color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_Ambient": 1,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.336564941688201e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": null,
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      1065353216
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "unresolvedRef": 146028888064
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 9.640933434554741e-43,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 3254
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.22794115543365479,
+    "m_LightFarSize": 0.7444217801094055,
+    "m_ShadowBias": 1.0,
+    "m_Quad": {
+     "externalRef": [
+      1065353216,
+      4585745284608294912
+     ]
+    },
+    "m_Cube": null,
+    "m_ProxyShader": null,
+    "m_ShadowmapShader": null,
+    "m_BlurShadowmapShader": {
+     "unresolvedRef": 43843026157602
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 17.0,
+    "_radius": 12.601983070373535,
+    "_shift": {
+     "x": -0.722015380859375,
+     "y": -2.448000192642212,
+     "z": -0.10400390625
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 19612
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 65462
+    },
+    "_fadeStartDistance": 10.0,
+    "_fadeEndDistance": 17.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 0.25,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Boiler_Room_floor_1/part2/AreaLight (25)",
+   "name": "AreaLight (25)",
+   "active": true,
+   "world": [
+    -264.653,
+    1.968,
+    -368.191
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    0.0,
+    0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.30000001192092896,
+    "length": 9.100000381469727,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 15.0,
+     "y": 15.0,
+     "z": 18.889999389648438
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.30000001192092896,
+    "m_Color": {
+     "r": 1.0,
+     "g": 0.9913792610168457,
+     "b": 0.875,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.336564941688201e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": null,
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      1065353216
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "unresolvedRef": 146028888064
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 1.0159413866354924e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4228
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.0,
+    "m_LightFarSize": 0.0,
+    "m_ShadowBias": 0.0,
+    "m_Quad": {
+     "externalRef": [
+      10,
+      4575657221408423936
+     ]
+    },
+    "m_Cube": null,
+    "m_ProxyShader": null,
+    "m_ShadowmapShader": {
+     "externalRef": [
+      723,
+      4294967296
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      4228
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 35.0,
+    "_radius": 12.601983070373535,
+    "_shift": {
+     "x": 5.045013427734375,
+     "y": -1.3989999294281006,
+     "z": 3.0889892578125
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 19638
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 65470
+    },
+    "_fadeStartDistance": 25.0,
+    "_fadeEndDistance": 35.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 5.0,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Boiler_Room_floor_1/part1/Negative/big (5)",
+   "name": "big (5)",
+   "active": true,
+   "world": [
+    -265.845,
+    4.189,
+    -373.152
+   ],
+   "worldRot": [
+    0.5,
+    0.5,
+    -0.5,
+    0.5
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 45.0,
+    "length": 1.2000000476837158,
+    "depth": 0.0,
+    "m_ClipBoxSize": {
+     "x": 54.000003814697266,
+     "y": 45.0,
+     "z": 1.7000000476837158
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.30000001192092896,
+    "m_Color": {
+     "r": 0.9852941036224365,
+     "g": 0.9632099270820618,
+     "b": 0.8911115527153015,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 1,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.336564941688201e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      1065353216
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "unresolvedRef": 146028888064
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 1.0481712513149632e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 7506
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 1.401298464324817e-44,
+    "m_LightNearSize": 0.37599998712539673,
+    "m_LightFarSize": 0.009999999776482582,
+    "m_ShadowBias": 0.8999999761581421,
+    "m_Quad": {
+     "externalRef": [
+      1038174126,
+      4453159312402939904
+     ]
+    },
+    "m_Cube": {
+     "unresolvedRef": 4356602133986934784
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065353216,
+      4629700417987123610
+     ]
+    },
+    "m_ShadowmapShader": null,
+    "m_BlurShadowmapShader": {
+     "unresolvedRef": 749
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 20.0,
+    "_radius": 12.601983070373535,
+    "_shift": {
+     "x": 6.23699951171875,
+     "y": -3.6200003623962402,
+     "z": 8.04998779296875
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 19685
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 65482
+    },
+    "_fadeStartDistance": 15.0,
+    "_fadeEndDistance": 20.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 0.03999999910593033,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Boiler_Room_floor_1/part1/GameObject~1/TubeLight (8)",
+   "name": "TubeLight (8)",
+   "active": true,
+   "world": [
+    -252.187,
+    1.913,
+    -359.062
+   ],
+   "worldRot": [
+    0.0,
+    0.49448,
+    0.0,
+    0.869189
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "TubeLight",
+    "CullingAdvancedLightObject"
+   ],
+   "TubeLight": {
+    "m_Intensity": 0.0,
+    "m_Color": {
+     "r": 0.22794115543365479,
+     "g": 0.7444217801094055,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_SpecularScale": 1.0,
+    "m_Range": 1.2799999713897705,
+    "m_Radius": 1.5800000429153442,
+    "m_Length": 0.0,
+    "ShadowCube": {
+     "unresolvedRef": 38083
+    },
+    "InvertedShadowCube": null,
+    "ShadowRendererToDraw": {
+     "unresolvedRef": 146028888064
+    },
+    "ShadowRendererMaterial": {
+     "externalRef": [
+      10208,
+      4294967296
+     ]
+    },
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 0.0,
+    "InvertedShadowFeather": 0.0,
+    "m_Sphere": {
+     "externalRef": [
+      1065353216,
+      4319217025956245760
+     ]
+    },
+    "m_Capsule": null,
+    "m_ProxyShader": null,
+    "m_Ambient": 213,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 1,
+    "m_SourceColor": {
+     "r": 5.924689907165327e-42,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": null
+   },
+   "TubeLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 15.0,
+    "_radius": 2.8600001335144043,
+    "_shift": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 20187
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 65648
+    },
+    "_fadeStartDistance": 10.0,
+    "_fadeEndDistance": 15.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 0.6000000238418579,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Boiler_Room_floor_1/part1/GameObject (1)/AreaLight (27)",
+   "name": "AreaLight (27)",
+   "active": true,
+   "world": [
+    -250.328,
+    2.189,
+    -362.396
+   ],
+   "worldRot": [
+    0.194058,
+    0.679957,
+    -0.679957,
+    -0.194058
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.4000000059604645,
+    "length": 1.100000023841858,
+    "depth": 7.849999904632568,
+    "m_ClipBoxSize": {
+     "x": 6.330000400543213,
+     "y": 6.0,
+     "z": 53.459999084472656
+    },
+    "m_Angle": 85.0,
+    "m_Hardness": 0.029999999329447746,
+    "m_SpecularScale": 0.30000001192092896,
+    "m_Color": {
+     "r": 0.7279411554336548,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.336564941688201e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 5.329278189673712e-41
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 4453159313439771853
+    },
+    "IsShadowCubeAnimated": 1,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      1065353216
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "unresolvedRef": 146028888064
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 2.1734139181677913e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4228
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 2.2420775429197073e-44,
+    "m_LightFarSize": 0.0,
+    "m_ShadowBias": 0.0,
+    "m_Quad": {
+     "externalRef": [
+      16,
+      4545393031792033792
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1045891645,
+      4483423504134265897
+     ]
+    },
+    "m_ProxyShader": null,
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1549,
+      4294967296
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      4228
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 11.670598983764648,
+    "_shift": {
+     "x": -2.0716357231140137,
+     "y": -3.3337595462799072,
+     "z": 0.0
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 20491
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 65749
+    },
+    "_fadeStartDistance": 15.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 13.0,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Boiler_Room_floor_1/part1/GameObject~2/TubeLight (9)",
+   "name": "TubeLight (9)",
+   "active": true,
+   "world": [
+    -267.509,
+    1.913,
+    -359.062
+   ],
+   "worldRot": [
+    0.0,
+    0.49448,
+    0.0,
+    0.869189
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "TubeLight",
+    "CullingAdvancedLightObject"
+   ],
+   "TubeLight": {
+    "m_Intensity": 0.0,
+    "m_Color": {
+     "r": 0.22794115543365479,
+     "g": 0.7444217801094055,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_SpecularScale": 1.0,
+    "m_Range": 1.2799999713897705,
+    "m_Radius": 1.5800000429153442,
+    "m_Length": 0.0,
+    "ShadowCube": {
+     "unresolvedRef": 38083
+    },
+    "InvertedShadowCube": null,
+    "ShadowRendererToDraw": {
+     "unresolvedRef": 146028888064
+    },
+    "ShadowRendererMaterial": {
+     "externalRef": [
+      10208,
+      4294967296
+     ]
+    },
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 0.0,
+    "InvertedShadowFeather": 0.0,
+    "m_Sphere": {
+     "externalRef": [
+      1065353216,
+      4319217025956245760
+     ]
+    },
+    "m_Capsule": null,
+    "m_ProxyShader": null,
+    "m_Ambient": 232,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 1,
+    "m_SourceColor": {
+     "r": 4.559825202912955e-42,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": {
+     "externalRef": [
+      1058316146,
+      4566120187460847882
+     ]
+    }
+   },
+   "TubeLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 15.0,
+    "_radius": 2.8600001335144043,
+    "_shift": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 20970
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 65913
+    },
+    "_fadeStartDistance": 10.0,
+    "_fadeEndDistance": 15.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 0.6000000238418579,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Boiler_Room_floor_1/part2/AreaLight (28)",
+   "name": "AreaLight (28)",
+   "active": true,
+   "world": [
+    -267.477,
+    2.189,
+    -358.779
+   ],
+   "worldRot": [
+    0.618022,
+    0.618022,
+    -0.343582,
+    0.343582
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.4000000059604645,
+    "length": 1.100000023841858,
+    "depth": 7.849999904632568,
+    "m_ClipBoxSize": {
+     "x": 6.330000400543213,
+     "y": 6.0,
+     "z": 53.459999084472656
+    },
+    "m_Angle": 85.0,
+    "m_Hardness": 0.029999999329447746,
+    "m_SpecularScale": 0.30000001192092896,
+    "m_Color": {
+     "r": 0.7279411554336548,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.336564941688201e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 5.329278189673712e-41
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 4453159313439771853
+    },
+    "IsShadowCubeAnimated": 1,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      1065353216
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "unresolvedRef": 146028888064
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 2.8544449718296524e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4228
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 2.2420775429197073e-44,
+    "m_LightFarSize": 0.0,
+    "m_ShadowBias": 0.0,
+    "m_Quad": {
+     "externalRef": [
+      16,
+      4545393031792033792
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1045891645,
+      4483423504134265897
+     ]
+    },
+    "m_ProxyShader": null,
+    "m_ShadowmapShader": {
+     "externalRef": [
+      2044,
+      4294967296
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      3254
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 11.670598983764648,
+    "_shift": {
+     "x": 3.5092233474642853e-07,
+     "y": -3.3337595462799072,
+     "z": -2.0716354846954346
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 20992
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 65924
+    },
+    "_fadeStartDistance": 15.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 5.0,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Boiler_Room_floor_1/part1/GameObject~1/AreaLight (27)",
+   "name": "AreaLight (27)",
+   "active": true,
+   "world": [
+    -252.077,
+    2.189,
+    -358.779
+   ],
+   "worldRot": [
+    0.618022,
+    0.618022,
+    -0.343582,
+    0.343582
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.4000000059604645,
+    "length": 1.100000023841858,
+    "depth": 7.849999904632568,
+    "m_ClipBoxSize": {
+     "x": 6.330000400543213,
+     "y": 6.0,
+     "z": 53.459999084472656
+    },
+    "m_Angle": 85.0,
+    "m_Hardness": 0.029999999329447746,
+    "m_SpecularScale": 0.30000001192092896,
+    "m_Color": {
+     "r": 0.7279411554336548,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.336564941688201e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 5.329278189673712e-41
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 4453159313439771853
+    },
+    "IsShadowCubeAnimated": 1,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      1065353216
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "unresolvedRef": 146028888064
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 2.9441280735464407e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 3254
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 1.0,
+    "m_LightFarSize": 1.0,
+    "m_ShadowBias": 1.0,
+    "m_Quad": {
+     "externalRef": [
+      1065353216,
+      4646453809818632192
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1050253722,
+      1075629261
+     ]
+    },
+    "m_ProxyShader": null,
+    "m_ShadowmapShader": null,
+    "m_BlurShadowmapShader": {
+     "unresolvedRef": 43843026157602
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 11.670598983764648,
+    "_shift": {
+     "x": 3.5092233474642853e-07,
+     "y": -3.3337595462799072,
+     "z": -2.0716354846954346
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 21022
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 65933
+    },
+    "_fadeStartDistance": 15.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 13.0,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/Part2/TubeLight (29)",
+   "name": "TubeLight (29)",
+   "active": true,
+   "world": [
+    -258.391,
+    6.033,
+    -362.615
+   ],
+   "worldRot": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "TubeLight",
+    "CullingAdvancedLightObject"
+   ],
+   "TubeLight": {
+    "m_Intensity": 0.0,
+    "m_Color": {
+     "r": 0.5879649519920349,
+     "g": 0.8094944357872009,
+     "b": 0.9191176295280457,
+     "a": 1.0
+    },
+    "m_SpecularScale": 1.0,
+    "m_Range": 9.539999961853027,
+    "m_Radius": 1.0299999713897705,
+    "m_Length": 0.0,
+    "ShadowCube": {
+     "unresolvedRef": 38573
+    },
+    "InvertedShadowCube": {
+     "unresolvedRef": 39004
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      1045220557,
+      147065720013
+     ]
+    },
+    "ShadowRendererMaterial": {
+     "externalRef": [
+      10208,
+      4294967296
+     ]
+    },
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 0.0,
+    "InvertedShadowFeather": 0.0,
+    "m_Sphere": {
+     "externalRef": [
+      1065353216,
+      4319217025956245760
+     ]
+    },
+    "m_Capsule": {
+     "externalRef": [
+      1065353216,
+      274877906954
+     ]
+    },
+    "m_ProxyShader": null,
+    "m_Ambient": 49,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 1,
+    "m_SourceColor": {
+     "r": 4.559825202912955e-42,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": {
+     "externalRef": [
+      1065353216,
+      4575657222473777152
+     ]
+    }
+   },
+   "TubeLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 30.0,
+    "_radius": 10.569999694824219,
+    "_shift": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 21041
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 65935
+    },
+    "_fadeStartDistance": 25.0,
+    "_fadeEndDistance": 30.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 0.5,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Boiler_Room_floor_1/part1/GameObject/TubeLight (7)",
+   "name": "TubeLight (7)",
+   "active": true,
+   "world": [
+    -262.353,
+    1.913,
+    -359.062
+   ],
+   "worldRot": [
+    0.041435,
+    0.493917,
+    0.023572,
+    0.868201
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "TubeLight",
+    "CullingAdvancedLightObject"
+   ],
+   "TubeLight": {
+    "m_Intensity": 0.0,
+    "m_Color": {
+     "r": 0.22794115543365479,
+     "g": 0.7444217801094055,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_SpecularScale": 1.0,
+    "m_Range": 1.2799999713897705,
+    "m_Radius": 1.5800000429153442,
+    "m_Length": 0.0,
+    "ShadowCube": {
+     "unresolvedRef": 38083
+    },
+    "InvertedShadowCube": null,
+    "ShadowRendererToDraw": {
+     "unresolvedRef": 146028888064
+    },
+    "ShadowRendererMaterial": {
+     "externalRef": [
+      10208,
+      4294967296
+     ]
+    },
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 0.0,
+    "InvertedShadowFeather": 0.0,
+    "m_Sphere": {
+     "externalRef": [
+      1065353216,
+      4319217025956245760
+     ]
+    },
+    "m_Capsule": null,
+    "m_ProxyShader": null,
+    "m_Ambient": 35,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 1,
+    "m_SourceColor": {
+     "r": 1.0518146273222077e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 1.2611686178923354e-44
+    },
+    "SourceMaterial": {
+     "externalRef": [
+      1047770694,
+      4561173647804636070
+     ]
+    }
+   },
+   "TubeLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 15.0,
+    "_radius": 2.8600001335144043,
+    "_shift": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 21278
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 66017
+    },
+    "_fadeStartDistance": 10.0,
+    "_fadeEndDistance": 15.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 0.6000000238418579,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Boiler_Room_floor_1/part2/AreaLight (26)",
+   "name": "AreaLight (26)",
+   "active": true,
+   "world": [
+    -262.295,
+    2.189,
+    -358.779
+   ],
+   "worldRot": [
+    0.633698,
+    0.633698,
+    -0.31373,
+    0.31373
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.4000000059604645,
+    "length": 1.100000023841858,
+    "depth": 7.849999904632568,
+    "m_ClipBoxSize": {
+     "x": 6.330000400543213,
+     "y": 6.0,
+     "z": 53.459999084472656
+    },
+    "m_Angle": 85.0,
+    "m_Hardness": 0.029999999329447746,
+    "m_SpecularScale": 0.30000001192092896,
+    "m_Color": {
+     "r": 0.7279411554336548,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.336564941688201e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 5.329278189673712e-41
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 4453159313439771853
+    },
+    "IsShadowCubeAnimated": 1,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      1065353216
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "unresolvedRef": 146028888064
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 3.506048757740692e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4228
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 2.2420775429197073e-44,
+    "m_LightFarSize": 0.0,
+    "m_ShadowBias": 0.0,
+    "m_Quad": {
+     "externalRef": [
+      16,
+      4545393031792033792
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1045891645,
+      4483423504134265897
+     ]
+    },
+    "m_ProxyShader": null,
+    "m_ShadowmapShader": {
+     "externalRef": [
+      2525,
+      4294967296
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      7506
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 15.0,
+    "_radius": 11.670598983764648,
+    "_shift": {
+     "x": -3.5092233474642853e-07,
+     "y": -3.121319055557251,
+     "z": -2.379704713821411
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 21447
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 66073
+    },
+    "_fadeStartDistance": 5.0,
+    "_fadeEndDistance": 15.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 5.0,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Boiler_Room_floor_1/part2/AreaLight (24)",
+   "name": "AreaLight (24)",
+   "active": true,
+   "world": [
+    -259.013,
+    1.968,
+    -368.191
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    0.0,
+    0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.30000001192092896,
+    "length": 9.100000381469727,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 15.0,
+     "y": 15.0,
+     "z": 18.889999389648438
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.30000001192092896,
+    "m_Color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.336564941688201e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": null,
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      1065353216
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "unresolvedRef": 146028888064
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 3.8045253306418783e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 7506
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 8.267660939516421e-44,
+    "m_LightNearSize": 0.7639999985694885,
+    "m_LightFarSize": 0.08720000088214874,
+    "m_ShadowBias": 0.10100000351667404,
+    "m_Quad": {
+     "unresolvedRef": 4453159312402939904
+    },
+    "m_Cube": {
+     "unresolvedRef": 4356602133986934784
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065353216,
+      4629700417987123610
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1077936128,
+      1137180672
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "unresolvedRef": 2734
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 35.0,
+    "_radius": 12.601983070373535,
+    "_shift": {
+     "x": -0.595001220703125,
+     "y": -1.3989999294281006,
+     "z": 3.0889892578125
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 21654
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 66132
+    },
+    "_fadeStartDistance": 25.0,
+    "_fadeEndDistance": 35.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 5.0,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Boiler_Room_floor_1/part1/AreaLight (23)",
+   "name": "AreaLight (23)",
+   "active": true,
+   "world": [
+    -258.886,
+    2.406,
+    -364.998
+   ],
+   "worldRot": [
+    0.5,
+    0.5,
+    -0.5,
+    0.5
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.30000001192092896,
+    "length": 9.100000381469727,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 15.0,
+     "y": 15.0,
+     "z": 18.889999389648438
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.30000001192092896,
+    "m_Color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.336564941688201e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": null,
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      1065353216
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "unresolvedRef": 146028888064
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 4.06096294961332e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 3254
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 1.0,
+    "m_LightFarSize": 1.0,
+    "m_ShadowBias": 1.0,
+    "m_Quad": {
+     "externalRef": [
+      1065353216,
+      4594031908609851392
+     ]
+    },
+    "m_Cube": null,
+    "m_ProxyShader": null,
+    "m_ShadowmapShader": null,
+    "m_BlurShadowmapShader": {
+     "unresolvedRef": 43843026157602
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 12.601983070373535,
+    "_shift": {
+     "x": -0.722015380859375,
+     "y": -1.8370001316070557,
+     "z": -0.10400390625
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 21840
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 66202
+    },
+    "_fadeStartDistance": 15.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 7.5,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Boiler_Room_floor_1/part1/GameObject (1)/TubeLight (8)",
+   "name": "TubeLight (8)",
+   "active": true,
+   "world": [
+    -250.611,
+    1.913,
+    -362.286
+   ],
+   "worldRot": [
+    0.0,
+    0.96426,
+    0.0,
+    0.26496
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "TubeLight",
+    "CullingAdvancedLightObject"
+   ],
+   "TubeLight": {
+    "m_Intensity": 0.0,
+    "m_Color": {
+     "r": 0.22794115543365479,
+     "g": 0.7444217801094055,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_SpecularScale": 1.0,
+    "m_Range": 1.2799999713897705,
+    "m_Radius": 1.5800000429153442,
+    "m_Length": 0.0,
+    "ShadowCube": {
+     "unresolvedRef": 38083
+    },
+    "InvertedShadowCube": null,
+    "ShadowRendererToDraw": {
+     "unresolvedRef": 146028888064
+    },
+    "ShadowRendererMaterial": {
+     "externalRef": [
+      10208,
+      4294967296
+     ]
+    },
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 0.0,
+    "InvertedShadowFeather": 0.0,
+    "m_Sphere": {
+     "externalRef": [
+      1065353216,
+      4319217025956245760
+     ]
+    },
+    "m_Capsule": null,
+    "m_ProxyShader": null,
+    "m_Ambient": 152,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 1,
+    "m_SourceColor": {
+     "r": 5.924689907165327e-42,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": null
+   },
+   "TubeLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 15.0,
+    "_radius": 2.8600001335144043,
+    "_shift": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 21882
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 66216
+    },
+    "_fadeStartDistance": 10.0,
+    "_fadeEndDistance": 15.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 0.6000000238418579,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Boiler_Room_floor_1/part1/ambient~1",
+   "name": "ambient",
+   "active": true,
+   "world": [
+    -259.013,
+    2.236,
+    -368.191
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    0.0,
+    0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.30000001192092896,
+    "length": 9.100000381469727,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 15.0,
+     "y": 15.0,
+     "z": 18.889999389648438
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.30000001192092896,
+    "m_Color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_Ambient": 1,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.336564941688201e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": null,
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      1065353216
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "unresolvedRef": 146028888064
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 2.3588057049979646e-41,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4228
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.0,
+    "m_LightFarSize": 0.0,
+    "m_ShadowBias": 0.0,
+    "m_Quad": {
+     "externalRef": [
+      10,
+      4575657221408423936
+     ]
+    },
+    "m_Cube": null,
+    "m_ProxyShader": null,
+    "m_ShadowmapShader": {
+     "externalRef": [
+      16834,
+      4294967296
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      4228
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 17.0,
+    "_radius": 12.601983070373535,
+    "_shift": {
+     "x": -0.595001220703125,
+     "y": -1.6670000553131104,
+     "z": 3.0889892578125
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 22374
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 66373
+    },
+    "_fadeStartDistance": 10.0,
+    "_fadeEndDistance": 17.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 0.07500000298023224,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AREA_LIGHTS/AreaLight (101)~1",
+   "name": "AreaLight (101)",
+   "active": true,
+   "world": [
+    -258.911,
+    7.244,
+    -376.41
+   ],
+   "worldRot": [
+    0.499998,
+    0.500002,
+    -0.500001,
+    0.499999
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.1670949012041092,
+    "length": 51.61452102661133,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 15.11151123046875,
+     "y": 10.0,
+     "z": 10.0
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.14100000262260437,
+    "m_Color": {
+     "r": 0.7311320900917053,
+     "g": 1.0,
+     "b": 0.9824218153953552,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 0.0,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 7.041524783232206e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 2.559999942779541,
+    "m_LightFarSize": 1.0,
+    "m_ShadowBias": 0.0,
+    "m_Quad": {
+     "externalRef": [
+      1082612777,
+      4613307313829917491
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120580403,
+      4453159312402939904
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065353216,
+      4575657222473777152
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1065353216,
+      4294967296
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "unresolvedRef": 166125040041984
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 8.66025447845459,
+    "_shift": {
+     "x": 0.07123544812202454,
+     "y": -4.999478816986084,
+     "z": 0.011937141418457031
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 23491
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 66378
+    },
+    "_fadeStartDistance": 20.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 1.0,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AreaLight (87)",
+   "name": "AreaLight (87)",
+   "active": true,
+   "world": [
+    -265.574,
+    5.183,
+    -362.774
+   ],
+   "worldRot": [
+    1e-06,
+    -5e-06,
+    2e-06,
+    -1.0
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.30000001192092896,
+    "length": 1.8899999856948853,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 10.0,
+     "y": 10.0,
+     "z": 10.0
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.328000009059906,
+    "m_Color": {
+     "r": 0.6963667273521423,
+     "g": 0.8394135236740112,
+     "b": 0.845588207244873,
+     "a": 1.0
+    },
+    "m_Ambient": 1,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.405228566440117e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 5.409992981218821e-41
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 6.834132610512133e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.1899999976158142,
+    "m_LightFarSize": 1.6399999856948853,
+    "m_ShadowBias": 2.0,
+    "m_Quad": {
+     "externalRef": [
+      1092616192,
+      4692750812812673024
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4514840613346082816
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1064958170,
+      4566295499438185050
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1065353216,
+      1
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      165579579195392
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 8.66025447845459,
+    "_shift": {
+     "x": 4.7683723096270114e-05,
+     "y": 7.450496468663914e-06,
+     "z": 5.0
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 23415
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 66594
+    },
+    "_fadeStartDistance": 20.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 1.5,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/Part2/AreaLight (86)",
+   "name": "AreaLight (86)",
+   "active": true,
+   "world": [
+    -258.431,
+    7.126,
+    -362.604
+   ],
+   "worldRot": [
+    -0.499998,
+    -0.500002,
+    0.500003,
+    -0.499997
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 1.0,
+    "length": 1.0,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 10.0,
+     "y": 10.0,
+     "z": 5.0
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.328000009059906,
+    "m_Color": {
+     "r": 0.976453423500061,
+     "g": 0.9779411554336548,
+     "b": 0.8700799942016602,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.405228566440117e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 7.295159805274998e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 0,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.10000000149011612,
+    "m_LightNearSize": 0.5,
+    "m_LightFarSize": 2.130000114440918,
+    "m_ShadowBias": 0.0,
+    "m_Quad": {
+     "externalRef": [
+      1083401306,
+      4611866163305030615
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120580403,
+      4453159312402939904
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065353216,
+      4575657222473777152
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1065353216,
+      4294967296
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      164222369529856
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 40.0,
+    "_radius": 7.5,
+    "_shift": {
+     "x": -6.183981895446777e-06,
+     "y": -2.5,
+     "z": 1.430511474609375e-06
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 23766
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 66665
+    },
+    "_fadeStartDistance": 35.0,
+    "_fadeEndDistance": 40.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 3.4000000953674316,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/ambient",
+   "name": "ambient",
+   "active": true,
+   "world": [
+    -258.419,
+    8.483,
+    -362.609
+   ],
+   "worldRot": [
+    -0.499998,
+    -0.500002,
+    0.500003,
+    -0.499997
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 1.3799999952316284,
+    "length": 1.0,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 10.0,
+     "y": 5.559999942779541,
+     "z": 9.600000381469727
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.10000000149011612,
+    "m_Color": {
+     "r": 0.976453423500061,
+     "g": 0.9779411554336548,
+     "b": 0.8700799942016602,
+     "a": 1.0
+    },
+    "m_Ambient": 1,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.405228566440117e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 6.298836597140053e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 7.5,
+    "m_LightNearSize": 0.27000001072883606,
+    "m_LightFarSize": 7.699999809265137,
+    "m_ShadowBias": 2.0,
+    "m_Quad": {
+     "externalRef": [
+      1092616192,
+      4690949374672497541
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4539628424389459968
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065353216,
+      4542277604229633433
+     ]
+    },
+    "m_ShadowmapShader": null,
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      164638981357568
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 20.0,
+    "_radius": 7.467824935913086,
+    "_shift": {
+     "x": -1.2302399227337446e-05,
+     "y": -4.800000190734863,
+     "z": 2.384185791015625e-06
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 23800
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 66975
+    },
+    "_fadeStartDistance": 15.0,
+    "_fadeEndDistance": 20.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 0.14000000059604645,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_parking/Part2/Zone_exit_L01/AreaLight (9)",
+   "name": "AreaLight (9)",
+   "active": true,
+   "world": [
+    -248.656,
+    3.152,
+    -379.427
+   ],
+   "worldRot": [
+    0.645229,
+    0.26741,
+    0.263447,
+    -0.665407
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.4099999964237213,
+    "length": 6.880000114440918,
+    "depth": 0.0,
+    "m_ClipBoxSize": {
+     "x": 12.479999542236328,
+     "y": 5.159999847412109,
+     "z": 10.050000190734863
+    },
+    "m_Angle": 20.700000762939453,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 1.0,
+    "m_Color": {
+     "r": 0.9485294222831726,
+     "g": 0.9510141611099243,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.379584804542973e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": null,
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 6.28061971710383e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.4399999976158142,
+    "m_LightFarSize": 7.800000190734863,
+    "m_ShadowBias": 2.0,
+    "m_Quad": {
+     "externalRef": [
+      1091263529,
+      4611686019490560082
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4453159312402939904
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065353216,
+      4575657222473777152
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1065353216,
+      4294967296
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      164638981357568
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 15.0,
+    "_radius": 8.416924476623535,
+    "_shift": {
+     "x": -0.07993147522211075,
+     "y": 5.022875785827637,
+     "z": 0.12231826782226562
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 23809
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 66991
+    },
+    "_fadeStartDistance": 10.0,
+    "_fadeEndDistance": 15.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 0.25,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AreaLight (88)",
+   "name": "AreaLight (88)",
+   "active": true,
+   "world": [
+    -263.751,
+    5.487,
+    -363.605
+   ],
+   "worldRot": [
+    -0.686332,
+    0.160208,
+    -0.17014,
+    -0.68872
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.03999999910593033,
+    "length": 7.900000095367432,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 10.0,
+     "y": 10.0,
+     "z": 10.0
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.328000009059906,
+    "m_Color": {
+     "r": 0.976453423500061,
+     "g": 0.9779411554336548,
+     "b": 0.8700799942016602,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.405228566440117e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 5.409992981218821e-41
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 6.20214700310164e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.6000000238418579,
+    "m_LightFarSize": 1.0,
+    "m_ShadowBias": 2.0,
+    "m_Quad": {
+     "externalRef": [
+      1091567616,
+      4665549071228862464
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4489188109421903872
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1064366321,
+      4575481828894310400
+     ]
+    },
+    "m_ShadowmapShader": null,
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      163019778686976
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 8.66025447845459,
+    "_shift": {
+     "x": 0.06433889269828796,
+     "y": -4.999478340148926,
+     "z": 0.032822608947753906
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 23865
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 67042
+    },
+    "_fadeStartDistance": 20.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 12.0,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_parking/Part3/ambient_Control_room_L",
+   "name": "ambient_Control_room_L",
+   "active": true,
+   "world": [
+    -248.212,
+    3.801,
+    -379.605
+   ],
+   "worldRot": [
+    -0.0,
+    0.707107,
+    0.707107,
+    0.0
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 7.099999904632568,
+    "length": 2.0,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 25.829999923706055,
+     "y": 15.0,
+     "z": 22.790000915527344
+    },
+    "m_Angle": 0.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.47099998593330383,
+    "m_Color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_Ambient": 1,
+    "m_Negative": 0,
+    "m_Specular": 0,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.463382452709597e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1034147594
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 6.682792376365053e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.17000000178813934,
+    "m_LightFarSize": 12.279999732971191,
+    "m_ShadowBias": 2.0,
+    "m_Quad": {
+     "externalRef": [
+      1092616192,
+      4690499012998987776
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4539628424389459968
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1063526371,
+      4574035906679028796
+     ]
+    },
+    "m_ShadowmapShader": null,
+    "m_BlurShadowmapShader": null
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 80.0,
+    "_radius": 1.0,
+    "_shift": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 1,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 24181
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 67159
+    },
+    "_fadeStartDistance": 50.0,
+    "_fadeEndDistance": 80.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.0,
+       "outWeight": 0.0
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.0,
+       "outWeight": 0.0
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 0.10000000149011612,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AreaLight (91)",
+   "name": "AreaLight (91)",
+   "active": true,
+   "world": [
+    -263.502,
+    5.155,
+    -369.127
+   ],
+   "worldRot": [
+    0.181726,
+    -0.687723,
+    -0.184239,
+    -0.678284
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.1899999976158142,
+    "length": 1.6399999856948853,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 10.0,
+     "y": 10.0,
+     "z": 10.0
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.328000009059906,
+    "m_Color": {
+     "r": 0.976453423500061,
+     "g": 0.9779411554336548,
+     "b": 0.8700799942016602,
+     "a": 1.0
+    },
+    "m_Ambient": 1,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.405228566440117e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 5.409992981218821e-41
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 6.481005397502279e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.30000001192092896,
+    "m_LightFarSize": 20.0,
+    "m_ShadowBias": 2.0,
+    "m_Quad": {
+     "externalRef": [
+      1099206492,
+      4656722015795806208
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4510805388492275712
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065353216,
+      4575657222473777152
+     ]
+    },
+    "m_ShadowmapShader": null,
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      165055593185280
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 8.66025447845459,
+    "_shift": {
+     "x": 4.32990026473999,
+     "y": 2.49967622756958,
+     "z": -0.059871673583984375
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 24092
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 67248
+    },
+    "_fadeStartDistance": 20.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 2.299999952316284,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_parking/Part2/Zone_exit_L01/AreaLight (7)",
+   "name": "AreaLight (7)",
+   "active": true,
+   "world": [
+    -248.645,
+    3.42,
+    -379.473
+   ],
+   "worldRot": [
+    0.656279,
+    -0.267176,
+    0.263684,
+    0.654512
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.4099999964237213,
+    "length": 6.880000114440918,
+    "depth": 0.0,
+    "m_ClipBoxSize": {
+     "x": 12.479999542236328,
+     "y": 5.159999847412109,
+     "z": 10.050000190734863
+    },
+    "m_Angle": 20.700000762939453,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 1.0,
+    "m_Color": {
+     "r": 0.9485294222831726,
+     "g": 0.9510141611099243,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.379584804542973e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": null,
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 6.482406695966604e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 2.130000114440918,
+    "m_LightFarSize": 2.7699999809265137,
+    "m_ShadowBias": 0.0,
+    "m_Quad": {
+     "externalRef": [
+      1091198308,
+      4572774917176976998
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1127415808,
+      4575657221408423936
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1057334694,
+      4541217932713502118
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1065353216,
+      4294967296
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      166666205921280
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 35.0,
+    "_radius": 8.416924476623535,
+    "_shift": {
+     "x": -0.018293673172593117,
+     "y": -5.024924278259277,
+     "z": -0.020955562591552734
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 24115
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 67253
+    },
+    "_fadeStartDistance": 25.0,
+    "_fadeEndDistance": 35.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 2.5999999046325684,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AREA_LIGHTS/AreaLight (101)",
+   "name": "AreaLight (101)",
+   "active": true,
+   "world": [
+    -262.286,
+    7.244,
+    -380.703
+   ],
+   "worldRot": [
+    -1e-06,
+    0.707108,
+    -0.707106,
+    -1e-06
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.1670949012041092,
+    "length": 42.19246292114258,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 15.11151123046875,
+     "y": 10.0,
+     "z": 10.0
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.14100000262260437,
+    "m_Color": {
+     "r": 0.7311320900917053,
+     "g": 1.0,
+     "b": 0.9824218153953552,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 0.0,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 5.592582171120345e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.30000001192092896,
+    "m_LightFarSize": 10.0,
+    "m_ShadowBias": 2.0,
+    "m_Quad": {
+     "externalRef": [
+      1094283428,
+      4674736414307626516
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4510805388492275712
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065353216,
+      4575657222473777152
+     ]
+    },
+    "m_ShadowmapShader": null,
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      165055593185280
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 8.66025447845459,
+    "_shift": {
+     "x": 0.07123544812202454,
+     "y": -4.999478816986084,
+     "z": 0.011937141418457031
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 22429
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 67428
+    },
+    "_fadeStartDistance": 20.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 1.0,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_relax_zone/relax_zone_floor_01_corridor_E/AreaLight (18)",
+   "name": "AreaLight (18)",
+   "active": true,
+   "world": [
+    -247.981,
+    3.698,
+    -373.323
+   ],
+   "worldRot": [
+    0.5,
+    0.5,
+    -0.5,
+    0.5
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.30000001192092896,
+    "length": 10.0,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 11.59000015258789,
+     "y": 14.229999542236328,
+     "z": 7.0
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.30000001192092896,
+    "m_Color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.385189998400272e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": null,
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 5.589779574191695e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.3700000047683716,
+    "m_LightFarSize": 10.199999809265137,
+    "m_ShadowBias": 2.0,
+    "m_Quad": {
+     "externalRef": [
+      1086282793,
+      4637086322955187651
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4539628424389459968
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065353216,
+      4575657222473777152
+     ]
+    },
+    "m_ShadowmapShader": null,
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      166666205921280
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 60.0,
+    "_radius": 9.821163177490234,
+    "_shift": {
+     "x": 0.0,
+     "y": -3.5,
+     "z": 0.0
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 22428
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 67429
+    },
+    "_fadeStartDistance": 45.0,
+    "_fadeEndDistance": 60.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 4.0,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_parking/Control_room_L/AreaLight (10)",
+   "name": "AreaLight (10)",
+   "active": true,
+   "world": [
+    -250.663,
+    7.122,
+    -381.04
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    0.0,
+    0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.6000000238418579,
+    "length": 1.0,
+    "depth": 0.0,
+    "m_ClipBoxSize": {
+     "x": 7.400000095367432,
+     "y": 4.480000019073486,
+     "z": 8.699999809265137
+    },
+    "m_Angle": 20.700000762939453,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.14499999582767487,
+    "m_Color": {
+     "r": 0.9485294222831726,
+     "g": 0.9510141611099243,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.463382452709597e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": null,
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 5.5659575002981734e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 1.5,
+    "m_LightFarSize": 10.0,
+    "m_ShadowBias": 0.0,
+    "m_Quad": {
+     "externalRef": [
+      1097859072,
+      4572774917176976998
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1127415808,
+      4575657221408423936
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1057334694,
+      4541217932713502118
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1065353216,
+      4294967296
+     ]
+    },
+    "m_BlurShadowmapShader": null
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 20.0,
+    "_radius": 6.134337425231934,
+    "_shift": {
+     "x": 0.0,
+     "y": -4.350000381469727,
+     "z": -4.76837158203125e-07
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 22454
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 67498
+    },
+    "_fadeStartDistance": 10.0,
+    "_fadeEndDistance": 20.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 3.4000000953674316,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_parking/Control_room_L/AreaLight (18)",
+   "name": "AreaLight (18)",
+   "active": true,
+   "world": [
+    -250.663,
+    7.122,
+    -378.581
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    0.0,
+    0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.6000000238418579,
+    "length": 1.0,
+    "depth": 0.0,
+    "m_ClipBoxSize": {
+     "x": 7.400000095367432,
+     "y": 4.480000019073486,
+     "z": 8.699999809265137
+    },
+    "m_Angle": 20.700000762939453,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.14499999582767487,
+    "m_Color": {
+     "r": 0.9485294222831726,
+     "g": 0.9510141611099243,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.463382452709597e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": null,
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 6.017175605810765e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.18000000715255737,
+    "m_LightFarSize": 300.0,
+    "m_ShadowBias": 2.0,
+    "m_Quad": {
+     "externalRef": [
+      1121714176,
+      4611866163316271350
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120580403,
+      4453159312402939904
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065353216,
+      4575657222473777152
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1065353216,
+      4294967296
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "unresolvedRef": 167138652323840
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 20.0,
+    "_radius": 6.134337425231934,
+    "_shift": {
+     "x": 0.0,
+     "y": -4.350000381469727,
+     "z": -4.76837158203125e-07
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 22840
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 67594
+    },
+    "_fadeStartDistance": 10.0,
+    "_fadeEndDistance": 20.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 3.4000000953674316,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_parking/Control_room_L/AreaLight (16)",
+   "name": "AreaLight (16)",
+   "active": true,
+   "world": [
+    -248.152,
+    7.122,
+    -381.04
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    0.0,
+    0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.6000000238418579,
+    "length": 1.0,
+    "depth": 0.0,
+    "m_ClipBoxSize": {
+     "x": 7.400000095367432,
+     "y": 4.480000019073486,
+     "z": 8.699999809265137
+    },
+    "m_Angle": 20.700000762939453,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.14499999582767487,
+    "m_Color": {
+     "r": 0.9485294222831726,
+     "g": 0.9510141611099243,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.463382452709597e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": null,
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 5.914880817915053e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.6299999952316284,
+    "m_LightFarSize": 3.240000009536743,
+    "m_ShadowBias": 0.10000000149011612,
+    "m_Quad": {
+     "externalRef": [
+      1078020014,
+      4453159313462085550
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4510805388492275712
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065106492,
+      4567810982943298797
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1065353216,
+      4294967296
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      164669046128640
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 20.0,
+    "_radius": 6.134337425231934,
+    "_shift": {
+     "x": 0.0,
+     "y": -4.350000381469727,
+     "z": -4.76837158203125e-07
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 22672
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 67676
+    },
+    "_fadeStartDistance": 10.0,
+    "_fadeEndDistance": 20.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 3.4000000953674316,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AreaLight (92)",
+   "name": "AreaLight (92)",
+   "active": true,
+   "world": [
+    -263.098,
+    3.875,
+    -358.082
+   ],
+   "worldRot": [
+    -2e-06,
+    1.0,
+    1e-06,
+    -7e-06
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.30000001192092896,
+    "length": 31.5,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 10.0,
+     "y": 13.399999618530273,
+     "z": 10.0
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.328000009059906,
+    "m_Color": {
+     "r": 0.6963667273521423,
+     "g": 0.8394135236740112,
+     "b": 0.845588207244873,
+     "a": 1.0
+    },
+    "m_Ambient": 1,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.405228566440117e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 5.409992981218821e-41
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 5.103529007070984e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.30000001192092896,
+    "m_LightFarSize": 9.100000381469727,
+    "m_ShadowBias": 2.0,
+    "m_Quad": {
+     "externalRef": [
+      1091567616,
+      4685364907872354304
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4510805388492275712
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065353216,
+      4575657222473777152
+     ]
+    },
+    "m_ShadowmapShader": null,
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      166666205921280
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 9.741148948669434,
+    "_shift": {
+     "x": -7.420779002131894e-05,
+     "y": 7.748456482659094e-06,
+     "z": -5.0
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 23008
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 67779
+    },
+    "_fadeStartDistance": 20.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 0.3499999940395355,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/Part2/ambient (1)",
+   "name": "ambient (1)",
+   "active": true,
+   "world": [
+    -258.419,
+    3.818,
+    -362.609
+   ],
+   "worldRot": [
+    0.499997,
+    -0.500004,
+    -0.500002,
+    -0.499998
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 26.360000610351562,
+    "length": 1.0,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 27.559999465942383,
+     "y": 27.559999465942383,
+     "z": 9.600000381469727
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.10000000149011612,
+    "m_Color": {
+     "r": 0.976453423500061,
+     "g": 0.9779411554336548,
+     "b": 0.8700799942016602,
+     "a": 1.0
+    },
+    "m_Ambient": 1,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.405228566440117e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 5.465624530252517e-41
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 5.1133380963212575e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.6000000238418579,
+    "m_LightFarSize": 1.0,
+    "m_ShadowBias": 2.0,
+    "m_Quad": {
+     "externalRef": [
+      1087373312,
+      4650416978028134400
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4453159312402939904
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065353216,
+      4565060515951852272
+     ]
+    },
+    "m_ShadowmapShader": null,
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      164467182665728
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 12.169839859008789,
+    "_shift": {
+     "x": -1.12200927734375,
+     "y": 2.3000001907348633,
+     "z": -2.33294677734375
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 23000
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 67814
+    },
+    "_fadeStartDistance": 20.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 0.029999999329447746,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AREA_LIGHTS/AreaLight (101)~3",
+   "name": "AreaLight (101)",
+   "active": true,
+   "world": [
+    -261.12,
+    7.244,
+    -375.449
+   ],
+   "worldRot": [
+    0.499998,
+    0.500002,
+    -0.500001,
+    0.499999
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.1670949012041092,
+    "length": 37.44755172729492,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 15.11151123046875,
+     "y": 10.0,
+     "z": 10.0
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.14100000262260437,
+    "m_Color": {
+     "r": 0.7311320900917053,
+     "g": 1.0,
+     "b": 0.9824218153953552,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 0.0,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 5.016648502282845e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 2.5399999618530273,
+    "m_LightFarSize": 1.7000000476837158,
+    "m_ShadowBias": 0.0,
+    "m_Quad": {
+     "externalRef": [
+      1086398137,
+      4627538692257559347
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4453159312402939904
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065353216,
+      4575657222473777152
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1065353216,
+      4294967296
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      165055593185280
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 8.66025447845459,
+    "_shift": {
+     "x": 0.07123544812202454,
+     "y": -4.999478816986084,
+     "z": 0.011937141418457031
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 23067
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 67838
+    },
+    "_fadeStartDistance": 20.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 1.0,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AreaLight (89)",
+   "name": "AreaLight (89)",
+   "active": true,
+   "world": [
+    -251.352,
+    5.4,
+    -371.077
+   ],
+   "worldRot": [
+    -0.532699,
+    0.491935,
+    -0.476102,
+    -0.497552
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.03999999910593033,
+    "length": 7.900000095367432,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 10.0,
+     "y": 10.0,
+     "z": 10.0
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.328000009059906,
+    "m_Color": {
+     "r": 0.976453423500061,
+     "g": 0.9779411554336548,
+     "b": 0.8700799942016602,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.405228566440117e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 5.409992981218821e-41
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 5.0362666807833926e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 3.2300000190734863,
+    "m_LightFarSize": 2.0,
+    "m_ShadowBias": 2.0,
+    "m_Quad": {
+     "externalRef": [
+      1092968514,
+      4675547063609982976
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4489764571342438400
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065353216,
+      4575657222473777152
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1065353216,
+      1
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      164591736717312
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 8.66025447845459,
+    "_shift": {
+     "x": 0.08855938911437988,
+     "y": -4.992570400238037,
+     "z": -0.2576866149902344
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 23055
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 67874
+    },
+    "_fadeStartDistance": 20.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 12.0,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_parking_corridorL_floor_1/Part4/Light/AreaLight (28)",
+   "name": "AreaLight (28)",
+   "active": true,
+   "world": [
+    -265.213,
+    3.142,
+    -380.212
+   ],
+   "worldRot": [
+    0.336264,
+    0.622034,
+    -0.622034,
+    0.336264
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.30000001192092896,
+    "length": 6.5,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 10.0,
+     "y": 10.0,
+     "z": 18.889999389648438
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.30000001192092896,
+    "m_Color": {
+     "r": 0.9852941036224365,
+     "g": 0.9632099270820618,
+     "b": 0.8911115527153015,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.379724934389405e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 5.048878366962316e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.6299999952316284,
+    "m_LightFarSize": 1.0,
+    "m_ShadowBias": 2.0,
+    "m_Quad": {
+     "externalRef": [
+      1092616192,
+      4683743613557932032
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4417130515383975936
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1062225629,
+      4573069728015743096
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1065353216,
+      1
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      165918881611776
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 30.0,
+    "_radius": 11.79864501953125,
+    "_shift": {
+     "x": -5.629658517136704e-07,
+     "y": -9.444999694824219,
+     "z": -9.5367431640625e-07
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 23052
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 67877
+    },
+    "_fadeStartDistance": 20.0,
+    "_fadeEndDistance": 30.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 4.0,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_parking/Control_room_L/AreaLight (15)",
+   "name": "AreaLight (15)",
+   "active": true,
+   "world": [
+    -248.152,
+    7.122,
+    -378.581
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    0.0,
+    0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.6000000238418579,
+    "length": 1.0,
+    "depth": 0.0,
+    "m_ClipBoxSize": {
+     "x": 7.400000095367432,
+     "y": 4.480000019073486,
+     "z": 8.699999809265137
+    },
+    "m_Angle": 20.700000762939453,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.14499999582767487,
+    "m_Color": {
+     "r": 0.9485294222831726,
+     "g": 0.9510141611099243,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.463382452709597e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": null,
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 4.908748520529834e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 2.4000000953674316,
+    "m_LightFarSize": 1.590000033378601,
+    "m_ShadowBias": 2.0,
+    "m_Quad": {
+     "externalRef": [
+      1104360244,
+      4728779609832895283
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4453159312402939904
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065353216,
+      4575657222473777152
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1065353216,
+      1
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      165047003250688
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 20.0,
+    "_radius": 6.134337425231934,
+    "_shift": {
+     "x": 0.0,
+     "y": -4.350000381469727,
+     "z": -4.76837158203125e-07
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 22912
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 67908
+    },
+    "_fadeStartDistance": 10.0,
+    "_fadeEndDistance": 20.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 3.4000000953674316,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AREA_LIGHTS/AreaLight (31)",
+   "name": "AreaLight (31)",
+   "active": true,
+   "world": [
+    -264.032,
+    6.234,
+    -372.209
+   ],
+   "worldRot": [
+    0.0,
+    -0.981596,
+    0.190972,
+    1e-06
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.699999988079071,
+    "length": 2.299999952316284,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 5.610000133514404,
+     "y": 6.320000171661377,
+     "z": 7.619999885559082
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.24199999868869781,
+    "m_Color": {
+     "r": 0.6933962106704712,
+     "g": 1.0,
+     "b": 0.9773985743522644,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 0.0,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": null,
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 4.917156311315783e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 0,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.699999988079071,
+    "m_LightFarSize": 1.4900000095367432,
+    "m_ShadowBias": 0.0,
+    "m_Quad": {
+     "externalRef": [
+      1065713926,
+      4453159313463259955
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4510805388492275712
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065106492,
+      4567810982943298797
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1065353216,
+      4294967296
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      164819369984000
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 5.68943977355957,
+    "_shift": {
+     "x": -1.6852803241818037e-07,
+     "y": -1.4284262657165527,
+     "z": 3.5320968627929688
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 22909
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 67911
+    },
+    "_fadeStartDistance": 15.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 1.5,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AreaLight (90)",
+   "name": "AreaLight (90)",
+   "active": true,
+   "world": [
+    -251.427,
+    5.123,
+    -366.483
+   ],
+   "worldRot": [
+    0.206906,
+    -0.580191,
+    -0.155429,
+    -0.772276
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.1899999976158142,
+    "length": 1.6399999856948853,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 10.0,
+     "y": 10.0,
+     "z": 10.0
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.328000009059906,
+    "m_Color": {
+     "r": 0.976453423500061,
+     "g": 0.9779411554336548,
+     "b": 0.8700799942016602,
+     "a": 1.0
+    },
+    "m_Ambient": 1,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.405228566440117e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 5.409992981218821e-41
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 4.886327745100637e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 1.899999976158142,
+    "m_LightFarSize": 2.0,
+    "m_ShadowBias": 0.0,
+    "m_Quad": {
+     "externalRef": [
+      1084227584,
+      4575657222492651520
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120580403,
+      4453159312402939904
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065353216,
+      4575657222473777152
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1065353216,
+      4294967296
+     ]
+    },
+    "m_BlurShadowmapShader": null
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 8.66025447845459,
+    "_shift": {
+     "x": 4.15908145904541,
+     "y": 2.4996752738952637,
+     "z": 1.205681562423706
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 22930
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 67973
+    },
+    "_fadeStartDistance": 20.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 2.200000047683716,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_parking_corridorL_floor_1/Part4/Light/ambient~7",
+   "name": "ambient",
+   "active": true,
+   "world": [
+    -265.213,
+    5.482,
+    -380.212
+   ],
+   "worldRot": [
+    0.336264,
+    0.622034,
+    -0.622034,
+    0.336264
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.30000001192092896,
+    "length": 6.5,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 10.0,
+     "y": 10.0,
+     "z": 18.889999389648438
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.30000001192092896,
+    "m_Color": {
+     "r": 0.9852941036224365,
+     "g": 0.9632099270820618,
+     "b": 0.8911115527153015,
+     "a": 1.0
+    },
+    "m_Ambient": 1,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.446847130830564e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 4.870913461993064e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 22.280000686645508,
+    "m_LightFarSize": 1.399999976158142,
+    "m_ShadowBias": 0.0,
+    "m_Quad": {
+     "externalRef": [
+      1108950385,
+      4629700418044690432
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4510805388492275712
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065106492,
+      4567810982943298797
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1065353216,
+      4294967296
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      165944651415552
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 15.0,
+    "_radius": 8.857215881347656,
+    "_shift": {
+     "x": 1.998016357421875,
+     "y": -3.5330004692077637,
+     "z": -1.100006103515625
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 22941
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 67992
+    },
+    "_fadeStartDistance": 10.0,
+    "_fadeEndDistance": 15.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 0.699999988079071,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_relax_zone/Laboratory_relax_zone_lift_02_O/Map_Lamp AreaLight (49)",
+   "name": "Map_Lamp AreaLight (49)",
+   "active": true,
+   "world": [
+    -253.075,
+    3.103,
+    -378.505
+   ],
+   "worldRot": [
+    2e-06,
+    -0.707105,
+    0.707109,
+    -2e-06
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 1.2999999523162842,
+    "length": 1.0,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 4.929999828338623,
+     "y": 7.150000095367432,
+     "z": 4.829999923706055
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.20000000298023224,
+    "m_Color": {
+     "r": 0.9558823704719543,
+     "g": 1.0,
+     "b": 0.9963489174842834,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.405929215672279e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 5.346233901092042e-41
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1049247089
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "externalRef": [
+      1,
+      4556583152448715836
+     ]
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1060912188,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 5.414617266151093e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.2800000011920929,
+    "m_LightFarSize": 9.739999771118164,
+    "m_ShadowBias": 2.0,
+    "m_Quad": {
+     "externalRef": [
+      1097859072,
+      4715268810954768384
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4539628424389459968
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1064958170,
+      4566295499438185050
+     ]
+    },
+    "m_ShadowmapShader": null,
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      166125040041984
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 20.0,
+    "_radius": 4.968810081481934,
+    "_shift": {
+     "x": 1.4872277461108752e-05,
+     "y": -2.4150002002716064,
+     "z": 1.320848514296813e-05
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 23273
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 68022
+    },
+    "_fadeStartDistance": 15.0,
+    "_fadeEndDistance": 20.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 1.2000000476837158,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AREA_LIGHTS/AreaLight (101)~2",
+   "name": "AreaLight (101)",
+   "active": true,
+   "world": [
+    -268.409,
+    7.244,
+    -374.95
+   ],
+   "worldRot": [
+    0.499998,
+    0.500002,
+    -0.500001,
+    0.499999
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.6899999976158142,
+    "length": 3.97297739982605,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 20.0,
+     "y": 10.0,
+     "z": 10.0
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.14100000262260437,
+    "m_Color": {
+     "r": 1.0,
+     "g": 0.8430984616279602,
+     "b": 0.49528300762176514,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 0.0,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 5.479076995510035e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.06499999761581421,
+    "m_LightFarSize": 2.799999952316284,
+    "m_ShadowBias": 1.0,
+    "m_Quad": {
+     "externalRef": [
+      1073741824,
+      4618531492996317184
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1114374144,
+      4431830264292835328
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1065353216,
+      4575657222473777152
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1065353216,
+      1
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      165579579195392
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 8.66025447845459,
+    "_shift": {
+     "x": 0.07123544812202454,
+     "y": -4.999478816986084,
+     "z": 0.011937141418457031
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 23229
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 68038
+    },
+    "_fadeStartDistance": 20.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 1.2999999523162842,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_parking_corridorL_floor_1/Part4/Negative/big (4)",
+   "name": "big (4)",
+   "active": true,
+   "world": [
+    -265.795,
+    1.989,
+    -376.342
+   ],
+   "worldRot": [
+    0.0,
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 8.0,
+    "length": 1.2999999523162842,
+    "depth": 0.0,
+    "m_ClipBoxSize": {
+     "x": 10.399999618530273,
+     "y": 8.0,
+     "z": 1.5
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.30000001192092896,
+    "m_Color": {
+     "r": 0.9852941036224365,
+     "g": 0.9632099270820618,
+     "b": 0.8911115527153015,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 1,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 5.379724934389405e-41,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 5.1721926318229e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.30000001192092896,
+    "m_LightFarSize": 10.100000381469727,
+    "m_ShadowBias": 2.0,
+    "m_Quad": {
+     "externalRef": [
+      1097859072,
+      4726280110662483968
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4465841448884895744
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1062851510,
+      4571948376478490132
+     ]
+    },
+    "m_ShadowmapShader": null,
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      167615393693696
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 6.603219032287598,
+    "_shift": {
+     "x": -6.556707887739321e-08,
+     "y": 0.0,
+     "z": -0.75
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 23206
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 68183
+    },
+    "_fadeStartDistance": 20.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 0.03999999910593033,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AREA_LIGHTS/AreaLight (93)",
+   "name": "AreaLight (93)",
+   "active": true,
+   "world": [
+    -266.462,
+    5.16,
+    -375.725
+   ],
+   "worldRot": [
+    0.007377,
+    0.65222,
+    0.017142,
+    -0.7578
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.1899999976158142,
+    "length": 1.6399999856948853,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 10.0,
+     "y": 10.0,
+     "z": 10.0
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.328000009059906,
+    "m_Color": {
+     "r": 0.10849058628082275,
+     "g": 0.9063107371330261,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_Ambient": 1,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 0.0,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 5.153975751786677e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.029999999329447746,
+    "m_LightFarSize": 205.1999969482422,
+    "m_ShadowBias": 0.0,
+    "m_Quad": {
+     "externalRef": [
+      1091728048,
+      4656722015789514752
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4521758139212627968
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1062225629,
+      4573069728015743096
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1065353216,
+      1
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      164767830376448
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 8.66025447845459,
+    "_shift": {
+     "x": 4.32990026473999,
+     "y": 2.49967622756958,
+     "z": -0.059871673583984375
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 23219
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 68199
+    },
+    "_fadeStartDistance": 20.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 4.0,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AREA_LIGHTS/AreaLight (101)~4",
+   "name": "AreaLight (101)",
+   "active": true,
+   "world": [
+    -263.534,
+    7.244,
+    -378.771
+   ],
+   "worldRot": [
+    -1e-06,
+    0.707108,
+    -0.707106,
+    -1e-06
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ],
+   "AreaLight": {
+    "m_Intensity": 0.0,
+    "size": 0.1670949012041092,
+    "length": 26.646495819091797,
+    "depth": 2.0,
+    "m_ClipBoxSize": {
+     "x": 15.11151123046875,
+     "y": 10.0,
+     "z": 10.0
+    },
+    "m_Angle": 100.0,
+    "m_Hardness": 0.0,
+    "m_SpecularScale": 0.14100000262260437,
+    "m_Color": {
+     "r": 0.7311320900917053,
+     "g": 1.0,
+     "b": 0.9824218153953552,
+     "a": 1.0
+    },
+    "m_Ambient": 0,
+    "m_Negative": 0,
+    "m_Specular": 1,
+    "m_RenderSource": 0,
+    "m_SourceColor": {
+     "r": 0.0,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "SourceMaterial": {
+     "unresolvedRef": 1036831949
+    },
+    "IsShadowCubeAnimated": 0,
+    "ShadowCube": {
+     "unresolvedRef": 4575657222473777152
+    },
+    "InvertedShadowCube": {
+     "externalRef": [
+      1065353216,
+      26835156992
+     ]
+    },
+    "ShadowRendererToDraw": {
+     "externalRef": [
+      226,
+      146028888064
+     ]
+    },
+    "ShadowRendererMaterial": null,
+    "IsShadowRendererInverted": 0,
+    "ShadowFeather": 5.162383542572626e-42,
+    "InvertedShadowFeather": 0.0,
+    "m_Spot": 1,
+    "m_Shadows": 1,
+    "m_ShadowCullingMask": {
+     "m_Bits": 4285
+    },
+    "m_ShadowmapRes": 0,
+    "m_ReceiverSearchDistance": 0.0,
+    "m_ReceiverDistanceScale": 0.0,
+    "m_LightNearSize": 0.30000001192092896,
+    "m_LightFarSize": 6.25,
+    "m_ShadowBias": 2.0,
+    "m_Quad": {
+     "externalRef": [
+      1092616192,
+      4690949374672497541
+     ]
+    },
+    "m_Cube": {
+     "externalRef": [
+      1120403456,
+      4453159312402939904
+     ]
+    },
+    "m_ProxyShader": {
+     "externalRef": [
+      1064958170,
+      4566295499438185050
+     ]
+    },
+    "m_ShadowmapShader": {
+     "externalRef": [
+      1065353216,
+      1
+     ]
+    },
+    "m_BlurShadowmapShader": {
+     "externalRef": [
+      1,
+      162998303850496
+     ]
+    }
+   },
+   "AreaLight_enabled": true,
+   "CullingAdvancedLightObject": {
+    "CullDistance": 25.0,
+    "_radius": 8.66025447845459,
+    "_shift": {
+     "x": 0.07123544812202454,
+     "y": -4.999478816986084,
+     "z": 0.011937141418457031
+    },
+    "_drawSphere": 1,
+    "_cullByDistanceOnly": 0,
+    "_componentsToTurnOff": [],
+    "_componentsToTurnOffDefaultState": [],
+    "_gameObjectsToTurnOff": [],
+    "_transform": {
+     "unresolvedRef": 23211
+    },
+    "_componentsSwitchPerFrameOnEnable": 25,
+    "_objectsSwitchPerFrameOnEnable": 25,
+    "_componentsSwitchPerFrameOnDisable": 25,
+    "_objectsSwitchPerFrameOnDisable": 25,
+    "_light": {
+     "unresolvedRef": 68207
+    },
+    "_fadeStartDistance": 20.0,
+    "_fadeEndDistance": 25.0,
+    "_fadeCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 0.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_maxLightIntensity": 1.0,
+    "_isControlledByLampController": 0
+   },
+   "CullingAdvancedLightObject_enabled": true
+  }
+ ],
+ "sptInBox": [
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Boiler_Room_floor_1/part1/ambient",
+   "name": "ambient",
+   "active": true,
+   "world": [
+    -264.653,
+    2.239,
+    -368.191
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    0.0,
+    0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_relax_zone/Laboratory_relax_zone_lift_02_O/Blue light logo TubeLight (29)",
+   "name": "Blue light logo TubeLight (29)",
+   "active": true,
+   "world": [
+    -255.433,
+    5.84,
+    -379.656
+   ],
+   "worldRot": [
+    4e-06,
+    -0.707109,
+    -0.0,
+    -0.707105
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "TubeLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Boiler_Room_floor_1/part1/ambient~2",
+   "name": "ambient",
+   "active": true,
+   "world": [
+    -258.886,
+    3.017,
+    -364.998
+   ],
+   "worldRot": [
+    0.5,
+    0.5,
+    -0.5,
+    0.5
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Boiler_Room_floor_1/part2/AreaLight (25)",
+   "name": "AreaLight (25)",
+   "active": true,
+   "world": [
+    -264.653,
+    1.968,
+    -368.191
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    0.0,
+    0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Boiler_Room_floor_1/part1/Negative/big (5)",
+   "name": "big (5)",
+   "active": true,
+   "world": [
+    -265.845,
+    4.189,
+    -373.152
+   ],
+   "worldRot": [
+    0.5,
+    0.5,
+    -0.5,
+    0.5
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Boiler_Room_floor_1/part1/GameObject~1/TubeLight (8)",
+   "name": "TubeLight (8)",
+   "active": true,
+   "world": [
+    -252.187,
+    1.913,
+    -359.062
+   ],
+   "worldRot": [
+    0.0,
+    0.49448,
+    0.0,
+    0.869189
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "TubeLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Boiler_Room_floor_1/part1/GameObject (1)/AreaLight (27)",
+   "name": "AreaLight (27)",
+   "active": true,
+   "world": [
+    -250.328,
+    2.189,
+    -362.396
+   ],
+   "worldRot": [
+    0.194058,
+    0.679957,
+    -0.679957,
+    -0.194058
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Boiler_Room_floor_1/part1/GameObject~2/TubeLight (9)",
+   "name": "TubeLight (9)",
+   "active": true,
+   "world": [
+    -267.509,
+    1.913,
+    -359.062
+   ],
+   "worldRot": [
+    0.0,
+    0.49448,
+    0.0,
+    0.869189
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "TubeLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Boiler_Room_floor_1/part2/AreaLight (28)",
+   "name": "AreaLight (28)",
+   "active": true,
+   "world": [
+    -267.477,
+    2.189,
+    -358.779
+   ],
+   "worldRot": [
+    0.618022,
+    0.618022,
+    -0.343582,
+    0.343582
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Boiler_Room_floor_1/part1/GameObject~1/AreaLight (27)",
+   "name": "AreaLight (27)",
+   "active": true,
+   "world": [
+    -252.077,
+    2.189,
+    -358.779
+   ],
+   "worldRot": [
+    0.618022,
+    0.618022,
+    -0.343582,
+    0.343582
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Office_Above_Boiler_Room_floor_1/Part2/TubeLight (29)",
+   "name": "TubeLight (29)",
+   "active": true,
+   "world": [
+    -258.391,
+    6.033,
+    -362.615
+   ],
+   "worldRot": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "TubeLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Boiler_Room_floor_1/part1/GameObject/TubeLight (7)",
+   "name": "TubeLight (7)",
+   "active": true,
+   "world": [
+    -262.353,
+    1.913,
+    -359.062
+   ],
+   "worldRot": [
+    0.041435,
+    0.493917,
+    0.023572,
+    0.868201
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "TubeLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Boiler_Room_floor_1/part2/AreaLight (26)",
+   "name": "AreaLight (26)",
+   "active": true,
+   "world": [
+    -262.295,
+    2.189,
+    -358.779
+   ],
+   "worldRot": [
+    0.633698,
+    0.633698,
+    -0.31373,
+    0.31373
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Boiler_Room_floor_1/part2/AreaLight (24)",
+   "name": "AreaLight (24)",
+   "active": true,
+   "world": [
+    -259.013,
+    1.968,
+    -368.191
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    0.0,
+    0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Boiler_Room_floor_1/part1/AreaLight (23)",
+   "name": "AreaLight (23)",
+   "active": true,
+   "world": [
+    -258.886,
+    2.406,
+    -364.998
+   ],
+   "worldRot": [
+    0.5,
+    0.5,
+    -0.5,
+    0.5
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Boiler_Room_floor_1/part1/GameObject (1)/TubeLight (8)",
+   "name": "TubeLight (8)",
+   "active": true,
+   "world": [
+    -250.611,
+    1.913,
+    -362.286
+   ],
+   "worldRot": [
+    0.0,
+    0.96426,
+    0.0,
+    0.26496
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "TubeLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Boiler_Room_floor_1/part1/ambient~1",
+   "name": "ambient",
+   "active": true,
+   "world": [
+    -259.013,
+    2.236,
+    -368.191
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    0.0,
+    0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "DRAFT/OLD_Negative~5/AreaLight (52)",
+   "name": "AreaLight (52)",
+   "active": true,
+   "world": [
+    -270.147,
+    2.962,
+    -367.261
+   ],
+   "worldRot": [
+    0.707107,
+    -0.0,
+    -0.707107,
+    0.0
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AreaLight (87)",
+   "name": "AreaLight (87)",
+   "active": true,
+   "world": [
+    -265.574,
+    5.183,
+    -362.774
+   ],
+   "worldRot": [
+    1e-06,
+    -5e-06,
+    2e-06,
+    -1.0
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "DRAFT/OLD_Negative~9/Negative (13)",
+   "name": "Negative (13)",
+   "active": true,
+   "world": [
+    -250.762,
+    3.89,
+    -381.333
+   ],
+   "worldRot": [
+    0.437899,
+    -0.555197,
+    -0.437899,
+    -0.555197
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Office_Above_Boiler_Room_floor_1/Part2/AreaLight (86)",
+   "name": "AreaLight (86)",
+   "active": true,
+   "world": [
+    -258.431,
+    7.126,
+    -362.604
+   ],
+   "worldRot": [
+    -0.499998,
+    -0.500002,
+    0.500003,
+    -0.499997
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "DRAFT/OLD_negative~4/negative (164)",
+   "name": "negative (164)",
+   "active": true,
+   "world": [
+    -258.308,
+    4.041,
+    -363.171
+   ],
+   "worldRot": [
+    0.0,
+    0.707107,
+    0.707107,
+    0.0
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "DRAFT/OLD_Negative~9/Negative (10)",
+   "name": "Negative (10)",
+   "active": true,
+   "world": [
+    -247.51,
+    3.994,
+    -377.266
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    -0.0,
+    -0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "DRAFT/OLD_Negative~5/big (1)",
+   "name": "big (1)",
+   "active": true,
+   "world": [
+    -265.845,
+    4.177,
+    -373.152
+   ],
+   "worldRot": [
+    0.5,
+    0.5,
+    -0.5,
+    0.5
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/ambient",
+   "name": "ambient",
+   "active": true,
+   "world": [
+    -258.419,
+    8.483,
+    -362.609
+   ],
+   "worldRot": [
+    -0.499998,
+    -0.500002,
+    0.500003,
+    -0.499997
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_parking/Part2/Zone_exit_L01/AreaLight (9)",
+   "name": "AreaLight (9)",
+   "active": true,
+   "world": [
+    -248.656,
+    3.152,
+    -379.427
+   ],
+   "worldRot": [
+    0.645229,
+    0.26741,
+    0.263447,
+    -0.665407
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "DRAFT/OLD_Negative~5/big (4)",
+   "name": "big (4)",
+   "active": true,
+   "world": [
+    -265.795,
+    1.989,
+    -376.342
+   ],
+   "worldRot": [
+    0.0,
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AreaLight (88)",
+   "name": "AreaLight (88)",
+   "active": true,
+   "world": [
+    -263.751,
+    5.487,
+    -363.605
+   ],
+   "worldRot": [
+    -0.686332,
+    0.160208,
+    -0.17014,
+    -0.68872
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "DRAFT/OLD_Negative~5/big (2)",
+   "name": "big (2)",
+   "active": true,
+   "world": [
+    -265.845,
+    4.177,
+    -373.152
+   ],
+   "worldRot": [
+    0.5,
+    0.5,
+    -0.5,
+    0.5
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_parking/Part3/ambient_Control_room_L",
+   "name": "ambient_Control_room_L",
+   "active": true,
+   "world": [
+    -248.212,
+    3.801,
+    -379.605
+   ],
+   "worldRot": [
+    -0.0,
+    0.707107,
+    0.707107,
+    0.0
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "DRAFT/OLD_Negative~5/AreaLight (61)",
+   "name": "AreaLight (61)",
+   "active": true,
+   "world": [
+    -259.049,
+    2.962,
+    -378.072
+   ],
+   "worldRot": [
+    1.0,
+    -0.0,
+    -0.0,
+    0.0
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AreaLight (91)",
+   "name": "AreaLight (91)",
+   "active": true,
+   "world": [
+    -263.502,
+    5.155,
+    -369.127
+   ],
+   "worldRot": [
+    0.181726,
+    -0.687723,
+    -0.184239,
+    -0.678284
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_parking/Part2/Zone_exit_L01/AreaLight (7)",
+   "name": "AreaLight (7)",
+   "active": true,
+   "world": [
+    -248.645,
+    3.42,
+    -379.473
+   ],
+   "worldRot": [
+    0.656279,
+    -0.267176,
+    0.263684,
+    0.654512
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_parking_corridorL_floor_1/Part4/Negative/big (1)",
+   "name": "big (1)",
+   "active": true,
+   "world": [
+    -265.845,
+    4.177,
+    -373.152
+   ],
+   "worldRot": [
+    0.5,
+    0.5,
+    -0.5,
+    0.5
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "DRAFT/OLD_Negative~5/AreaLight (62)",
+   "name": "AreaLight (62)",
+   "active": true,
+   "world": [
+    -263.856,
+    2.962,
+    -382.752
+   ],
+   "worldRot": [
+    -0.0,
+    -0.0,
+    1.0,
+    -0.0
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_relax_zone/relax_zone_floor_01_corridor_E/AreaLight (18)",
+   "name": "AreaLight (18)",
+   "active": true,
+   "world": [
+    -247.981,
+    3.698,
+    -373.323
+   ],
+   "worldRot": [
+    0.5,
+    0.5,
+    -0.5,
+    0.5
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_parking/Control_room_L/AreaLight (10)",
+   "name": "AreaLight (10)",
+   "active": true,
+   "world": [
+    -250.663,
+    7.122,
+    -381.04
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    0.0,
+    0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "DRAFT/OLD_Negative~9/Negative (12)",
+   "name": "Negative (12)",
+   "active": true,
+   "world": [
+    -248.581,
+    3.89,
+    -382.562
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    -0.0,
+    -0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_parking/Control_room_L/AreaLight (18)",
+   "name": "AreaLight (18)",
+   "active": true,
+   "world": [
+    -250.663,
+    7.122,
+    -378.581
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    0.0,
+    0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_parking/Control_room_L/AreaLight (16)",
+   "name": "AreaLight (16)",
+   "active": true,
+   "world": [
+    -248.152,
+    7.122,
+    -381.04
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    0.0,
+    0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "DRAFT/OLD_negative~4/negative (163)",
+   "name": "negative (163)",
+   "active": true,
+   "world": [
+    -260.131,
+    4.029,
+    -363.207
+   ],
+   "worldRot": [
+    -0.5,
+    0.500001,
+    0.5,
+    0.5
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_parking_corridorL_floor_1/Part4/Negative/big",
+   "name": "big",
+   "active": true,
+   "world": [
+    -265.845,
+    4.177,
+    -373.152
+   ],
+   "worldRot": [
+    0.5,
+    0.5,
+    -0.5,
+    0.5
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AreaLight (92)",
+   "name": "AreaLight (92)",
+   "active": true,
+   "world": [
+    -263.098,
+    3.875,
+    -358.082
+   ],
+   "worldRot": [
+    -2e-06,
+    1.0,
+    1e-06,
+    -7e-06
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Office_Above_Boiler_Room_floor_1/Part2/ambient (1)",
+   "name": "ambient (1)",
+   "active": true,
+   "world": [
+    -258.419,
+    3.818,
+    -362.609
+   ],
+   "worldRot": [
+    0.499997,
+    -0.500004,
+    -0.500002,
+    -0.499998
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_parking_corridorL_floor_1/Part4/Negative/big (2)",
+   "name": "big (2)",
+   "active": true,
+   "world": [
+    -265.845,
+    4.177,
+    -373.152
+   ],
+   "worldRot": [
+    0.5,
+    0.5,
+    -0.5,
+    0.5
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AreaLight (89)",
+   "name": "AreaLight (89)",
+   "active": true,
+   "world": [
+    -251.352,
+    5.4,
+    -371.077
+   ],
+   "worldRot": [
+    -0.532699,
+    0.491935,
+    -0.476102,
+    -0.497552
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_parking_corridorL_floor_1/Part4/Light/AreaLight (28)",
+   "name": "AreaLight (28)",
+   "active": true,
+   "world": [
+    -265.213,
+    3.142,
+    -380.212
+   ],
+   "worldRot": [
+    0.336264,
+    0.622034,
+    -0.622034,
+    0.336264
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_parking/Control_room_L/AreaLight (15)",
+   "name": "AreaLight (15)",
+   "active": true,
+   "world": [
+    -248.152,
+    7.122,
+    -378.581
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    0.0,
+    0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_Office_Above_Boiler_Room_floor_1/Part1/AreaLight (90)",
+   "name": "AreaLight (90)",
+   "active": true,
+   "world": [
+    -251.427,
+    5.123,
+    -366.483
+   ],
+   "worldRot": [
+    0.206906,
+    -0.580191,
+    -0.155429,
+    -0.772276
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_parking_corridorL_floor_1/Part4/Light/ambient~7",
+   "name": "ambient",
+   "active": true,
+   "world": [
+    -265.213,
+    5.482,
+    -380.212
+   ],
+   "worldRot": [
+    0.336264,
+    0.622034,
+    -0.622034,
+    0.336264
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "DRAFT/OLD_Negative~9/Negative (11)",
+   "name": "Negative (11)",
+   "active": true,
+   "world": [
+    -249.136,
+    3.89,
+    -377.139
+   ],
+   "worldRot": [
+    0.707107,
+    0.0,
+    -0.0,
+    -0.707107
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_relax_zone/Laboratory_relax_zone_lift_02_O/Map_Lamp AreaLight (49)",
+   "name": "Map_Lamp AreaLight (49)",
+   "active": true,
+   "world": [
+    -253.075,
+    3.103,
+    -378.505
+   ],
+   "worldRot": [
+    2e-06,
+    -0.707105,
+    0.707109,
+    -2e-06
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "DRAFT/OLD_negative~4/negative (162)",
+   "name": "negative (162)",
+   "active": true,
+   "world": [
+    -256.426,
+    4.029,
+    -363.207
+   ],
+   "worldRot": [
+    -0.5,
+    0.500001,
+    0.5,
+    0.5
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "DRAFT/OLD_Negative~5/AreaLight (53)",
+   "name": "AreaLight (53)",
+   "active": true,
+   "world": [
+    -270.775,
+    2.962,
+    -371.922
+   ],
+   "worldRot": [
+    -0.0,
+    -0.0,
+    1.0,
+    -0.0
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  },
+  {
+   "go": "DRAFT/OLD_Negative~5/big",
+   "name": "big",
+   "active": true,
+   "world": [
+    -265.845,
+    4.177,
+    -373.152
+   ],
+   "worldRot": [
+    0.5,
+    0.5,
+    -0.5,
+    0.5
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight"
+   ]
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/Laboratory_parking_corridorL_floor_1/Part4/Negative/big (4)",
+   "name": "big (4)",
+   "active": true,
+   "world": [
+    -265.795,
+    1.989,
+    -376.342
+   ],
+   "worldRot": [
+    0.0,
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "worldScale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "classes": [
+    "AreaLight",
+    "CullingAdvancedLightObject"
+   ]
+  }
+ ]
+}

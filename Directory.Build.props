@@ -1,0 +1,11 @@
+<Project>
+  <!-- single source of truth for version + identity, per manimal mod conventions -->
+  <PropertyGroup>
+    <ModVersion>1.0.0</ModVersion>
+    <ModGuid>com.manimal.labsboiler</ModGuid>
+    <ModUsername>Manimal</ModUsername>
+    <ModDisplayName>LabsBoiler</ModDisplayName>
+    <SPTPath>D:\SPTDev</SPTPath>
+    <FikaPath>D:\SPTDevFika</FikaPath>
+  </PropertyGroup>
+</Project>

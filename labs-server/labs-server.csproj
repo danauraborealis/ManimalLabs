@@ -1,0 +1,103 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>Manimal.LabsBoiler.Server</RootNamespace>
+    <AssemblyName>ManimalLabsBoilerServer</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Library</OutputType>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Authors>$(ModUsername)</Authors>
+    <Version>$(ModVersion)</Version>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SPTarkov.Common" Version="4.0.13" />
+    <PackageReference Include="SPTarkov.DI" Version="4.0.13" />
+    <PackageReference Include="SPTarkov.Server.Core" Version="4.0.13" />
+  </ItemGroup>
+
+  <!-- deploy dll + db into the dev SPT mod folder on every build -->
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <PropertyGroup>
+      <DevModDir>$(SPTPath)\SPT\user\mods\ManimalLabsBoiler</DevModDir>
+    </PropertyGroup>
+    <ItemGroup>
+      <DbFiles Include="$(ProjectDir)db\**\*.*" />
+    </ItemGroup>
+    <MakeDir Directories="$(DevModDir)" />
+    <Copy SourceFiles="@(DbFiles)" DestinationFiles="@(DbFiles->'$(DevModDir)\db\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(DevModDir)" />
+  </Target>
+
+  <!-- dll-update zip: server DLL + db -->
+  <Target Name="PackageModForDistribution" AfterTargets="Build">
+    <PropertyGroup>
+      <ZipFileName>Manimal-LabsBoiler-server-DLL-UPDATE-$(ModVersion).zip</ZipFileName>
+      <TempPackageDir>$(ProjectDir)obj\Package</TempPackageDir>
+      <ModPackageDir>$(TempPackageDir)\SPT\user\mods\ManimalLabsBoiler</ModPackageDir>
+    </PropertyGroup>
+    <RemoveDir Directories="$(TempPackageDir)" />
+    <MakeDir Directories="$(ModPackageDir)" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModPackageDir)" />
+    <ItemGroup>
+      <DbFilesForZip Include="$(ProjectDir)db\**\*.*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(DbFilesForZip)" DestinationFiles="@(DbFilesForZip->'$(ModPackageDir)\db\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <ZipDirectory SourceDirectory="$(TempPackageDir)" DestinationFile="$(ProjectDir)$(ZipFileName)" Overwrite="true" />
+    <RemoveDir Directories="$(TempPackageDir)" />
+    <Message Text="--- dll-update zip at: $(ProjectDir)$(ZipFileName) ---" Importance="high" />
+  </Target>
+
+  <!--
+    Combined Forge release: ONE zip with the full install layout — extract into the
+    SPT root and done. Gated behind -p:FullRelease=true because it packs the 100MB
+    scene bundle (zipping that on every dev build would be miserable):
+
+        dotnet build ManimalLabs.sln -c Release -p:FullRelease=true
+
+    The bundle isn't in the repo (the SDK re-exports it occasionally); like the
+    LoadAmmoAnim release target we pull it from the LIVE dev install the user
+    already maintains, warning instead of failing so iteration isn't blocked.
+    The client DLL comes from labs-client's bin (built by the same sln build).
+  -->
+  <Target Name="PackageFullRelease" AfterTargets="PackageModForDistribution" Condition="'$(FullRelease)' == 'true'">
+    <PropertyGroup>
+      <ReleaseStagingDir>$(ProjectDir)obj\ReleasePackage</ReleaseStagingDir>
+      <ReleaseZipPath>$(ProjectDir)..\Manimal-LabsBoiler-$(ModVersion).zip</ReleaseZipPath>
+      <ClientDllPath>$(ProjectDir)..\labs-client\bin\$(Configuration)\netstandard2.1\ManimalLabsBoiler.dll</ClientDllPath>
+      <DeployedBundlePath>$(SPTPath)\BepInEx\plugins\Manimal-LabsBoiler\manimal_labs_boiler.bundle</DeployedBundlePath>
+      <ClientReleaseDir>$(ReleaseStagingDir)\BepInEx\plugins\Manimal-LabsBoiler</ClientReleaseDir>
+      <ServerReleaseDir>$(ReleaseStagingDir)\SPT\user\mods\ManimalLabsBoiler</ServerReleaseDir>
+    </PropertyGroup>
+
+    <Message Text="--- Building combined release zip at $(ReleaseZipPath) ---" Importance="high" />
+    <RemoveDir Directories="$(ReleaseStagingDir)" />
+    <MakeDir Directories="$(ClientReleaseDir)" />
+    <MakeDir Directories="$(ServerReleaseDir)" />
+
+    <!-- server DLL + db -->
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ServerReleaseDir)" />
+    <ItemGroup>
+      <DbFilesForRelease Include="$(ProjectDir)db\**\*.*" />
+      <PluginDataForRelease Include="$(ProjectDir)..\labs-client\plugin-data\**\*.*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(DbFilesForRelease)" DestinationFiles="@(DbFilesForRelease->'$(ServerReleaseDir)\db\%(RecursiveDir)%(Filename)%(Extension)')" />
+
+    <!-- client DLL + plugin-data -->
+    <Warning Text="Client DLL missing at $(ClientDllPath) — build the sln so labs-client compiles first" Condition="!Exists('$(ClientDllPath)')" />
+    <Copy SourceFiles="$(ClientDllPath)" DestinationFolder="$(ClientReleaseDir)" Condition="Exists('$(ClientDllPath)')" />
+    <Copy SourceFiles="@(PluginDataForRelease)" DestinationFiles="@(PluginDataForRelease->'$(ClientReleaseDir)\%(RecursiveDir)%(Filename)%(Extension)')" />
+
+    <!-- the scene bundle, from the live dev install -->
+    <Warning Text="Scene bundle missing at $(DeployedBundlePath) — release zip will NOT swap the office scene. Run the SDK 'Build Scene Bundle' first." Condition="!Exists('$(DeployedBundlePath)')" />
+    <Copy SourceFiles="$(DeployedBundlePath)" DestinationFolder="$(ClientReleaseDir)" Condition="Exists('$(DeployedBundlePath)')" />
+
+    <ZipDirectory SourceDirectory="$(ReleaseStagingDir)" DestinationFile="$(ReleaseZipPath)" Overwrite="true" />
+    <RemoveDir Directories="$(ReleaseStagingDir)" />
+    <Message Text="--- Combined release at: $(ReleaseZipPath) ---" Importance="high" />
+  </Target>
+
+</Project>

@@ -1,0 +1,185 @@
+{
+ "dest": "Assets/labsboiler_import/Content/Locations/Laboratory/Laboratory_Office_Above_Boiler_Room_floor_1_MX.unity",
+ "grafts": [
+  {
+   "kind": "branch",
+   "donor": "Assets/labsboiler_import/Content/Locations/Laboratory/Laboratory_LIGHT.unity",
+   "path": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1",
+   "groupRoot": "__GRAFT_LIGHT_lamps",
+   "note": "office lamp group: fixtures + 33 new point/spot lamps (CullingLightObject-driven)"
+  },
+  {
+   "kind": "objects",
+   "donor": "Assets/labsboiler_import/Content/Locations/Laboratory/Laboratory_LIGHT.unity",
+   "groupRoot": "__GRAFT_LIGHT_area",
+   "matchRadius": 0.25,
+   "objects": [
+    {
+     "name": "AreaLight (101)",
+     "world": [
+      -258.911,
+      7.244,
+      -376.41
+     ]
+    },
+    {
+     "name": "AreaLight (101)",
+     "world": [
+      -262.286,
+      7.244,
+      -380.703
+     ]
+    },
+    {
+     "name": "AreaLight (101)",
+     "world": [
+      -261.12,
+      7.244,
+      -375.449
+     ]
+    },
+    {
+     "name": "AreaLight (31)",
+     "world": [
+      -264.032,
+      6.234,
+      -372.209
+     ]
+    },
+    {
+     "name": "AreaLight (101)",
+     "world": [
+      -268.409,
+      7.244,
+      -374.95
+     ]
+    },
+    {
+     "name": "AreaLight (93)",
+     "world": [
+      -266.462,
+      5.16,
+      -375.725
+     ]
+    },
+    {
+     "name": "AreaLight (101)",
+     "world": [
+      -263.534,
+      7.244,
+      -378.771
+     ]
+    }
+   ],
+   "note": "7 new BSG area lights (shader refs rebound at runtime from a native Labs AreaLight)"
+  },
+  {
+   "kind": "objects",
+   "donor": "Assets/labsboiler_import/Content/Locations/Laboratory/Laboratory_LIGHT.unity",
+   "groupRoot": "__GRAFT_LIGHT_emissive",
+   "matchRadius": 0.6,
+   "objects": [
+    {
+     "name": "Lab_logo_volumed  (1)",
+     "world": [
+      -260.0,
+      6.2,
+      -380.8
+     ]
+    },
+    {
+     "name": "lab_logo",
+     "world": [
+      -269.1,
+      6.6,
+      -375.1
+     ]
+    },
+    {
+     "name": "terragroup_logo3 (3)",
+     "world": [
+      -256.6,
+      6.1,
+      -379.8
+     ]
+    },
+    {
+     "name": "Lab_Recreation_LED",
+     "world": [
+      -264.2,
+      6.2,
+      -372.0
+     ]
+    },
+    {
+     "name": "Lab_recreation_LED_Big_02",
+     "world": [
+      -246.0,
+      4.1,
+      -376.5
+     ]
+    },
+    {
+     "name": "lab_map_info_C (1)",
+     "world": [
+      -256.6,
+      5.2,
+      -374.4
+     ]
+    },
+    {
+     "name": "lab_monitor (5)",
+     "world": [
+      -266.1,
+      5.0,
+      -375.8
+     ]
+    }
+   ],
+   "note": "7 office emissive decor objects (logos/LED/monitors) \u2014 glow via emissive materials"
+  },
+  {
+   "kind": "branch",
+   "donor": "Assets/labsboiler_dm_import/Content/Locations/Laboratory/Laboratory_DesignMain.unity",
+   "path": "Security_pass_door/Quest_doors",
+   "groupRoot": "__GRAFT_DM_questdoors",
+   "note": "office access hardware: door + safe + keypads + card readers (254 objs)"
+  },
+  {
+   "kind": "objects",
+   "donor": "Assets/labsboiler_dm_import/Content/Locations/Laboratory/Laboratory_DesignMain.unity",
+   "groupRoot": "__GRAFT_DM_switches",
+   "matchRadius": 0.5,
+   "objects": [
+    {
+     "name": "announcer",
+     "world": [
+      -243.432,
+      13.12,
+      -382.572
+     ],
+     "tag": "Switch"
+    },
+    {
+     "name": "Power",
+     "world": [
+      -271.439,
+      -2.38,
+      -366.105
+     ],
+     "tag": "Switch"
+    },
+    {
+     "name": "Console_trigger",
+     "world": [
+      -243.443,
+      5.076,
+      -382.513
+     ],
+     "tag": "Switch"
+    }
+   ],
+   "note": "3 switches \u2014 present but inert in v1; wired to native exfil chains in v2"
+  }
+ ]
+}

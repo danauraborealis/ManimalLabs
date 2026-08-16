@@ -1,0 +1,2507 @@
+{
+ "source": "retail current level114 wrappers for boiler expansion lights",
+ "lights": [
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (1)~1/Light_Round_Normal_275/Base",
+   "wrappers": {
+    "VolumetricLight": {
+     "SampleCount": 8,
+     "ScatteringCoef": 0.5,
+     "ExtinctionCoef": 0.009999999776482582,
+     "SkyboxExtinctionCoef": 0.8999999761581421,
+     "MieG": 0.10000000149011612,
+     "HeightFog": 0,
+     "HeightScale": 0.10000000149011612,
+     "GroundLevel": 0.0,
+     "Noise": 0,
+     "NoiseScale": 0.014999999664723873,
+     "NoiseIntensity": 1.0,
+     "NoiseIntensityOffset": 0.30000001192092896,
+     "NoiseVelocity": {
+      "x": 3.0,
+      "y": 3.0
+     },
+     "MaxRayLength": 400.0
+    },
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 4.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (1)~1/Light_Round_Normal_275/Base",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (1)~1/Light_Round_Normal_275/Base",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 0.30000001192092896,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 12.0,
+     "_shadowsFadeEndDistance": 17.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (3)~1/Light_Round_Normal_275/MainSpot",
+   "wrappers": {
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 1.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (3)~1/Light_Round_Normal_275/MainSpot",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (3)~1/Light_Round_Normal_275/MainSpot",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 4.0,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 10.0,
+     "_shadowsFadeEndDistance": 16.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (5)/Light_Round_Normal_275/MainSpot",
+   "wrappers": {
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 1.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (5)/Light_Round_Normal_275/MainSpot",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (5)/Light_Round_Normal_275/MainSpot",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 4.0,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 10.0,
+     "_shadowsFadeEndDistance": 16.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off~1/Light_Round_Normal_275/Base",
+   "wrappers": {
+    "VolumetricLight": {
+     "SampleCount": 8,
+     "ScatteringCoef": 0.5,
+     "ExtinctionCoef": 0.009999999776482582,
+     "SkyboxExtinctionCoef": 0.8999999761581421,
+     "MieG": 0.10000000149011612,
+     "HeightFog": 0,
+     "HeightScale": 0.10000000149011612,
+     "GroundLevel": 0.0,
+     "Noise": 0,
+     "NoiseScale": 0.014999999664723873,
+     "NoiseIntensity": 1.0,
+     "NoiseIntensityOffset": 0.30000001192092896,
+     "NoiseVelocity": {
+      "x": 3.0,
+      "y": 3.0
+     },
+     "MaxRayLength": 400.0
+    },
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 4.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off~1/Light_Round_Normal_275/Base",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off~1/Light_Round_Normal_275/Base",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 0.30000001192092896,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 12.0,
+     "_shadowsFadeEndDistance": 17.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (5)~1/Light_Round_Normal_275/Base",
+   "wrappers": {
+    "VolumetricLight": {
+     "SampleCount": 8,
+     "ScatteringCoef": 0.5,
+     "ExtinctionCoef": 0.009999999776482582,
+     "SkyboxExtinctionCoef": 0.8999999761581421,
+     "MieG": 0.10000000149011612,
+     "HeightFog": 0,
+     "HeightScale": 0.10000000149011612,
+     "GroundLevel": 0.0,
+     "Noise": 0,
+     "NoiseScale": 0.014999999664723873,
+     "NoiseIntensity": 1.0,
+     "NoiseIntensityOffset": 0.30000001192092896,
+     "NoiseVelocity": {
+      "x": 3.0,
+      "y": 3.0
+     },
+     "MaxRayLength": 400.0
+    },
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 4.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (5)~1/Light_Round_Normal_275/Base",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (5)~1/Light_Round_Normal_275/Base",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 0.30000001192092896,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 12.0,
+     "_shadowsFadeEndDistance": 17.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (6)~1/Light_Round_Normal_275/MainSpot",
+   "wrappers": {
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 1.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (6)~1/Light_Round_Normal_275/MainSpot",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (6)~1/Light_Round_Normal_275/MainSpot",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 4.0,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 10.0,
+     "_shadowsFadeEndDistance": 16.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (3)/Light_Round_Normal_275/Base",
+   "wrappers": {
+    "VolumetricLight": {
+     "SampleCount": 8,
+     "ScatteringCoef": 0.5,
+     "ExtinctionCoef": 0.009999999776482582,
+     "SkyboxExtinctionCoef": 0.8999999761581421,
+     "MieG": 0.10000000149011612,
+     "HeightFog": 0,
+     "HeightScale": 0.10000000149011612,
+     "GroundLevel": 0.0,
+     "Noise": 0,
+     "NoiseScale": 0.014999999664723873,
+     "NoiseIntensity": 1.0,
+     "NoiseIntensityOffset": 0.30000001192092896,
+     "NoiseVelocity": {
+      "x": 3.0,
+      "y": 3.0
+     },
+     "MaxRayLength": 400.0
+    },
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 4.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (3)/Light_Round_Normal_275/Base",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (3)/Light_Round_Normal_275/Base",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 0.30000001192092896,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 12.0,
+     "_shadowsFadeEndDistance": 17.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off~2/Light_Round_Normal_275/MainSpot",
+   "wrappers": {
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 1.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off~2/Light_Round_Normal_275/MainSpot",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off~2/Light_Round_Normal_275/MainSpot",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 4.0,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 10.0,
+     "_shadowsFadeEndDistance": 16.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (6)/Light_Round_Normal_275/MainSpot",
+   "wrappers": {
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 1.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (6)/Light_Round_Normal_275/MainSpot",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (6)/Light_Round_Normal_275/MainSpot",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 4.0,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 10.0,
+     "_shadowsFadeEndDistance": 16.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (4)/Light_Round_Normal_275/Base",
+   "wrappers": {
+    "VolumetricLight": {
+     "SampleCount": 8,
+     "ScatteringCoef": 0.5,
+     "ExtinctionCoef": 0.009999999776482582,
+     "SkyboxExtinctionCoef": 0.8999999761581421,
+     "MieG": 0.10000000149011612,
+     "HeightFog": 0,
+     "HeightScale": 0.10000000149011612,
+     "GroundLevel": 0.0,
+     "Noise": 0,
+     "NoiseScale": 0.014999999664723873,
+     "NoiseIntensity": 1.0,
+     "NoiseIntensityOffset": 0.30000001192092896,
+     "NoiseVelocity": {
+      "x": 3.0,
+      "y": 3.0
+     },
+     "MaxRayLength": 400.0
+    },
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 4.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (4)/Light_Round_Normal_275/Base",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (4)/Light_Round_Normal_275/Base",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 0.30000001192092896,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 12.0,
+     "_shadowsFadeEndDistance": 17.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (1)/Light_Round_Normal_275/Base",
+   "wrappers": {
+    "VolumetricLight": {
+     "SampleCount": 8,
+     "ScatteringCoef": 0.5,
+     "ExtinctionCoef": 0.009999999776482582,
+     "SkyboxExtinctionCoef": 0.8999999761581421,
+     "MieG": 0.10000000149011612,
+     "HeightFog": 0,
+     "HeightScale": 0.10000000149011612,
+     "GroundLevel": 0.0,
+     "Noise": 0,
+     "NoiseScale": 0.014999999664723873,
+     "NoiseIntensity": 1.0,
+     "NoiseIntensityOffset": 0.30000001192092896,
+     "NoiseVelocity": {
+      "x": 3.0,
+      "y": 3.0
+     },
+     "MaxRayLength": 400.0
+    },
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 4.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (1)/Light_Round_Normal_275/Base",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (1)/Light_Round_Normal_275/Base",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 0.30000001192092896,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 12.0,
+     "_shadowsFadeEndDistance": 17.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)/Light_Round_Normal_275/MainSpot",
+   "wrappers": {
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 1.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)/Light_Round_Normal_275/MainSpot",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)/Light_Round_Normal_275/MainSpot",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 4.0,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 10.0,
+     "_shadowsFadeEndDistance": 16.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off/Light_Round_Normal_275/MainSpot",
+   "wrappers": {
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 1.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off/Light_Round_Normal_275/MainSpot",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off/Light_Round_Normal_275/MainSpot",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 4.0,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 10.0,
+     "_shadowsFadeEndDistance": 16.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)~2/Light_Round_Normal_275/Base",
+   "wrappers": {
+    "VolumetricLight": {
+     "SampleCount": 8,
+     "ScatteringCoef": 0.5,
+     "ExtinctionCoef": 0.009999999776482582,
+     "SkyboxExtinctionCoef": 0.8999999761581421,
+     "MieG": 0.10000000149011612,
+     "HeightFog": 0,
+     "HeightScale": 0.10000000149011612,
+     "GroundLevel": 0.0,
+     "Noise": 0,
+     "NoiseScale": 0.014999999664723873,
+     "NoiseIntensity": 1.0,
+     "NoiseIntensityOffset": 0.30000001192092896,
+     "NoiseVelocity": {
+      "x": 3.0,
+      "y": 3.0
+     },
+     "MaxRayLength": 400.0
+    },
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 4.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)~2/Light_Round_Normal_275/Base",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)~2/Light_Round_Normal_275/Base",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 0.30000001192092896,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 12.0,
+     "_shadowsFadeEndDistance": 17.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (4)~1/Light_Round_Normal_275/Base",
+   "wrappers": {
+    "VolumetricLight": {
+     "SampleCount": 8,
+     "ScatteringCoef": 0.5,
+     "ExtinctionCoef": 0.009999999776482582,
+     "SkyboxExtinctionCoef": 0.8999999761581421,
+     "MieG": 0.10000000149011612,
+     "HeightFog": 0,
+     "HeightScale": 0.10000000149011612,
+     "GroundLevel": 0.0,
+     "Noise": 0,
+     "NoiseScale": 0.014999999664723873,
+     "NoiseIntensity": 1.0,
+     "NoiseIntensityOffset": 0.30000001192092896,
+     "NoiseVelocity": {
+      "x": 3.0,
+      "y": 3.0
+     },
+     "MaxRayLength": 400.0
+    },
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 4.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (4)~1/Light_Round_Normal_275/Base",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (4)~1/Light_Round_Normal_275/Base",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 0.30000001192092896,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 12.0,
+     "_shadowsFadeEndDistance": 17.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)~1/Light_Round_Normal_275/Base",
+   "wrappers": {
+    "VolumetricLight": {
+     "SampleCount": 8,
+     "ScatteringCoef": 0.5,
+     "ExtinctionCoef": 0.009999999776482582,
+     "SkyboxExtinctionCoef": 0.8999999761581421,
+     "MieG": 0.10000000149011612,
+     "HeightFog": 0,
+     "HeightScale": 0.10000000149011612,
+     "GroundLevel": 0.0,
+     "Noise": 0,
+     "NoiseScale": 0.014999999664723873,
+     "NoiseIntensity": 1.0,
+     "NoiseIntensityOffset": 0.30000001192092896,
+     "NoiseVelocity": {
+      "x": 3.0,
+      "y": 3.0
+     },
+     "MaxRayLength": 400.0
+    },
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 4.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)~1/Light_Round_Normal_275/Base",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)~1/Light_Round_Normal_275/Base",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 0.30000001192092896,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 12.0,
+     "_shadowsFadeEndDistance": 17.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)~2/Light_Round_Normal_275/MainSpot",
+   "wrappers": {
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 1.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)~2/Light_Round_Normal_275/MainSpot",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)~2/Light_Round_Normal_275/MainSpot",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 4.0,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 10.0,
+     "_shadowsFadeEndDistance": 16.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (4)~1/Light_Round_Normal_275/MainSpot",
+   "wrappers": {
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 1.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (4)~1/Light_Round_Normal_275/MainSpot",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (4)~1/Light_Round_Normal_275/MainSpot",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 4.0,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 10.0,
+     "_shadowsFadeEndDistance": 16.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)~1/Light_Round_Normal_275/MainSpot",
+   "wrappers": {
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 1.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)~1/Light_Round_Normal_275/MainSpot",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)~1/Light_Round_Normal_275/MainSpot",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 4.0,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 10.0,
+     "_shadowsFadeEndDistance": 16.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (4)/Light_Round_Normal_275/MainSpot",
+   "wrappers": {
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 1.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (4)/Light_Round_Normal_275/MainSpot",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (4)/Light_Round_Normal_275/MainSpot",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 4.0,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 10.0,
+     "_shadowsFadeEndDistance": 16.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (1)/Light_Round_Normal_275/MainSpot",
+   "wrappers": {
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 1.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (1)/Light_Round_Normal_275/MainSpot",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (1)/Light_Round_Normal_275/MainSpot",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 4.0,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 10.0,
+     "_shadowsFadeEndDistance": 16.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off/Light_Round_Normal_275/Base",
+   "wrappers": {
+    "VolumetricLight": {
+     "SampleCount": 8,
+     "ScatteringCoef": 0.5,
+     "ExtinctionCoef": 0.009999999776482582,
+     "SkyboxExtinctionCoef": 0.8999999761581421,
+     "MieG": 0.10000000149011612,
+     "HeightFog": 0,
+     "HeightScale": 0.10000000149011612,
+     "GroundLevel": 0.0,
+     "Noise": 0,
+     "NoiseScale": 0.014999999664723873,
+     "NoiseIntensity": 1.0,
+     "NoiseIntensityOffset": 0.30000001192092896,
+     "NoiseVelocity": {
+      "x": 3.0,
+      "y": 3.0
+     },
+     "MaxRayLength": 400.0
+    },
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 4.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off/Light_Round_Normal_275/Base",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off/Light_Round_Normal_275/Base",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 0.30000001192092896,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 12.0,
+     "_shadowsFadeEndDistance": 17.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)/Light_Round_Normal_275/Base",
+   "wrappers": {
+    "VolumetricLight": {
+     "SampleCount": 8,
+     "ScatteringCoef": 0.5,
+     "ExtinctionCoef": 0.009999999776482582,
+     "SkyboxExtinctionCoef": 0.8999999761581421,
+     "MieG": 0.10000000149011612,
+     "HeightFog": 0,
+     "HeightScale": 0.10000000149011612,
+     "GroundLevel": 0.0,
+     "Noise": 0,
+     "NoiseScale": 0.014999999664723873,
+     "NoiseIntensity": 1.0,
+     "NoiseIntensityOffset": 0.30000001192092896,
+     "NoiseVelocity": {
+      "x": 3.0,
+      "y": 3.0
+     },
+     "MaxRayLength": 400.0
+    },
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 4.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)/Light_Round_Normal_275/Base",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (2)/Light_Round_Normal_275/Base",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 0.30000001192092896,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 12.0,
+     "_shadowsFadeEndDistance": 17.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (6)/Light_Round_Normal_275/Base",
+   "wrappers": {
+    "VolumetricLight": {
+     "SampleCount": 8,
+     "ScatteringCoef": 0.5,
+     "ExtinctionCoef": 0.009999999776482582,
+     "SkyboxExtinctionCoef": 0.8999999761581421,
+     "MieG": 0.10000000149011612,
+     "HeightFog": 0,
+     "HeightScale": 0.10000000149011612,
+     "GroundLevel": 0.0,
+     "Noise": 0,
+     "NoiseScale": 0.014999999664723873,
+     "NoiseIntensity": 1.0,
+     "NoiseIntensityOffset": 0.30000001192092896,
+     "NoiseVelocity": {
+      "x": 3.0,
+      "y": 3.0
+     },
+     "MaxRayLength": 400.0
+    },
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 4.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (6)/Light_Round_Normal_275/Base",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (6)/Light_Round_Normal_275/Base",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 0.30000001192092896,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 12.0,
+     "_shadowsFadeEndDistance": 17.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off~2/Light_Round_Normal_275/Base",
+   "wrappers": {
+    "VolumetricLight": {
+     "SampleCount": 8,
+     "ScatteringCoef": 0.5,
+     "ExtinctionCoef": 0.009999999776482582,
+     "SkyboxExtinctionCoef": 0.8999999761581421,
+     "MieG": 0.10000000149011612,
+     "HeightFog": 0,
+     "HeightScale": 0.10000000149011612,
+     "GroundLevel": 0.0,
+     "Noise": 0,
+     "NoiseScale": 0.014999999664723873,
+     "NoiseIntensity": 1.0,
+     "NoiseIntensityOffset": 0.30000001192092896,
+     "NoiseVelocity": {
+      "x": 3.0,
+      "y": 3.0
+     },
+     "MaxRayLength": 400.0
+    },
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 4.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off~2/Light_Round_Normal_275/Base",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off~2/Light_Round_Normal_275/Base",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 0.30000001192092896,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 12.0,
+     "_shadowsFadeEndDistance": 17.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (3)/Light_Round_Normal_275/MainSpot",
+   "wrappers": {
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 1.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (3)/Light_Round_Normal_275/MainSpot",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (3)/Light_Round_Normal_275/MainSpot",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 4.0,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 10.0,
+     "_shadowsFadeEndDistance": 16.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (6)~1/Light_Round_Normal_275/Base",
+   "wrappers": {
+    "VolumetricLight": {
+     "SampleCount": 8,
+     "ScatteringCoef": 0.5,
+     "ExtinctionCoef": 0.009999999776482582,
+     "SkyboxExtinctionCoef": 0.8999999761581421,
+     "MieG": 0.10000000149011612,
+     "HeightFog": 0,
+     "HeightScale": 0.10000000149011612,
+     "GroundLevel": 0.0,
+     "Noise": 0,
+     "NoiseScale": 0.014999999664723873,
+     "NoiseIntensity": 1.0,
+     "NoiseIntensityOffset": 0.30000001192092896,
+     "NoiseVelocity": {
+      "x": 3.0,
+      "y": 3.0
+     },
+     "MaxRayLength": 400.0
+    },
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 4.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (6)~1/Light_Round_Normal_275/Base",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (6)~1/Light_Round_Normal_275/Base",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 0.30000001192092896,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 12.0,
+     "_shadowsFadeEndDistance": 17.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (1)~1/Light_Round_Normal_275/MainSpot",
+   "wrappers": {
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 1.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (1)~1/Light_Round_Normal_275/MainSpot",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (1)~1/Light_Round_Normal_275/MainSpot",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 4.0,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 10.0,
+     "_shadowsFadeEndDistance": 16.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (3)~1/Light_Round_Normal_275/Base",
+   "wrappers": {
+    "VolumetricLight": {
+     "SampleCount": 8,
+     "ScatteringCoef": 0.5,
+     "ExtinctionCoef": 0.009999999776482582,
+     "SkyboxExtinctionCoef": 0.8999999761581421,
+     "MieG": 0.10000000149011612,
+     "HeightFog": 0,
+     "HeightScale": 0.10000000149011612,
+     "GroundLevel": 0.0,
+     "Noise": 0,
+     "NoiseScale": 0.014999999664723873,
+     "NoiseIntensity": 1.0,
+     "NoiseIntensityOffset": 0.30000001192092896,
+     "NoiseVelocity": {
+      "x": 3.0,
+      "y": 3.0
+     },
+     "MaxRayLength": 400.0
+    },
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 4.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (3)~1/Light_Round_Normal_275/Base",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (3)~1/Light_Round_Normal_275/Base",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 0.30000001192092896,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 12.0,
+     "_shadowsFadeEndDistance": 17.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (5)/Light_Round_Normal_275/Base",
+   "wrappers": {
+    "VolumetricLight": {
+     "SampleCount": 8,
+     "ScatteringCoef": 0.5,
+     "ExtinctionCoef": 0.009999999776482582,
+     "SkyboxExtinctionCoef": 0.8999999761581421,
+     "MieG": 0.10000000149011612,
+     "HeightFog": 0,
+     "HeightScale": 0.10000000149011612,
+     "GroundLevel": 0.0,
+     "Noise": 0,
+     "NoiseScale": 0.014999999664723873,
+     "NoiseIntensity": 1.0,
+     "NoiseIntensityOffset": 0.30000001192092896,
+     "NoiseVelocity": {
+      "x": 3.0,
+      "y": 3.0
+     },
+     "MaxRayLength": 400.0
+    },
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 4.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (5)/Light_Round_Normal_275/Base",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (5)/Light_Round_Normal_275/Base",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 0.30000001192092896,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 12.0,
+     "_shadowsFadeEndDistance": 17.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (5)~1/Light_Round_Normal_275/MainSpot",
+   "wrappers": {
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 1.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (5)~1/Light_Round_Normal_275/MainSpot",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off (5)~1/Light_Round_Normal_275/MainSpot",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 4.0,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 10.0,
+     "_shadowsFadeEndDistance": 16.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off~1/Light_Round_Normal_275/MainSpot",
+   "wrappers": {
+    "CullingLightObject": {
+     "CullDistance": 35.0,
+     "_radius": 1.0,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off~1/Light_Round_Normal_275/MainSpot",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/OFF/Spot_lamp_01_source_off~1/Light_Round_Normal_275/MainSpot",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 30.0,
+     "_fadeEndDistance": 35.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 4.0,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 10.0,
+     "_shadowsFadeEndDistance": 16.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  },
+  {
+   "go": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/ON/Glowstick_01_source_on/glowstick light",
+   "wrappers": {
+    "VolumetricLight": {
+     "SampleCount": 8,
+     "ScatteringCoef": 0.800000011920929,
+     "ExtinctionCoef": 0.009999999776482582,
+     "SkyboxExtinctionCoef": 0.8999999761581421,
+     "MieG": 0.10000000149011612,
+     "HeightFog": 0,
+     "HeightScale": 0.10000000149011612,
+     "GroundLevel": 0.0,
+     "Noise": 0,
+     "NoiseScale": 0.014999999664723873,
+     "NoiseIntensity": 1.2000000476837158,
+     "NoiseIntensityOffset": 0.30000001192092896,
+     "NoiseVelocity": {
+      "x": 3.0,
+      "y": 3.0
+     },
+     "MaxRayLength": 400.0
+    },
+    "CullingLightObject": {
+     "CullDistance": 60.0,
+     "_radius": 3.1500000953674316,
+     "_shift": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "_drawSphere": 1,
+     "_cullByDistanceOnly": 1,
+     "_componentsToTurnOff": [],
+     "_componentsToTurnOffDefaultState": [],
+     "_gameObjectsToTurnOff": [],
+     "_transform": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/ON/Glowstick_01_source_on/glowstick light",
+      "refType": "Transform"
+     },
+     "_componentsSwitchPerFrameOnEnable": 25,
+     "_objectsSwitchPerFrameOnEnable": 25,
+     "_componentsSwitchPerFrameOnDisable": 25,
+     "_objectsSwitchPerFrameOnDisable": 25,
+     "_light": {
+      "refPath": "SBG_Laboratory_Light/OO/LightGroup/Laboratory_Office_Above_Boiler_Room_floor_1/LAMPS/ON/Glowstick_01_source_on/glowstick light",
+      "refType": "Light"
+     },
+     "_fadeStartDistance": 40.0,
+     "_fadeEndDistance": 60.0,
+     "_fadeCurve": {
+      "m_Curve": [
+       {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       },
+       {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.3333333432674408,
+        "outWeight": 0.3333333432674408
+       }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+     },
+     "_useLightIntensityFromEditor": 1,
+     "_maxLightIntensity": 1.2000000476837158,
+     "_takeFlareParametersFromThisScript": 0,
+     "_cullShadowsByDistance": 1,
+     "_shadowsFadeStartDistance": 12.0,
+     "_shadowsFadeEndDistance": 17.0,
+     "_initialShadowsMode": 0
+    }
+   },
+   "lampRoot": null
+  }
+ ],
+ "lampControllers": {}
+}

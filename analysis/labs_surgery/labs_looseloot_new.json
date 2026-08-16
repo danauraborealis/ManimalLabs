@@ -1,0 +1,1146 @@
+{
+ "dumps": 7,
+ "sptSpawnpoints": 1430,
+ "uniqueDumpPoints": 887,
+ "newPoints": [
+  {
+   "pos": {
+    "x": -269.1356,
+    "y": 5.168,
+    "z": -372.682
+   },
+   "seen": 7,
+   "inExpansionBox": false,
+   "ids": [
+    "Labcards (2) [a0487c67-4065-4704-850f-884b0e695117]",
+    "lab_krug_safe_loot1 [35d043f1-07d7-467a-8139-5240747ed2d5]",
+    "lab_krug_safe_loot1 [6b49e79d-53a8-40fa-b210-2a03790702c5]"
+   ],
+   "tpls": [
+    "5c12613b86f7743bbe2c3f76",
+    "6711039f9e648049e50b3307"
+   ]
+  },
+  {
+   "pos": {
+    "x": -269.1262,
+    "y": 5.4653,
+    "z": -372.6654
+   },
+   "seen": 7,
+   "inExpansionBox": false,
+   "ids": [
+    "item_info_note_intelligence_data [6edf9821-32d8-493f-823a-91a58fc25b95]",
+    "item_info_note_intelligence_data [bf692203-90e5-453e-a3d8-3cf216eeb93e]"
+   ],
+   "tpls": [
+    "689b5072665c386d9c007a41"
+   ]
+  },
+  {
+   "pos": {
+    "x": -269.041,
+    "y": 5.249,
+    "z": -372.676
+   },
+   "seen": 7,
+   "inExpansionBox": true,
+   "ids": [
+    "lab_krug_safe_loot2 (1) [90f2c0eb-21ac-4200-8572-959d2dcba4bd]",
+    "lab_krug_safe_loot2 (1) [fbca01aa-d966-4ea0-baf2-7c1a577c891e]",
+    "q_master_access [4e10844d-0c2e-4ca8-8b50-afc4f5a606f7]",
+    "q_master_access [af30ed87-9f34-4db6-8bcf-88279a4c1b41]"
+   ],
+   "tpls": [
+    "59faf7ca86f7740dbe19f6c2",
+    "59faff1d86f7746c51718c9c",
+    "67bdf097600629c8f20322e5"
+   ]
+  },
+  {
+   "pos": {
+    "x": -268.9496,
+    "y": 5.162,
+    "z": -372.5677
+   },
+   "seen": 7,
+   "inExpansionBox": true,
+   "ids": [
+    "lab_krug_safe_loot2 [9b3465ef-a5ff-4701-b346-13d978c29898]",
+    "lab_krug_safe_loot2 [f4b2ab2f-07db-4573-b88c-5886459350c5]",
+    "q_card_key_from_safe_krug [069d259f-731d-4252-9d58-18ca6d9357fd]",
+    "q_card_key_from_safe_krug [a8b9851f-6df0-4b24-9028-e84675902d75]"
+   ],
+   "tpls": [
+    "59faf7ca86f7740dbe19f6c2",
+    "59faff1d86f7746c51718c9c",
+    "68c165f1903341d88b092b2a"
+   ]
+  },
+  {
+   "pos": {
+    "x": -242.37439,
+    "y": 5.0081,
+    "z": -379.682
+   },
+   "seen": 7,
+   "inExpansionBox": false,
+   "ids": [
+    "quest_blue_doc(2) [2157ab73-17f7-4950-9907-0572c36adc54]",
+    "quest_blue_doc(2) [a5160730-ba95-40ea-b58f-d69dfabb9623]"
+   ],
+   "tpls": [
+    "67c0351e354fca26a0008038"
+   ]
+  },
+  {
+   "pos": {
+    "x": -219.055,
+    "y": 5.034,
+    "z": -378.172
+   },
+   "seen": 7,
+   "inExpansionBox": false,
+   "ids": [
+    "univ_loot_sup1 (33) [506376e7-0395-4f41-9450-a9c729c61366]",
+    "univ_loot_sup1 (33) [7547efbb-9a68-4cd6-a8f7-a848ee02ead4]"
+   ],
+   "tpls": [
+    "57347baf24597738002c6178",
+    "590de71386f774347051a052",
+    "590de7e986f7741b096e5f32",
+    "5bc9bc53d4351e00367fbcee",
+    "5bc9bdb8d4351e003562b8a1",
+    "5e54f6af86f7742199090bf3",
+    "62a09cfe4f842e1bd12da3e4",
+    "6389c7f115805221fb410466"
+   ]
+  },
+  {
+   "pos": {
+    "x": -214.6199,
+    "y": 0.3823,
+    "z": -311.0731
+   },
+   "seen": 7,
+   "inExpansionBox": false,
+   "ids": [
+    "item_info_recorder_tape_tgmeeting_01 [4680834a-374f-4c82-8fa2-3f0e4a643c95]",
+    "item_info_recorder_tape_tgmeeting_01 [9dc64763-051a-4645-b2b4-2eb5dd33cb9a]"
+   ],
+   "tpls": [
+    "68109c867807b4d2dd0b5df5"
+   ]
+  },
+  {
+   "pos": {
+    "x": -195.7232,
+    "y": 4.95687,
+    "z": -401.0529
+   },
+   "seen": 7,
+   "inExpansionBox": false,
+   "ids": [
+    "item_info_note_quest_product1156 [1b83a7b6-efb7-4c9f-9660-6b91655299c5]",
+    "item_info_note_quest_product1156 [8ba035d2-5525-4063-89f7-4a6061a33775]"
+   ],
+   "tpls": [
+    "6877c2dcda2a05d0cb04f983"
+   ]
+  },
+  {
+   "pos": {
+    "x": -188.93,
+    "y": 0.551,
+    "z": -341.505
+   },
+   "seen": 7,
+   "inExpansionBox": false,
+   "ids": [
+    "univ_loot_sup1 (7) [10dcd377-be65-4808-ac18-f2b3b8c0598b]",
+    "univ_loot_sup1 (7) [4d883076-2b2c-4b7d-b91a-159a12ff298d]"
+   ],
+   "tpls": [
+    "5672cb124bdc2d1a0f8b4568",
+    "590de7e986f7741b096e5f32",
+    "59e3647686f774176a362507",
+    "59faff1d86f7746c51718c9c",
+    "5bc9be8fd4351e00334cae6e",
+    "5d0377ce86f774186372f689",
+    "62a09cb7a04c0c5c6e0a84f8",
+    "62a09cfe4f842e1bd12da3e4",
+    "69f9d547b98cc4120608692a"
+   ]
+  },
+  {
+   "pos": {
+    "x": -164.019,
+    "y": -27.7680016,
+    "z": -342.966
+   },
+   "seen": 7,
+   "inExpansionBox": false,
+   "ids": [
+    "loot_LEDx_5vs25 [35e0e3b6-b3db-4e96-b362-5492265a2e9d]",
+    "loot_LEDx_5vs25 [6b45b8d8-ff67-4752-b30e-fdf250848260]"
+   ],
+   "tpls": [
+    "5c0530ee86f774697952d952"
+   ]
+  },
+  {
+   "pos": {
+    "x": -158.096,
+    "y": 0.858,
+    "z": -376.678
+   },
+   "seen": 7,
+   "inExpansionBox": false,
+   "ids": [
+    "item_info_note_TGlabs_related_companys [759a46e3-4dc2-4597-b472-603e1fb2f3b5]",
+    "item_info_note_TGlabs_related_companys [89c42d89-9027-4811-9be2-807ecd19b5d5]"
+   ],
+   "tpls": [
+    "689b50ec127673bbd40706d1"
+   ]
+  },
+  {
+   "pos": {
+    "x": -141.278,
+    "y": 4.6622,
+    "z": -404.12
+   },
+   "seen": 7,
+   "inExpansionBox": false,
+   "ids": [
+    "item_info_note_fax_blueIce [7a6faefd-001f-4c73-a15f-0ff2ed042d03]",
+    "item_info_note_fax_blueIce [ab59f519-afd0-4c39-b8e0-b4b2f687802a]"
+   ],
+   "tpls": [
+    "689b5108304455f61a0bc298"
+   ]
+  },
+  {
+   "pos": {
+    "x": -132.38,
+    "y": 5.015,
+    "z": -335.318
+   },
+   "seen": 7,
+   "inExpansionBox": false,
+   "ids": [
+    "q_dark_lab_med_sanitar [31cf6460-ee69-456b-9dce-42795dca3220]"
+   ],
+   "tpls": [
+    "6a446dac154fc86b970e1361"
+   ]
+  },
+  {
+   "pos": {
+    "x": -123.7445,
+    "y": 0.8382,
+    "z": -354.0798
+   },
+   "seen": 7,
+   "inExpansionBox": false,
+   "ids": [
+    "q_dark_lab_tg_proba1 [765fde10-85d5-4ce2-8adc-7b47687fe4d5]"
+   ],
+   "tpls": [
+    "6a446e01918b1b16b908e9eb"
+   ]
+  },
+  {
+   "pos": {
+    "x": -148.83,
+    "y": 5.428,
+    "z": -393.608
+   },
+   "seen": 6,
+   "inExpansionBox": false,
+   "ids": [
+    "univ_loot_sup1 (19) [5686d68b-af67-453a-9c1e-dedd340bb06a]",
+    "univ_loot_sup1 (19) [9af90b45-39f5-417c-aa18-33944286af82]"
+   ],
+   "tpls": [
+    "57347baf24597738002c6178",
+    "590de71386f774347051a052",
+    "590de7e986f7741b096e5f32",
+    "5bc9bdb8d4351e003562b8a1",
+    "67586af7036d7f3da60c3612",
+    "69f9d547b98cc4120608692a"
+   ]
+  },
+  {
+   "pos": {
+    "x": -142.243,
+    "y": 5.166,
+    "z": -401.018
+   },
+   "seen": 6,
+   "inExpansionBox": false,
+   "ids": [
+    "univ_loot_sup1 (17) [15381db2-eecc-4a7d-a6f3-5a2d302a8fb4]",
+    "univ_loot_sup1 (17) [f3f071f1-f912-4c97-8dae-ebbbe0c1d705]"
+   ],
+   "tpls": [
+    "590c5a7286f7747884343aea",
+    "5c05300686f7746dce784e5d",
+    "5d0377ce86f774186372f689",
+    "5d235a5986f77443f6329bc6",
+    "5d6fc87386f77449db3db94e",
+    "5e54f62086f774219b0f1937"
+   ]
+  },
+  {
+   "pos": {
+    "x": -213.429123,
+    "y": 1.141,
+    "z": -305.785156
+   },
+   "seen": 5,
+   "inExpansionBox": false,
+   "ids": [
+    "jammer [67859230-9ee3-4f4d-883c-3edb8ade435b]",
+    "jammer [bd5c83f3-fee4-45cb-b7a5-589069110405]"
+   ],
+   "tpls": [
+    "67bdea3ecf0cc29475092196"
+   ]
+  },
+  {
+   "pos": {
+    "x": -172.375244,
+    "y": 4.1369,
+    "z": -342.415
+   },
+   "seen": 5,
+   "inExpansionBox": false,
+   "ids": [
+    "quest_blue_doc(1) [9beaa309-c4bc-4574-ba5d-def61b767154]",
+    "quest_blue_doc(1) [e03f6261-9cd6-4203-b42b-07215150dd74]"
+   ],
+   "tpls": [
+    "67c035140610e91bea05699a"
+   ]
+  },
+  {
+   "pos": {
+    "x": -161.341,
+    "y": 4.7957,
+    "z": -349.151
+   },
+   "seen": 5,
+   "inExpansionBox": false,
+   "ids": [
+    "quest_blue_doc [5224c3a0-b193-4b65-99c0-fa8e02cc27aa]",
+    "quest_blue_doc [769d3227-f1e7-4da0-a76e-1523e5b79217]"
+   ],
+   "tpls": [
+    "67c034f0e7a5da1e070f6de8"
+   ]
+  },
+  {
+   "pos": {
+    "x": -148.9506,
+    "y": 4.935,
+    "z": -406.759
+   },
+   "seen": 5,
+   "inExpansionBox": false,
+   "ids": [
+    "quest_blue_doc(3) [7dae87ea-cf4a-4341-b660-639406b34802]",
+    "quest_blue_doc(3) [d1ed3300-428d-49b9-8bf4-7acfc0306a00]"
+   ],
+   "tpls": [
+    "67c0352dd98287be7b0923d6"
+   ]
+  },
+  {
+   "pos": {
+    "x": -139.9459,
+    "y": 5.067,
+    "z": -392.672
+   },
+   "seen": 5,
+   "inExpansionBox": false,
+   "ids": [
+    "quest_blue_doc(3) [7dae87ea-cf4a-4341-b660-639406b34802]",
+    "quest_blue_doc(3) [d1ed3300-428d-49b9-8bf4-7acfc0306a00]"
+   ],
+   "tpls": [
+    "67c0352dd98287be7b0923d6"
+   ]
+  },
+  {
+   "pos": {
+    "x": -265.1776,
+    "y": 5.279812,
+    "z": -376.090759
+   },
+   "seen": 4,
+   "inExpansionBox": true,
+   "ids": [
+    "Jewerly (3) [119b07a6-0d51-4f17-accc-18fc40a9b11a]",
+    "Jewerly (3) [d876eaa1-727e-4f1f-80ad-2968ec79f542]"
+   ],
+   "tpls": [
+    "59e3639286f7741777737013",
+    "59faff1d86f7746c51718c9c",
+    "5d235a5986f77443f6329bc6"
+   ]
+  },
+  {
+   "pos": {
+    "x": -264.79837,
+    "y": 5.279812,
+    "z": -376.4135
+   },
+   "seen": 4,
+   "inExpansionBox": true,
+   "ids": [
+    "Jewerly (4) [15312983-a44c-47bc-9fb6-c3c900dc4eff]",
+    "Jewerly (4) [84d92bf9-cd82-4b11-89ae-52fa508002b6]"
+   ],
+   "tpls": [
+    "59e3639286f7741777737013",
+    "59e3647686f774176a362507",
+    "5bc9bc53d4351e00367fbcee",
+    "5d235a5986f77443f6329bc6"
+   ]
+  },
+  {
+   "pos": {
+    "x": -262.791016,
+    "y": 5.279812,
+    "z": -375.969727
+   },
+   "seen": 4,
+   "inExpansionBox": true,
+   "ids": [
+    "Jewerly (2) [a02430c0-5d38-4d67-ab66-ec9c6b504fe2]",
+    "Jewerly (2) [ddaff0cc-1886-4347-b51d-06f3927c9a7f]"
+   ],
+   "tpls": [
+    "59faff1d86f7746c51718c9c",
+    "5bc9bc53d4351e00367fbcee",
+    "5d235b4d86f7742e017bc88a",
+    "5e54f62086f774219b0f1937"
+   ]
+  },
+  {
+   "pos": {
+    "x": -262.3538,
+    "y": 5.279812,
+    "z": -375.884949
+   },
+   "seen": 4,
+   "inExpansionBox": true,
+   "ids": [
+    "Jewerly [68eb65fb-52d2-4874-8f9b-9002c617723a]",
+    "Jewerly [d9c83c6c-98a9-47ae-b907-561930ece65b]"
+   ],
+   "tpls": [
+    "590de71386f774347051a052",
+    "59e3639286f7741777737013",
+    "5bc9bdb8d4351e003562b8a1",
+    "5d235b4d86f7742e017bc88a",
+    "5e54f62086f774219b0f1937"
+   ]
+  },
+  {
+   "pos": {
+    "x": -261.8431,
+    "y": 4.95210028,
+    "z": -328.7608
+   },
+   "seen": 4,
+   "inExpansionBox": false,
+   "ids": [
+    "quest_blue_doc [5224c3a0-b193-4b65-99c0-fa8e02cc27aa]",
+    "quest_blue_doc [769d3227-f1e7-4da0-a76e-1523e5b79217]"
+   ],
+   "tpls": [
+    "67c034f0e7a5da1e070f6de8"
+   ]
+  },
+  {
+   "pos": {
+    "x": -231.465,
+    "y": 4.8372,
+    "z": -340.676
+   },
+   "seen": 4,
+   "inExpansionBox": false,
+   "ids": [
+    "jammer [67859230-9ee3-4f4d-883c-3edb8ade435b]",
+    "jammer [bd5c83f3-fee4-45cb-b7a5-589069110405]"
+   ],
+   "tpls": [
+    "67bdea3ecf0cc29475092196"
+   ]
+  },
+  {
+   "pos": {
+    "x": -170.834564,
+    "y": 5.44,
+    "z": -285.280457
+   },
+   "seen": 4,
+   "inExpansionBox": false,
+   "ids": [
+    "item_ice_quest_barter_flyers_paradigm (1) [0f6110f2-b3cf-4c9b-aed9-5fc07a56a573]"
+   ],
+   "tpls": [
+    "699f0b877c23862b4b0ee19c"
+   ]
+  },
+  {
+   "pos": {
+    "x": -158.273,
+    "y": 4.475,
+    "z": -410.807
+   },
+   "seen": 4,
+   "inExpansionBox": false,
+   "ids": [
+    "univ_loot_sup1 (18) [ab5f5738-b6a0-41b4-bd9d-e29e555b84ea]",
+    "univ_loot_sup1 (18) [d1fedc29-62d1-4ccb-be94-2fef07ef1d48]"
+   ],
+   "tpls": [
+    "57347baf24597738002c6178",
+    "5e54f6af86f7742199090bf3",
+    "62a08f4c4f842e1bd12d9d62",
+    "62a09cfe4f842e1bd12da3e4"
+   ]
+  },
+  {
+   "pos": {
+    "x": -268.126373,
+    "y": 5.279812,
+    "z": -376.401672
+   },
+   "seen": 3,
+   "inExpansionBox": true,
+   "ids": [
+    "Jewerly (8) [6c0e9397-eba0-4075-b448-c185bd566027]",
+    "Jewerly (8) [8947ed10-8473-4309-b790-32928671168a]"
+   ],
+   "tpls": [
+    "590de7e986f7741b096e5f32",
+    "5d235a5986f77443f6329bc6",
+    "62a09cfe4f842e1bd12da3e4"
+   ]
+  },
+  {
+   "pos": {
+    "x": -266.3684,
+    "y": 5.279812,
+    "z": -376.923553
+   },
+   "seen": 3,
+   "inExpansionBox": true,
+   "ids": [
+    "Jewerly (7) [2a8237b0-b9ed-4942-a591-889415e11a23]",
+    "Jewerly (7) [ab451816-f977-4c07-8daf-c4a22f3b6ef8]"
+   ],
+   "tpls": [
+    "590de71386f774347051a052",
+    "5d235b4d86f7742e017bc88a",
+    "62a09cfe4f842e1bd12da3e4"
+   ]
+  },
+  {
+   "pos": {
+    "x": -263.1703,
+    "y": 5.279812,
+    "z": -375.920074
+   },
+   "seen": 3,
+   "inExpansionBox": true,
+   "ids": [
+    "Jewerly (1) [5e3ea208-e2d5-45b2-9545-e1ad799711c6]",
+    "Jewerly (1) [a1a12338-8430-42fe-8f0c-32164417ac11]"
+   ],
+   "tpls": [
+    "590de71386f774347051a052",
+    "59e3639286f7741777737013",
+    "59faf7ca86f7740dbe19f6c2",
+    "5bc9bc53d4351e00367fbcee",
+    "62a09cfe4f842e1bd12da3e4"
+   ]
+  },
+  {
+   "pos": {
+    "x": -252.278717,
+    "y": 4.63,
+    "z": -363.519
+   },
+   "seen": 3,
+   "inExpansionBox": true,
+   "ids": [
+    "quest_blue_doc(2) [a5160730-ba95-40ea-b58f-d69dfabb9623]"
+   ],
+   "tpls": [
+    "67c0351e354fca26a0008038"
+   ]
+  },
+  {
+   "pos": {
+    "x": -229.07341,
+    "y": 5.623,
+    "z": -354.920929
+   },
+   "seen": 3,
+   "inExpansionBox": false,
+   "ids": [
+    "item_ice_quest_barter_flyers_paradigm [110306c4-801b-42b0-84e9-a3da1de821dc]"
+   ],
+   "tpls": [
+    "699f0b877c23862b4b0ee19c"
+   ]
+  },
+  {
+   "pos": {
+    "x": -180.877,
+    "y": 1.926,
+    "z": -318.172
+   },
+   "seen": 3,
+   "inExpansionBox": false,
+   "ids": [
+    "Flyer (18) [d635a53e-7058-41f3-9a40-6b129a78c22c]",
+    "Flyer (18) [e5c9a632-8169-4f7c-acf6-a05eee60ab47]"
+   ],
+   "tpls": [
+    "675a04c01474133a0d0bb212",
+    "675a081c1474133a0d0bb214",
+    "68f25a45b2b53abd200b954d",
+    "68f25a8acacd763bbc0e2bf9"
+   ]
+  },
+  {
+   "pos": {
+    "x": -176.5694,
+    "y": 6.39800024,
+    "z": -339.430756
+   },
+   "seen": 3,
+   "inExpansionBox": false,
+   "ids": [
+    "item_ice_quest_barter_flyers_paradigm [110306c4-801b-42b0-84e9-a3da1de821dc]"
+   ],
+   "tpls": [
+    "699f0b877c23862b4b0ee19c"
+   ]
+  },
+  {
+   "pos": {
+    "x": -142.167,
+    "y": 5.801,
+    "z": -397.711
+   },
+   "seen": 3,
+   "inExpansionBox": false,
+   "ids": [
+    "Flyer (14) [737a17a5-c51b-4a93-89dd-9d23641c233f]",
+    "Flyer (14) [db215b8f-711d-40c5-a59b-3d4a9f5258a8]"
+   ],
+   "tpls": [
+    "675a06b84ff23436160d802f",
+    "675a0fbbb98bf391510bafcd",
+    "675a1af21474133a0d0bb216"
+   ]
+  },
+  {
+   "pos": {
+    "x": -125.364,
+    "y": 4.682,
+    "z": -418.227
+   },
+   "seen": 3,
+   "inExpansionBox": false,
+   "ids": [
+    "loot_tool (26) [27dd54ff-5149-4b20-a939-5f070526f888]",
+    "loot_tool (26) [97e36f8d-5c7b-41e8-a585-1d314881e23d]"
+   ],
+   "tpls": [
+    "590c5bbd86f774785762df04",
+    "5d4042a986f7743185265463",
+    "60391afc25aff57af81f7085"
+   ]
+  },
+  {
+   "pos": {
+    "x": -101.158,
+    "y": 0.942,
+    "z": -430.9481
+   },
+   "seen": 3,
+   "inExpansionBox": false,
+   "ids": [
+    "jammer [67859230-9ee3-4f4d-883c-3edb8ade435b]",
+    "jammer [bd5c83f3-fee4-45cb-b7a5-589069110405]"
+   ],
+   "tpls": [
+    "67bdea3ecf0cc29475092196"
+   ]
+  },
+  {
+   "pos": {
+    "x": -265.347931,
+    "y": 5.279812,
+    "z": -376.92804
+   },
+   "seen": 2,
+   "inExpansionBox": true,
+   "ids": [
+    "Jewerly (6) [1f4e559c-8e70-4d56-8187-7a62250f1d71]",
+    "Jewerly (6) [331ddb27-7019-437b-839d-1a8157476d86]"
+   ],
+   "tpls": [
+    "59e3647686f774176a362507",
+    "59faf7ca86f7740dbe19f6c2",
+    "5f745ee30acaeb0d490d8c5b"
+   ]
+  },
+  {
+   "pos": {
+    "x": -265.05365,
+    "y": 5.99881172,
+    "z": -376.864624
+   },
+   "seen": 2,
+   "inExpansionBox": true,
+   "ids": [
+    "loot_intel_docs1 (27) [a97f04ba-053b-46de-a406-dd8a6ff16f91]",
+    "loot_intel_docs1 (27) [ac1cb5b8-f333-49e2-ae7b-9888edf51233]"
+   ],
+   "tpls": [
+    "6389c8c5dbfd5e4b95197e6b"
+   ]
+  },
+  {
+   "pos": {
+    "x": -264.4546,
+    "y": 6.01061153,
+    "z": -376.8335
+   },
+   "seen": 2,
+   "inExpansionBox": true,
+   "ids": [
+    "loot_intel_docs1 (26) [5c07af1f-7511-49c2-aa6d-da7c5f0735c7]",
+    "loot_intel_docs1 (26) [6cee4073-2233-44e7-b829-dd662003b8f7]"
+   ],
+   "tpls": [
+    "5c12613b86f7743bbe2c3f76",
+    "6389c8c5dbfd5e4b95197e6b"
+   ]
+  },
+  {
+   "pos": {
+    "x": -264.441254,
+    "y": 5.279812,
+    "z": -375.993927
+   },
+   "seen": 2,
+   "inExpansionBox": true,
+   "ids": [
+    "Jewerly (5) [98be33b7-d70a-4eef-bf2c-7537e07302da]",
+    "Jewerly (5) [99fd1476-1412-4371-af2a-0426ca63179a]"
+   ],
+   "tpls": [
+    "59faff1d86f7746c51718c9c",
+    "5bc9bc53d4351e00367fbcee"
+   ]
+  },
+  {
+   "pos": {
+    "x": -248.064,
+    "y": -3.49061775,
+    "z": -378.445
+   },
+   "seen": 2,
+   "inExpansionBox": false,
+   "ids": [
+    "univ_loot_sup1 (8) [c574b933-6dc0-4943-b6d8-c19d8d505ec5]",
+    "univ_loot_sup1 (8) [efab13ee-eab6-419a-935a-d6be4b8aa4b1]"
+   ],
+   "tpls": [
+    "59e3639286f7741777737013",
+    "5c052fb986f7746b2101e909",
+    "5e54f62086f774219b0f1937"
+   ]
+  },
+  {
+   "pos": {
+    "x": -221.1648,
+    "y": 5.599,
+    "z": -308.448334
+   },
+   "seen": 2,
+   "inExpansionBox": false,
+   "ids": [
+    "item_ice_quest_barter_flyers_paradigm (1) [0f6110f2-b3cf-4c9b-aed9-5fc07a56a573]"
+   ],
+   "tpls": [
+    "699f0b877c23862b4b0ee19c"
+   ]
+  },
+  {
+   "pos": {
+    "x": -207.58,
+    "y": 1.7456,
+    "z": -304.7809
+   },
+   "seen": 2,
+   "inExpansionBox": false,
+   "ids": [
+    "quest_blue_doc(1) [9beaa309-c4bc-4574-ba5d-def61b767154]",
+    "quest_blue_doc(1) [e03f6261-9cd6-4203-b42b-07215150dd74]"
+   ],
+   "tpls": [
+    "67c035140610e91bea05699a"
+   ]
+  },
+  {
+   "pos": {
+    "x": -149.959,
+    "y": 4.748,
+    "z": -401.492
+   },
+   "seen": 2,
+   "inExpansionBox": false,
+   "ids": [
+    "loot_jeverly (7) [005606e8-1a56-4591-bf9f-91d51ae4ceca]"
+   ],
+   "tpls": [
+    "59e3658a86f7741776641ac4"
+   ]
+  },
+  {
+   "pos": {
+    "x": -145.434,
+    "y": 5.378,
+    "z": -396.46
+   },
+   "seen": 2,
+   "inExpansionBox": false,
+   "ids": [
+    "loot_electron_sup (3) [89cfb784-3120-40c9-8992-694afc13826f]",
+    "loot_electron_sup (3) [99ca43f4-752a-40ee-8a53-6d73ac0ebe2c]"
+   ],
+   "tpls": [
+    "590a391c86f774385a33c404",
+    "5d1b309586f77425227d1676"
+   ]
+  },
+  {
+   "pos": {
+    "x": -129.714569,
+    "y": 5.035,
+    "z": -376.706573
+   },
+   "seen": 2,
+   "inExpansionBox": false,
+   "ids": [
+    "q_dark_lab_tg_proba2 [85abb466-6751-4b91-a5ca-346f87d44a0c]"
+   ],
+   "tpls": [
+    "6a446e195839ffe2430a4de5"
+   ]
+  },
+  {
+   "pos": {
+    "x": -126.169,
+    "y": 5.010415,
+    "z": -287.311523
+   },
+   "seen": 2,
+   "inExpansionBox": false,
+   "ids": [
+    "quest_blue_doc [769d3227-f1e7-4da0-a76e-1523e5b79217]"
+   ],
+   "tpls": [
+    "67c034f0e7a5da1e070f6de8"
+   ]
+  },
+  {
+   "pos": {
+    "x": -122.103432,
+    "y": 4.363,
+    "z": -370.5167
+   },
+   "seen": 2,
+   "inExpansionBox": false,
+   "ids": [
+    "q_dark_lab_tg_proba2 [85abb466-6751-4b91-a5ca-346f87d44a0c]"
+   ],
+   "tpls": [
+    "6a446e195839ffe2430a4de5"
+   ]
+  },
+  {
+   "pos": {
+    "x": -266.7764,
+    "y": 5.725811,
+    "z": -376.251953
+   },
+   "seen": 1,
+   "inExpansionBox": true,
+   "ids": [
+    "infow (5) [fee52a99-0a12-4724-959c-1d1320c879cf]"
+   ],
+   "tpls": [
+    "590c37d286f77443be3d7827"
+   ]
+  },
+  {
+   "pos": {
+    "x": -257.196,
+    "y": 5.233,
+    "z": -368.951
+   },
+   "seen": 1,
+   "inExpansionBox": true,
+   "ids": [
+    "loot_jeverly (20) [fb9b7c70-a661-4f2d-b7ba-37c2d88d3c63]"
+   ],
+   "tpls": [
+    "5734758f24597738025ee253"
+   ]
+  },
+  {
+   "pos": {
+    "x": -252.3282,
+    "y": 5.0191,
+    "z": -321.1439
+   },
+   "seen": 1,
+   "inExpansionBox": false,
+   "ids": [
+    "loot_intel_docs1 (20) [c23fcd36-2bbe-4c9f-83d1-72f7b346a2be]",
+    "loot_intel_docs1 (20) [e05bc5fd-cfc9-464b-8610-6fd430ec9666]"
+   ],
+   "tpls": [
+    "6389c8c5dbfd5e4b95197e6b"
+   ]
+  },
+  {
+   "pos": {
+    "x": -218.808884,
+    "y": 5.04800034,
+    "z": -308.9368
+   },
+   "seen": 1,
+   "inExpansionBox": false,
+   "ids": [
+    "item_ice_quest_barter_flyers_paradigm [110306c4-801b-42b0-84e9-a3da1de821dc]"
+   ],
+   "tpls": [
+    "699f0b877c23862b4b0ee19c"
+   ]
+  },
+  {
+   "pos": {
+    "x": -185.833,
+    "y": 1.0212,
+    "z": -367.414
+   },
+   "seen": 1,
+   "inExpansionBox": false,
+   "ids": [
+    "quest_blue_doc(2) [2157ab73-17f7-4950-9907-0572c36adc54]"
+   ],
+   "tpls": [
+    "67c0351e354fca26a0008038"
+   ]
+  },
+  {
+   "pos": {
+    "x": -180.745239,
+    "y": 5.764,
+    "z": -391.972382
+   },
+   "seen": 1,
+   "inExpansionBox": false,
+   "ids": [
+    "item_ice_quest_barter_flyers_paradigm (1) [0f6110f2-b3cf-4c9b-aed9-5fc07a56a573]"
+   ],
+   "tpls": [
+    "699f0b877c23862b4b0ee19c"
+   ]
+  },
+  {
+   "pos": {
+    "x": -171.960678,
+    "y": 0.012,
+    "z": -370.092163
+   },
+   "seen": 1,
+   "inExpansionBox": false,
+   "ids": [
+    "loot_LEDx_5vs25 [35e0e3b6-b3db-4e96-b362-5492265a2e9d]"
+   ],
+   "tpls": [
+    "5c0530ee86f774697952d952"
+   ]
+  },
+  {
+   "pos": {
+    "x": -169.58139,
+    "y": 0.834000051,
+    "z": -372.312378
+   },
+   "seen": 1,
+   "inExpansionBox": false,
+   "ids": [
+    "loot_LEDx_5vs25 [35e0e3b6-b3db-4e96-b362-5492265a2e9d]"
+   ],
+   "tpls": [
+    "5c0530ee86f774697952d952"
+   ]
+  },
+  {
+   "pos": {
+    "x": -156.53,
+    "y": 5.631,
+    "z": -397.371
+   },
+   "seen": 1,
+   "inExpansionBox": false,
+   "ids": [
+    "loot_jeverly (3) [b0b35dab-e977-4181-b71a-7ee7ee9e0c8d]"
+   ],
+   "tpls": [
+    "573478bc24597738002c6175"
+   ]
+  },
+  {
+   "pos": {
+    "x": -154.757,
+    "y": 5.156,
+    "z": -392.618
+   },
+   "seen": 1,
+   "inExpansionBox": false,
+   "ids": [
+    "loot_Office_Stuff_w_Cigaretts (3) [bb0a8b49-1fee-46dc-844c-f66e9498eee0]"
+   ],
+   "tpls": [
+    "573475fb24597737fb1379e1"
+   ]
+  },
+  {
+   "pos": {
+    "x": -149.388,
+    "y": 5.058,
+    "z": -401.858
+   },
+   "seen": 1,
+   "inExpansionBox": false,
+   "ids": [
+    "loot_Office_Stuff_w_Cigaretts (1) [03ff8f15-3e71-4336-9a4b-056e85163f75]"
+   ],
+   "tpls": [
+    "573475fb24597737fb1379e1"
+   ]
+  },
+  {
+   "pos": {
+    "x": -147.128,
+    "y": 1.098,
+    "z": -395.665
+   },
+   "seen": 1,
+   "inExpansionBox": false,
+   "ids": [
+    "loot_jeverly (27) [b1ba3e0e-a73f-4a65-b102-6a501dc95d06]"
+   ],
+   "tpls": [
+    "59e3639286f7741777737013"
+   ]
+  },
+  {
+   "pos": {
+    "x": -142.205,
+    "y": 1.444,
+    "z": -400.168
+   },
+   "seen": 1,
+   "inExpansionBox": false,
+   "ids": [
+    "loot_jeverly (26) [19ee2578-071b-4913-9d52-40a82aa47a90]"
+   ],
+   "tpls": [
+    "5734758f24597738025ee253"
+   ]
+  }
+ ],
+ "tplClassification": {
+  "5672cb124bdc2d1a0f8b4568": "spt",
+  "5734758f24597738025ee253": "spt",
+  "573475fb24597737fb1379e1": "spt",
+  "573478bc24597738002c6175": "spt",
+  "57347baf24597738002c6178": "spt",
+  "590a391c86f774385a33c404": "spt",
+  "590c37d286f77443be3d7827": "spt",
+  "590c5a7286f7747884343aea": "spt",
+  "590c5bbd86f774785762df04": "spt",
+  "590de71386f774347051a052": "spt",
+  "590de7e986f7741b096e5f32": "spt",
+  "59e3639286f7741777737013": "spt",
+  "59e3647686f774176a362507": "spt",
+  "59e3658a86f7741776641ac4": "spt",
+  "59faf7ca86f7740dbe19f6c2": "spt",
+  "59faff1d86f7746c51718c9c": "spt",
+  "5bc9bc53d4351e00367fbcee": "spt",
+  "5bc9bdb8d4351e003562b8a1": "spt",
+  "5bc9be8fd4351e00334cae6e": "spt",
+  "5c052fb986f7746b2101e909": "spt",
+  "5c05300686f7746dce784e5d": "spt",
+  "5c0530ee86f774697952d952": "spt",
+  "5c12613b86f7743bbe2c3f76": "spt",
+  "5d0377ce86f774186372f689": "spt",
+  "5d1b309586f77425227d1676": "spt",
+  "5d235a5986f77443f6329bc6": "spt",
+  "5d235b4d86f7742e017bc88a": "spt",
+  "5d4042a986f7743185265463": "spt",
+  "5d6fc87386f77449db3db94e": "spt",
+  "5e54f62086f774219b0f1937": "spt",
+  "5e54f6af86f7742199090bf3": "spt",
+  "5f745ee30acaeb0d490d8c5b": "spt",
+  "60391afc25aff57af81f7085": "spt",
+  "62a08f4c4f842e1bd12d9d62": "spt",
+  "62a09cb7a04c0c5c6e0a84f8": "spt",
+  "62a09cfe4f842e1bd12da3e4": "spt",
+  "6389c7f115805221fb410466": "spt",
+  "6389c8c5dbfd5e4b95197e6b": "spt",
+  "6711039f9e648049e50b3307": "spt",
+  "67586af7036d7f3da60c3612": "spt",
+  "675a04c01474133a0d0bb212": "spt",
+  "675a06b84ff23436160d802f": "spt",
+  "675a081c1474133a0d0bb214": "spt",
+  "675a0fbbb98bf391510bafcd": "spt",
+  "675a1af21474133a0d0bb216": "spt",
+  "67bdea3ecf0cc29475092196": "wtt-backport",
+  "67bdf097600629c8f20322e5": "wtt-backport",
+  "67c034f0e7a5da1e070f6de8": "wtt-backport",
+  "67c035140610e91bea05699a": "wtt-backport",
+  "67c0351e354fca26a0008038": "wtt-backport",
+  "67c0352dd98287be7b0923d6": "wtt-backport",
+  "68109c867807b4d2dd0b5df5": "UNKNOWN",
+  "6877c2dcda2a05d0cb04f983": "UNKNOWN",
+  "689b5072665c386d9c007a41": "UNKNOWN",
+  "689b50ec127673bbd40706d1": "UNKNOWN",
+  "689b5108304455f61a0bc298": "UNKNOWN",
+  "68c165f1903341d88b092b2a": "wtt-backport",
+  "68f25a45b2b53abd200b954d": "wtt-backport",
+  "68f25a8acacd763bbc0e2bf9": "wtt-backport",
+  "699f0b877c23862b4b0ee19c": "wtt-backport",
+  "69f9d547b98cc4120608692a": "wtt-backport",
+  "6a446dac154fc86b970e1361": "UNKNOWN",
+  "6a446e01918b1b16b908e9eb": "UNKNOWN",
+  "6a446e195839ffe2430a4de5": "UNKNOWN"
+ }
+}
