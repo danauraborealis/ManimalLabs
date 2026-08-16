@@ -31,6 +31,8 @@ namespace Manimal.LabsBoiler
         // so load order doesn't matter.
         private static bool _nativeBranchDeleted;
 
+        internal static bool NativeBranchHandled => _nativeBranchDeleted;
+
         internal static void TryDeleteNativeOfficeBranch()
         {
             if (_nativeBranchDeleted) return;
@@ -45,12 +47,19 @@ namespace Manimal.LabsBoiler
                 {
                     if (t == null || t.name != "Laboratory_Office_Above_Boiler_Room_floor_1") continue;
                     objects += t.GetComponentsInChildren<Transform>(true).Length;
-                    UnityEngine.Object.Destroy(t.gameObject);
+                    // DEACTIVATE, don't destroy (map-wide flicker root cause, 08-16):
+                    // destroying at sceneLoaded runs BEFORE Start, so never-registered
+                    // CullingObjects carry default Index=0 into CullingManager.Unregister
+                    // — which resets slot 0 and frees it for recycling while its real
+                    // owner still uses it. two owners per slot = visibility/distance
+                    // cross-wiring = the distance/look-direction light pulsing map-wide.
+                    // deactivated objects never Start (never register) and can't double-light.
+                    t.gameObject.SetActive(false);
                     branches++;
                 }
             _nativeBranchDeleted = true;
             if (branches > 0)
-                Plugin.Log.LogInfo($"[LabsBoiler] deleted {branches} NATIVE office light branch(es) ({objects} objects) — grafted retail branch is sole owner");
+                Plugin.Log.LogInfo($"[LabsBoiler] DEACTIVATED {branches} NATIVE office light branch(es) ({objects} objects) — sole owner, no culling unregister storm");
             else
                 Plugin.Log.LogWarning("[LabsBoiler] native office light branch not found by name in Laboratory_LIGHT — doubles possible");
         }

@@ -92,8 +92,6 @@ namespace Manimal.LabsBoiler
                 // graft was silently broken = the all-dark raids (user caught it 08-16)
                 try { LabsBoilerProxies.OnSceneLoaded(scene); }
                 catch (Exception e) { Log.LogError($"[LabsBoiler] proxy-anchor handler failed: {e}"); }
-                try { LabsBoilerLightProbe.OnSceneLoaded(scene); }
-                catch (Exception e) { Log.LogError($"[LabsBoiler] light probe failed: {e}"); }
                 // acoustics now injects via a Harmony prefix on SpatialAudioSystem.Initialize
                 // (LabsBoilerAcoustics), not a scene-load hook
             };

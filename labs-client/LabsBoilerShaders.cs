@@ -237,9 +237,16 @@ namespace Manimal.LabsBoiler
             }
             if (verifiable > 0 && verified == verifiable && orphaned == 0)
             {
-                Plugin.Log.LogInfo($"[LabsBoiler] grafted area lights VERIFIED ({verified}/{verifiable} renderable) — deleting native office light branch");
-                try { LabsBoilerLights.TryDeleteNativeOfficeBranch(); }
-                catch (Exception e) { Plugin.Log.LogError($"[LabsBoiler] native-branch delete failed: {e}"); }
+                Plugin.Log.LogInfo($"[LabsBoiler] grafted area lights VERIFIED ({verified}/{verifiable} renderable) — deactivating native office light branch");
+                // Laboratory_LIGHT can load AFTER us — TryDeactivate silently no-ops
+                // until both scenes exist (the 08-16 raid where nothing happened), so
+                // keep calling until it reports done
+                for (int i = 0; i < 1800 && !LabsBoilerLights.NativeBranchHandled; i++)
+                {
+                    try { LabsBoilerLights.TryDeleteNativeOfficeBranch(); }
+                    catch (Exception e) { Plugin.Log.LogError($"[LabsBoiler] native-branch deactivate failed: {e}"); break; }
+                    if (!LabsBoilerLights.NativeBranchHandled) yield return null;
+                }
             }
             else
             {

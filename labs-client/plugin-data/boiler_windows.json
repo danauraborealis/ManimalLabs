@@ -1,0 +1,595 @@
+{
+ "source": "retail current (post-1.0) labs level74 WindowBreakers",
+ "components": {
+  "WindowBreaker": [
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass1",
+    "world": [
+     -261.285,
+     5.493,
+     -370.394
+    ],
+    "class": "EFT.Interactive.WindowBreaker",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "Id": "window_Laboratory_Office_Above_Boiler_Room_floor_1_00000",
+     "BrakeByDefault": 0,
+     "ObstructiveCollider": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass1/Obstructive Collider",
+      "refType": "BoxCollider"
+     },
+     "GlassBallisticCollider": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass1",
+      "refType": "BallisticCollider"
+     },
+     "BrokenWindow": {
+      "externalRef": [
+       23,
+       1562
+      ]
+     },
+     "Material": {
+      "externalRef": [
+       17,
+       63
+      ]
+     },
+     "Renderer": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass1",
+      "refType": "MeshRenderer"
+     },
+     "AngleMode": 1,
+     "MinThickness": 0.0020000000949949026,
+     "ThicknessMultyplier": 1.0,
+     "EdgesWidth": 0.004999999888241291,
+     "CracksScale": 1.0,
+     "MassMultyplier": 1.0,
+     "AirDrag": 2.0,
+     "TimeUntilPartDie": 1.0,
+     "FirstShotRadius": 0.4000000059604645,
+     "ShotRadius": 0.6000000238418579,
+     "FirstShotSoundVolume": 1.0,
+     "TorqueRandomMinMaxCoefs": {
+      "x": 2.0,
+      "y": 6.0
+     },
+     "InstantExplosionCoef": 15.0,
+     "ShotDirectionCoef": 1.5,
+     "AxisX": 2,
+     "AxisY": 1,
+     "AxisZ": 0,
+     "UvMult": {
+      "x": 0.9254374504089355,
+      "y": 0.9254420399665833
+     },
+     "UvAdd": {
+      "x": 7.859472274780273,
+      "y": 2.2274694442749023
+     },
+     "ZSurfs": {
+      "x": -0.006176147144287825,
+      "y": 0.00617614621296525
+     },
+     "Box": {
+      "x": -1.3384532928466797,
+      "y": -1.2763640880584717,
+      "z": 1.338452696800232,
+      "w": 1.2763769626617432
+     },
+     "Rotation": {
+      "x": 0.0,
+      "y": -0.7071068286895752,
+      "z": -0.0,
+      "w": 0.7071068286895752
+     },
+     "NeedToSwap": 1
+    }
+   },
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass7",
+    "world": [
+     -267.99,
+     5.493,
+     -367.073
+    ],
+    "class": "EFT.Interactive.WindowBreaker",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "Id": "window_Laboratory_Office_Above_Boiler_Room_floor_1_00006",
+     "BrakeByDefault": 0,
+     "ObstructiveCollider": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass7/Obstructive Collider",
+      "refType": "BoxCollider"
+     },
+     "GlassBallisticCollider": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass7",
+      "refType": "BallisticCollider"
+     },
+     "BrokenWindow": {
+      "externalRef": [
+       23,
+       1562
+      ]
+     },
+     "Material": {
+      "externalRef": [
+       17,
+       63
+      ]
+     },
+     "Renderer": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass7",
+      "refType": "MeshRenderer"
+     },
+     "AngleMode": 1,
+     "MinThickness": 0.0020000000949949026,
+     "ThicknessMultyplier": 1.0,
+     "EdgesWidth": 0.004999999888241291,
+     "CracksScale": 1.0,
+     "MassMultyplier": 1.0,
+     "AirDrag": 2.0,
+     "TimeUntilPartDie": 1.0,
+     "FirstShotRadius": 0.4000000059604645,
+     "ShotRadius": 0.6000000238418579,
+     "FirstShotSoundVolume": 1.0,
+     "TorqueRandomMinMaxCoefs": {
+      "x": 2.0,
+      "y": 6.0
+     },
+     "InstantExplosionCoef": 15.0,
+     "ShotDirectionCoef": 1.5,
+     "AxisX": 0,
+     "AxisY": 2,
+     "AxisZ": 1,
+     "UvMult": {
+      "x": 15.724652290344238,
+      "y": -11.979609489440918
+     },
+     "UvAdd": {
+      "x": -9.870580673217773,
+      "y": -1.9322090148925781
+     },
+     "ZSurfs": {
+      "x": -0.006176147144287825,
+      "y": 0.006176147144287825
+     },
+     "Box": {
+      "x": -1.286243200302124,
+      "y": -1.3384532928466797,
+      "z": 1.2862426042556763,
+      "w": 1.338452696800232
+     },
+     "Rotation": {
+      "x": 0.7071068286895752,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 0.7071068286895752
+     },
+     "NeedToSwap": 0
+    }
+   },
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass4",
+    "world": [
+     -253.876,
+     5.474,
+     -364.663
+    ],
+    "class": "EFT.Interactive.WindowBreaker",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "Id": "window_Laboratory_Office_Above_Boiler_Room_floor_1_00003",
+     "BrakeByDefault": 0,
+     "ObstructiveCollider": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass4/Obstructive Collider",
+      "refType": "BoxCollider"
+     },
+     "GlassBallisticCollider": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass4",
+      "refType": "BallisticCollider"
+     },
+     "BrokenWindow": {
+      "externalRef": [
+       23,
+       1562
+      ]
+     },
+     "Material": {
+      "externalRef": [
+       17,
+       63
+      ]
+     },
+     "Renderer": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass4",
+      "refType": "MeshRenderer"
+     },
+     "AngleMode": 1,
+     "MinThickness": 0.0020000000949949026,
+     "ThicknessMultyplier": 1.0,
+     "EdgesWidth": 0.004999999888241291,
+     "CracksScale": 1.0,
+     "MassMultyplier": 1.0,
+     "AirDrag": 2.0,
+     "TimeUntilPartDie": 1.0,
+     "FirstShotRadius": 0.4000000059604645,
+     "ShotRadius": 0.6000000238418579,
+     "FirstShotSoundVolume": 1.0,
+     "TorqueRandomMinMaxCoefs": {
+      "x": 2.0,
+      "y": 6.0
+     },
+     "InstantExplosionCoef": 15.0,
+     "ShotDirectionCoef": 1.5,
+     "AxisX": 1,
+     "AxisY": 2,
+     "AxisZ": 0,
+     "UvMult": {
+      "x": 0.9254430532455444,
+      "y": 0.925438404083252
+     },
+     "UvAdd": {
+      "x": 12.379982948303223,
+      "y": -14.571152687072754
+     },
+     "ZSurfs": {
+      "x": -0.006176147144287825,
+      "y": 0.006176147144287825
+     },
+     "Box": {
+      "x": -1.3076003789901733,
+      "y": -1.3201000690460205,
+      "z": 1.3076003789901733,
+      "w": 1.3200994729995728
+     },
+     "Rotation": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5,
+      "w": 0.5
+     },
+     "NeedToSwap": 0
+    }
+   },
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass6",
+    "world": [
+     -265.354,
+     5.493,
+     -367.073
+    ],
+    "class": "EFT.Interactive.WindowBreaker",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "Id": "window_Laboratory_Office_Above_Boiler_Room_floor_1_00005",
+     "BrakeByDefault": 0,
+     "ObstructiveCollider": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass6/Obstructive Collider",
+      "refType": "BoxCollider"
+     },
+     "GlassBallisticCollider": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass6",
+      "refType": "BallisticCollider"
+     },
+     "BrokenWindow": {
+      "externalRef": [
+       23,
+       1562
+      ]
+     },
+     "Material": {
+      "externalRef": [
+       17,
+       63
+      ]
+     },
+     "Renderer": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass6",
+      "refType": "MeshRenderer"
+     },
+     "AngleMode": 1,
+     "MinThickness": 0.0020000000949949026,
+     "ThicknessMultyplier": 1.0,
+     "EdgesWidth": 0.004999999888241291,
+     "CracksScale": 1.0,
+     "MassMultyplier": 1.0,
+     "AirDrag": 2.0,
+     "TimeUntilPartDie": 1.0,
+     "FirstShotRadius": 0.4000000059604645,
+     "ShotRadius": 0.6000000238418579,
+     "FirstShotSoundVolume": 1.0,
+     "TorqueRandomMinMaxCoefs": {
+      "x": 2.0,
+      "y": 6.0
+     },
+     "InstantExplosionCoef": 15.0,
+     "ShotDirectionCoef": 1.5,
+     "AxisX": 0,
+     "AxisY": 2,
+     "AxisZ": 1,
+     "UvMult": {
+      "x": 0.9179307222366333,
+      "y": 0.9330118894577026
+     },
+     "UvAdd": {
+      "x": 9.116477966308594,
+      "y": -16.717561721801758
+     },
+     "ZSurfs": {
+      "x": -0.006176147144287825,
+      "y": 0.006176147144287825
+     },
+     "Box": {
+      "x": -1.349404215812683,
+      "y": -1.3384532928466797,
+      "z": 1.349404215812683,
+      "w": 1.338452696800232
+     },
+     "Rotation": {
+      "x": 0.7071068286895752,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 0.7071068286895752
+     },
+     "NeedToSwap": 0
+    }
+   },
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass3",
+    "world": [
+     -253.876,
+     5.474,
+     -368.911
+    ],
+    "class": "EFT.Interactive.WindowBreaker",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "Id": "window_Laboratory_Office_Above_Boiler_Room_floor_1_00002",
+     "BrakeByDefault": 0,
+     "ObstructiveCollider": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass3/Obstructive Collider",
+      "refType": "BoxCollider"
+     },
+     "GlassBallisticCollider": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass3",
+      "refType": "BallisticCollider"
+     },
+     "BrokenWindow": {
+      "externalRef": [
+       23,
+       1562
+      ]
+     },
+     "Material": {
+      "externalRef": [
+       17,
+       63
+      ]
+     },
+     "Renderer": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass3",
+      "refType": "MeshRenderer"
+     },
+     "AngleMode": 1,
+     "MinThickness": 0.0020000000949949026,
+     "ThicknessMultyplier": 1.0,
+     "EdgesWidth": 0.004999999888241291,
+     "CracksScale": 1.0,
+     "MassMultyplier": 1.0,
+     "AirDrag": 2.0,
+     "TimeUntilPartDie": 1.0,
+     "FirstShotRadius": 0.4000000059604645,
+     "ShotRadius": 0.6000000238418579,
+     "FirstShotSoundVolume": 1.0,
+     "TorqueRandomMinMaxCoefs": {
+      "x": 2.0,
+      "y": 6.0
+     },
+     "InstantExplosionCoef": 15.0,
+     "ShotDirectionCoef": 1.5,
+     "AxisX": 2,
+     "AxisY": 1,
+     "AxisZ": 0,
+     "UvMult": {
+      "x": 0.9254398941993713,
+      "y": -0.9254404306411743
+     },
+     "UvAdd": {
+      "x": 29.492794036865234,
+      "y": -24.287607192993164
+     },
+     "ZSurfs": {
+      "x": -0.006176147144287825,
+      "y": 0.006176147144287825
+     },
+     "Box": {
+      "x": -1.3201000690460205,
+      "y": -1.3076000213623047,
+      "z": 1.3200994729995728,
+      "w": 1.3076000213623047
+     },
+     "Rotation": {
+      "x": 0.0,
+      "y": -0.7071068286895752,
+      "z": -0.0,
+      "w": 0.7071068286895752
+     },
+     "NeedToSwap": 1
+    }
+   },
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass5",
+    "world": [
+     -261.285,
+     5.493,
+     -367.462
+    ],
+    "class": "EFT.Interactive.WindowBreaker",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "Id": "window_Laboratory_Office_Above_Boiler_Room_floor_1_00004",
+     "BrakeByDefault": 0,
+     "ObstructiveCollider": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass5/Obstructive Collider",
+      "refType": "BoxCollider"
+     },
+     "GlassBallisticCollider": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass5",
+      "refType": "BallisticCollider"
+     },
+     "BrokenWindow": {
+      "externalRef": [
+       23,
+       1562
+      ]
+     },
+     "Material": {
+      "externalRef": [
+       17,
+       63
+      ]
+     },
+     "Renderer": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass5",
+      "refType": "MeshRenderer"
+     },
+     "AngleMode": 1,
+     "MinThickness": 0.0020000000949949026,
+     "ThicknessMultyplier": 1.0,
+     "EdgesWidth": 0.004999999888241291,
+     "CracksScale": 1.0,
+     "MassMultyplier": 1.0,
+     "AirDrag": 2.0,
+     "TimeUntilPartDie": 1.0,
+     "FirstShotRadius": 0.4000000059604645,
+     "ShotRadius": 0.6000000238418579,
+     "FirstShotSoundVolume": 1.0,
+     "TorqueRandomMinMaxCoefs": {
+      "x": 2.0,
+      "y": 6.0
+     },
+     "InstantExplosionCoef": 15.0,
+     "ShotDirectionCoef": 1.5,
+     "AxisX": 1,
+     "AxisY": 2,
+     "AxisZ": 0,
+     "UvMult": {
+      "x": 0.9254539608955383,
+      "y": -0.925441563129425
+     },
+     "UvAdd": {
+      "x": 12.602616310119629,
+      "y": -6.570034027099609
+     },
+     "ZSurfs": {
+      "x": -0.006176147144287825,
+      "y": 0.00617614621296525
+     },
+     "Box": {
+      "x": -0.3027898967266083,
+      "y": -1.3384532928466797,
+      "z": 0.3028033375740051,
+      "w": 1.338452696800232
+     },
+     "Rotation": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5,
+      "w": 0.5
+     },
+     "NeedToSwap": 0
+    }
+   },
+   {
+    "level": "level74",
+    "go": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass2",
+    "world": [
+     -262.679,
+     5.493,
+     -367.073
+    ],
+    "class": "EFT.Interactive.WindowBreaker",
+    "parse": "loose-by-design (1.0 tail dropped)",
+    "fields": {
+     "Id": "window_Laboratory_Office_Above_Boiler_Room_floor_1_00001",
+     "BrakeByDefault": 0,
+     "ObstructiveCollider": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass2/Obstructive Collider",
+      "refType": "BoxCollider"
+     },
+     "GlassBallisticCollider": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass2",
+      "refType": "BallisticCollider"
+     },
+     "BrokenWindow": {
+      "externalRef": [
+       23,
+       1562
+      ]
+     },
+     "Material": {
+      "externalRef": [
+       17,
+       63
+      ]
+     },
+     "Renderer": {
+      "refPath": "SBG_Laboratory_Office_Above_Boiler_Room_floor_1/SOO_LOD0/BUILDING/Laboratory_Office_Above_Boiler_Room_floor_1/lab_office_above_boiler_room_floor1_glass2",
+      "refType": "MeshRenderer"
+     },
+     "AngleMode": 1,
+     "MinThickness": 0.0020000000949949026,
+     "ThicknessMultyplier": 1.0,
+     "EdgesWidth": 0.004999999888241291,
+     "CracksScale": 1.0,
+     "MassMultyplier": 1.0,
+     "AirDrag": 2.0,
+     "TimeUntilPartDie": 1.0,
+     "FirstShotRadius": 0.4000000059604645,
+     "ShotRadius": 0.6000000238418579,
+     "FirstShotSoundVolume": 1.0,
+     "TorqueRandomMinMaxCoefs": {
+      "x": 2.0,
+      "y": 6.0
+     },
+     "InstantExplosionCoef": 15.0,
+     "ShotDirectionCoef": 1.5,
+     "AxisX": 2,
+     "AxisY": 0,
+     "AxisZ": 1,
+     "UvMult": {
+      "x": 0.9254412055015564,
+      "y": 0.9254401922225952
+     },
+     "UvAdd": {
+      "x": 9.116477966308594,
+      "y": -14.242027282714844
+     },
+     "ZSurfs": {
+      "x": -0.006176147144287825,
+      "y": 0.006176147144287825
+     },
+     "Box": {
+      "x": -1.3384532928466797,
+      "y": -1.3255770206451416,
+      "z": 1.338452696800232,
+      "w": 1.325563669204712
+     },
+     "Rotation": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5,
+      "w": -0.5
+     },
+     "NeedToSwap": 1
+    }
+   }
+  ]
+ }
+}
