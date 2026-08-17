@@ -14,4 +14,4 @@ work — one scene in its multi-scene load is replaced with ours.
 
 The scene bundle (`manimal_labs_boiler.bundle`) is built in the WTT SDK
 (`Labs Boiler` menu: graft → rebake → wire → build) and ships beside the
-client DLL — no StreamingAssets writes, Forge-compliant layout.
+client DLL
