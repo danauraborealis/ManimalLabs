@@ -1,14 +1,15 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using EFT.Interactive;
 using HarmonyLib;
 using UnityEngine.SceneManagement;
 
 namespace Manimal.LabsBoiler;
 
-// the grafted LocationScene's serialized arrays carry rip-nulled slots; EFT tolerates
-// them but mods iterating GetAllObjectsAndWhenISayAllIActuallyMeanIt unguarded NRE
-// and abort the raid. scrub the fields AND the dictionary copies Awake already built.
+// rip-damaged registry arrays: null slots NRE in unguarded mod iterators, and doors
+// missing from them never reach World's registry so fika cant sync them. rebuild from
+// the live scene and scrub the rest, updating the dictionary_0 copies Awake built.
 internal static class LabsBoilerLocationSceneFix
 {
     private const string MxScene = "Laboratory_Office_Above_Boiler_Room_floor_1_MX";
@@ -17,43 +18,69 @@ internal static class LabsBoilerLocationSceneFix
     {
         if (scene.name != MxScene) return;
 
+        var wios = new List<WorldInteractiveObject>();
+        var containers = new List<LootableContainer>();
+        foreach (var root in scene.GetRootGameObjects())
+        {
+            wios.AddRange(root.GetComponentsInChildren<WorldInteractiveObject>(true));
+            containers.AddRange(root.GetComponentsInChildren<LootableContainer>(true));
+        }
+
+        // rip-lost Ids/NetIds get deterministic values so host and client tables agree
+        wios.Sort((a, b) => string.CompareOrdinal(SortKey(a), SortKey(b)));
+        int nextNet = 910000, named = 0, renumbered = 0;
+        for (var i = 0; i < wios.Count; i++)
+        {
+            if (string.IsNullOrEmpty(wios[i].Id)) { wios[i].Id = $"labsboiler_wio_{i}"; named++; }
+            if (wios[i].NetId == 0) { wios[i].NetId = nextNet++; renumbered++; }
+        }
+
         var dictField = AccessTools.Field(typeof(LocationScene), "dictionary_0");
         int scenes = 0, removed = 0;
-
         foreach (var root in scene.GetRootGameObjects())
         foreach (var ls in root.GetComponentsInChildren<LocationScene>(true))
         {
             scenes++;
+            var dict = dictField?.GetValue(ls) as IDictionary;
+
+            // only the first LocationScene carries the rebuilt arrays — duplicates
+            // across components would double-register every Id
+            if (scenes == 1)
+            {
+                ls.WorldInteractiveObjects = wios.ToArray();
+                ls.LootableContainers = containers.ToArray();
+                if (dict != null)
+                {
+                    dict[typeof(WorldInteractiveObject)] = ls.WorldInteractiveObjects;
+                    dict[typeof(LootableContainer)] = ls.LootableContainers;
+                }
+            }
 
             foreach (var f in typeof(LocationScene).GetFields())
             {
                 if (!f.FieldType.IsArray) continue;
-                var arr = f.GetValue(ls) as Array;
-                var compacted = Compact(arr, ref removed);
+                var compacted = Compact(f.GetValue(ls) as Array, ref removed);
                 if (compacted != null) f.SetValue(ls, compacted);
             }
-
-            if (dictField?.GetValue(ls) is IDictionary dict)
+            if (dict == null) continue;
+            var keys = new List<object>();
+            foreach (var k in dict.Keys) keys.Add(k);
+            foreach (var k in keys)
             {
-                var keys = new List<object>();
-                foreach (var k in dict.Keys) keys.Add(k);
-                foreach (var k in keys)
-                {
-                    var compacted = Compact(dict[k] as Array, ref removed);
-                    if (compacted != null) dict[k] = compacted;
-                }
+                var compacted = Compact(dict[k] as Array, ref removed);
+                if (compacted != null) dict[k] = compacted;
             }
         }
 
-        if (scenes == 0)
-        {
-            Plugin.Log.LogInfo("[LabsBoiler] no LocationScene component in the grafted scene — nothing to scrub");
-        }
-        else
-        {
-            Plugin.Log.LogInfo($"[LabsBoiler] LocationScene scrub: {scenes} component(s), {removed} dead slot(s) removed " +
-                               "— registry arrays are null-free for unguarded mod iterators");
-        }
+        Plugin.Log.LogInfo($"[LabsBoiler] LocationScene registry rebuilt: {wios.Count} interactives ({named} ids assigned, " +
+                           $"{renumbered} netids assigned), {containers.Count} containers, {removed} dead slots scrubbed across {scenes} component(s)");
+    }
+
+    private static string SortKey(WorldInteractiveObject wio)
+    {
+        var path = wio.Id ?? "";
+        for (var t = wio.transform; t; t = t.parent) path = t.name + "/" + path;
+        return path;
     }
 
     // returns a null-free copy, or null when nothing needed removing
