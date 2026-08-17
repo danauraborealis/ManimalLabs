@@ -74,9 +74,7 @@ public class Plugin : BaseUnityPlugin
             catch (Exception e) { Log.LogError($"[LabsBoiler] proxy-anchor handler failed: {e}"); }
         };
 
-        // patch each class separately: a blanket PatchAll aborts on the FIRST bad patch
-        // and silently drops every class after it — one broken diagnostic patch took the
-        // scene swap down with it (2026-08-17)
+        // per-class: a blanket PatchAll aborts on the first bad patch and silently drops the rest
         var harmony = new Harmony(BuildInfo.ModGuid);
         foreach (var type in typeof(Plugin).Assembly.GetTypes())
         {

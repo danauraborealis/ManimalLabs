@@ -6,15 +6,9 @@ using UnityEngine.SceneManagement;
 
 namespace Manimal.LabsBoiler;
 
-// the grafted scene's LocationScene ships serialized object arrays with rip-nulled
-// slots (refs whose targets didnt survive extraction). EFT's own consumers shrug
-// those off, but LocationScene.GetAllObjectsAndWhenISayAllIActuallyMeanIt hands the
-// raw arrays to any mod that asks, and e.g. SkillsExtended's FixDoors dereferences
-// each element unguarded — one null slot = NRE inside GameWorld.OnGameStarted =
-// raid aborted with the bare "Object reference not set" dialog (found 2026-08-17
-// via the error-screen probe). compact both the serialized fields and the
-// Awake-built dictionary copies — Awake stores the same references via method_0,
-// and it has already run by sceneLoaded, so the two must be scrubbed in step.
+// the grafted LocationScene's serialized arrays carry rip-nulled slots; EFT tolerates
+// them but mods iterating GetAllObjectsAndWhenISayAllIActuallyMeanIt unguarded NRE
+// and abort the raid. scrub the fields AND the dictionary copies Awake already built.
 internal static class LabsBoilerLocationSceneFix
 {
     private const string MxScene = "Laboratory_Office_Above_Boiler_Room_floor_1_MX";
@@ -31,7 +25,6 @@ internal static class LabsBoilerLocationSceneFix
         {
             scenes++;
 
-            // serialized public arrays first (native code can re-read them later)
             foreach (var f in typeof(LocationScene).GetFields())
             {
                 if (!f.FieldType.IsArray) continue;
@@ -40,7 +33,6 @@ internal static class LabsBoilerLocationSceneFix
                 if (compacted != null) f.SetValue(ls, compacted);
             }
 
-            // then the registry dictionary Awake built from them
             if (dictField?.GetValue(ls) is IDictionary dict)
             {
                 var keys = new List<object>();
@@ -85,7 +77,6 @@ internal static class LabsBoilerLocationSceneFix
         return result;
     }
 
-    // static type is object, so == is plain reference equality (true for rip-nulled
-    // serialized slots); the typed !uo check catches destroyed-but-referenced objects
+    // == catches rip-nulled slots (true nulls), !uo catches destroyed objects
     private static bool IsDead(object e) => e == null || (e is UnityEngine.Object uo && !uo);
 }

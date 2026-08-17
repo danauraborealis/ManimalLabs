@@ -37,6 +37,7 @@ internal static class LabsBoilerProxies
                            $"(offset {Plugin.ProxyInteractX.Value},{Plugin.ProxyInteractY.Value},{Plugin.ProxyInteractZ.Value})");
 
         FixNullTriggersMaps(scene);
+        FixBrokenSmartGrips(scene);
         if (Plugin.Instance) Plugin.Instance.StartCoroutine(FixWindowBreakers(scene));
     }
 
@@ -206,6 +207,31 @@ internal static class LabsBoilerProxies
         {
             fi.SetValue(wb, (float)v);
         }
+    }
+
+    // rip-nulled Pivot/Targets make SmartGrip.Awake bail half-initialized, then every
+    // interaction exit NREs in Reset() per-frame. remove them — doors fall back to the
+    // standard gripless snap path. Grips caches in OnEnable, so refresh it after.
+    private static void FixBrokenSmartGrips(Scene scene)
+    {
+        var removed = 0;
+        foreach (var root in scene.GetRootGameObjects())
+        foreach (var sg in root.GetComponentsInChildren<SmartGrip>(true))
+        {
+            if (sg.Pivot && sg.Targets) continue;
+            UnityEngine.Object.DestroyImmediate(sg);
+            removed++;
+        }
+        if (removed == 0) return;
+
+        var gripsField = AccessTools.Field(typeof(WorldInteractiveObject), "Grips");
+        if (gripsField != null)
+            foreach (var root in scene.GetRootGameObjects())
+            foreach (var wio in root.GetComponentsInChildren<WorldInteractiveObject>(true))
+            {
+                gripsField.SetValue(wio, wio.GetComponentsInChildren<GripPose>());
+            }
+        Plugin.Log.LogInfo($"[LabsBoiler] removed {removed} rip-broken SmartGrip(s) — snap fallback, no per-frame Reset NREs");
     }
 
     private static void FixNullTriggersMaps(Scene scene)
