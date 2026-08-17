@@ -60,6 +60,9 @@ public class Plugin : BaseUnityPlugin
         {
             try { LabsBoilerCullingStrip.OnSceneLoaded(scene); }
             catch (Exception e) { Log.LogError($"[LabsBoiler] culling strip failed: {e}"); }
+
+            try { LabsBoilerLocationSceneFix.OnSceneLoaded(scene); }
+            catch (Exception e) { Log.LogError($"[LabsBoiler] LocationScene scrub failed: {e}"); }
             
             try { LabsBoilerShaders.OnSceneLoaded(scene); }
             catch (Exception e) { Log.LogError($"[LabsBoiler] shader handler failed: {e}"); }
@@ -71,9 +74,16 @@ public class Plugin : BaseUnityPlugin
             catch (Exception e) { Log.LogError($"[LabsBoiler] proxy-anchor handler failed: {e}"); }
         };
 
+        // patch each class separately: a blanket PatchAll aborts on the FIRST bad patch
+        // and silently drops every class after it — one broken diagnostic patch took the
+        // scene swap down with it (2026-08-17)
         var harmony = new Harmony(BuildInfo.ModGuid);
-        try { harmony.PatchAll(); }
-        catch (Exception e) { Log.LogError($"[LabsBoiler] PatchAll failed — the swap may not apply: {e}"); }
+        foreach (var type in typeof(Plugin).Assembly.GetTypes())
+        {
+            if (type.GetCustomAttributes(typeof(HarmonyPatch), false).Length == 0) continue;
+            try { harmony.PatchAll(type); }
+            catch (Exception e) { Log.LogError($"[LabsBoiler] patching {type.Name} failed: {e}"); }
+        }
 
         Log.LogInfo($"Manimal-LabsBoiler {BuildInfo.Version} loaded");
     }
