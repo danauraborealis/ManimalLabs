@@ -26,7 +26,11 @@ internal static class LabsBoilerLights
         {
             if (!t || t.name != "Laboratory_Office_Above_Boiler_Room_floor_1") continue;
             objects += t.GetComponentsInChildren<Transform>(true).Length;
-
+            // deactivate, NEVER destroy: destroying at sceneLoaded runs before Start, so
+            // never-registered CullingObjects unregister with default Index=0 and corrupt
+            // CullingManager slot 0 (map-wide light cross-wiring). deactivation also kills
+            // the floor-1 double-lighting — this line IS the point of the method.
+            t.gameObject.SetActive(false);
             branches++;
         }
         
