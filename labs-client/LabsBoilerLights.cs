@@ -13,24 +13,50 @@ internal static class LabsBoilerLights
 
     internal static bool NativeBranchHandled { get; private set; }
 
-    internal static void TryDeleteNativeOfficeBranch()
+    internal static void TryMuteNativeOfficeLights()
     {
         if (NativeBranchHandled) return;
         var mx = SceneManager.GetSceneByName(MxScene);
         var light = SceneManager.GetSceneByName("Laboratory_LIGHT");
         if (!mx.isLoaded || !light.isLoaded) return;
         
-        int branches = 0, objects = 0;
+        int branches = 0, unityLights = 0, areaLights = 0, cullingDrivers = 0;
         foreach (var root in light.GetRootGameObjects())
         foreach (var t in root.GetComponentsInChildren<Transform>(true))
         {
             if (!t || t.name != "Laboratory_Office_Above_Boiler_Room_floor_1") continue;
-            objects += t.GetComponentsInChildren<Transform>(true).Length;
-            // deactivate, NEVER destroy: destroying at sceneLoaded runs before Start, so
-            // never-registered CullingObjects unregister with default Index=0 and corrupt
-            // CullingManager slot 0 (map-wide light cross-wiring). deactivation also kills
-            // the floor-1 double-lighting — this line IS the point of the method.
-            t.gameObject.SetActive(false);
+            if (!t.parent || t.parent.name != "LightGroup" || !t.parent.parent || t.parent.parent.name != "OO"
+                || t.root.name != "SBG_Laboratory_Light")
+            {
+                Plugin.Log.LogWarning($"[LabsBoiler] refused to mute unexpected native light branch path '{Path(t)}'");
+                continue;
+            }
+
+            // Keep the native hierarchy and culling registrations intact. Deactivating
+            // or destroying this imported subtree can disturb Labs' global light-culling
+            // state; only mute the duplicate office emitters that our graft replaces.
+            foreach (var clo in t.GetComponentsInChildren<CullingLightObject>(true))
+            {
+                clo.IntensityMultiplier = 0f;
+                cullingDrivers++;
+            }
+            foreach (var cadlo in t.GetComponentsInChildren<CullingAdvancedLightObject>(true))
+            {
+                cadlo.IntensityMultiplier = 0f;
+                cullingDrivers++;
+            }
+            foreach (var nativeLight in t.GetComponentsInChildren<Light>(true))
+            {
+                nativeLight.intensity = 0f;
+                nativeLight.enabled = false;
+                unityLights++;
+            }
+            foreach (var nativeArea in t.GetComponentsInChildren<BaseLight>(true))
+            {
+                nativeArea.m_Intensity = 0f;
+                nativeArea.enabled = false;
+                areaLights++;
+            }
             branches++;
         }
         
@@ -38,7 +64,8 @@ internal static class LabsBoilerLights
         if (branches > 0)
         {
             Plugin.Log.LogInfo(
-                $"[LabsBoiler] DEACTIVATED {branches} NATIVE office light branch(es) ({objects} objects) — sole owner, no culling unregister storm");
+                $"[LabsBoiler] MUTED duplicate emitters in {branches} exact native office light branch(es): " +
+                $"{unityLights} Unity light(s), {areaLights} area light(s), {cullingDrivers} culling driver(s); hierarchy preserved");
         }
         else
         {
@@ -54,7 +81,7 @@ internal static class LabsBoilerLights
     private static readonly List<Area> Areas = [];
 
     private static Type _cloType, _cadloType, _baseLightType;
-    private static FieldInfo _cloMax, _cloF1, _cadloMax, _cadloF1, _baseIntensity;
+    private static FieldInfo _cloMax, _cloF1, _cadloMax, _cadloMaxFinal, _baseIntensity;
 
     internal static void OnSceneLoaded(Scene scene)
     {
@@ -63,8 +90,34 @@ internal static class LabsBoilerLights
         _cadloType ??= AccessTools.TypeByName("CullingAdvancedLightObject");
         _baseLightType ??= AccessTools.TypeByName("BaseLight");
         if (_cloType != null) { _cloMax ??= AccessTools.Field(_cloType, "_maxLightIntensity"); _cloF1 ??= AccessTools.Field(_cloType, "float_1"); }
-        if (_cadloType != null) { _cadloMax ??= AccessTools.Field(_cadloType, "_maxLightIntensity"); _cadloF1 ??= AccessTools.Field(_cadloType, "float_1"); }
+        if (_cadloType != null) { _cadloMax ??= AccessTools.Field(_cadloType, "_maxLightIntensity"); _cadloMaxFinal ??= AccessTools.Field(_cadloType, "_maxIntensityFinal"); }
         if (_baseLightType != null) _baseIntensity ??= AccessTools.Field(_baseLightType, "m_Intensity");
+
+        // The grafted scene is deliberately unmanaged by PerfectCulling. Keep its EFT
+        // light wrappers unmanaged too: ripped CullingObject target arrays can otherwise
+        // toggle components belonging to the native multi-scene map. sceneLoaded runs
+        // before Start, so disabling here prevents registration without unregistering a
+        // default Index=0 and poisoning the global CullingManager.
+        var disabledCulling = 0;
+        foreach (var root in scene.GetRootGameObjects())
+        {
+            foreach (var clo in root.GetComponentsInChildren<CullingLightObject>(true))
+            {
+                if (!clo.enabled) continue;
+                clo.enabled = false;
+                disabledCulling++;
+            }
+            foreach (var cadlo in root.GetComponentsInChildren<CullingAdvancedLightObject>(true))
+            {
+                if (!cadlo.enabled) continue;
+                cadlo.enabled = false;
+                disabledCulling++;
+            }
+        }
+        if (disabledCulling > 0)
+        {
+            Plugin.Log.LogInfo($"[LabsBoiler] disabled {disabledCulling} grafted EFT light-culling wrapper(s) before registration — office lights run locally/unmanaged");
+        }
 
         Lamps.Clear();
         Areas.Clear();
@@ -123,7 +176,7 @@ internal static class LabsBoilerLights
             _baseIntensity?.SetValue(a.BaseLight, target);
             if (!a.Culling) { continue; }
 
-            _cadloF1?.SetValue(a.Culling, target); _cadloMax?.SetValue(a.Culling, target);
+            _cadloMaxFinal?.SetValue(a.Culling, target); _cadloMax?.SetValue(a.Culling, target);
         }
     }
 
@@ -143,5 +196,12 @@ internal static class LabsBoilerLights
         if (!c || f == null) return null;
         try { return (float)f.GetValue(c); }
         catch { return null; }
+    }
+
+    private static string Path(Transform t)
+    {
+        var path = t.name;
+        for (var p = t.parent; p; p = p.parent) path = p.name + "/" + path;
+        return path;
     }
 }

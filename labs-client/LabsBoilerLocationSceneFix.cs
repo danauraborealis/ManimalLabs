@@ -9,7 +9,7 @@ namespace Manimal.LabsBoiler;
 
 // rip-damaged registry arrays: null slots NRE in unguarded mod iterators, and doors
 // missing from them never reach World's registry so fika cant sync them. rebuild from
-// the live scene and scrub the rest, updating the dictionary_0 copies Awake built.
+// the live scene and scrub the rest, updating the _typeToContainer copies Awake built.
 internal static class LabsBoilerLocationSceneFix
 {
     private const string MxScene = "Laboratory_Office_Above_Boiler_Room_floor_1_MX";
@@ -35,7 +35,7 @@ internal static class LabsBoilerLocationSceneFix
             if (wios[i].NetId == 0) { wios[i].NetId = nextNet++; renumbered++; }
         }
 
-        var dictField = AccessTools.Field(typeof(LocationScene), "dictionary_0");
+        var dictField = AccessTools.Field(typeof(LocationScene), "_typeToContainer");
         int scenes = 0, removed = 0;
         foreach (var root in scene.GetRootGameObjects())
         foreach (var ls in root.GetComponentsInChildren<LocationScene>(true))

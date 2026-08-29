@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <RootNamespace>Manimal.LabsBoiler.Server</RootNamespace>
     <AssemblyName>ManimalLabsBoilerServer</AssemblyName>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -14,15 +14,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SPTarkov.Common" Version="4.0.13" />
-    <PackageReference Include="SPTarkov.DI" Version="4.0.13" />
-    <PackageReference Include="SPTarkov.Server.Core" Version="4.0.13" />
+    <!-- 4.1.2 is the newest SPT developer package published on NuGet; the
+         produced mod is validated against the installed 4.1.3 runtime. -->
+    <PackageReference Include="SPTarkov.Common" Version="4.1.2" />
+    <PackageReference Include="SPTarkov.DI" Version="4.1.2" />
+    <PackageReference Include="SPTarkov.Server.Core" Version="4.1.2" />
   </ItemGroup>
 
   <!-- deploy dll + db into the dev SPT mod folder on every build -->
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
     <PropertyGroup>
-      <DevModDir>$(SPTPath)\SPT\user\mods\ManimalLabsBoiler</DevModDir>
+      <DevModDir>$(SPTPath)\SPT_Runtime\user\mods\ManimalLabsBoiler</DevModDir>
     </PropertyGroup>
     <ItemGroup>
       <DbFiles Include="$(ProjectDir)db\**\*.*" />
@@ -37,7 +39,7 @@
     <PropertyGroup>
       <ZipFileName>Manimal-LabsBoiler-server-DLL-UPDATE-$(ModVersion).zip</ZipFileName>
       <TempPackageDir>$(ProjectDir)obj\Package</TempPackageDir>
-      <ModPackageDir>$(TempPackageDir)\SPT\user\mods\ManimalLabsBoiler</ModPackageDir>
+      <ModPackageDir>$(TempPackageDir)\SPT_Runtime\user\mods\ManimalLabsBoiler</ModPackageDir>
     </PropertyGroup>
     <RemoveDir Directories="$(TempPackageDir)" />
     <MakeDir Directories="$(ModPackageDir)" />
@@ -70,7 +72,7 @@
       <ClientDllPath>$(ProjectDir)..\labs-client\bin\$(Configuration)\netstandard2.1\ManimalLabsBoiler.dll</ClientDllPath>
       <DeployedBundlePath>$(SPTPath)\BepInEx\plugins\Manimal-LabsBoiler\manimal_labs_boiler.bundle</DeployedBundlePath>
       <ClientReleaseDir>$(ReleaseStagingDir)\BepInEx\plugins\Manimal-LabsBoiler</ClientReleaseDir>
-      <ServerReleaseDir>$(ReleaseStagingDir)\SPT\user\mods\ManimalLabsBoiler</ServerReleaseDir>
+      <ServerReleaseDir>$(ReleaseStagingDir)\SPT_Runtime\user\mods\ManimalLabsBoiler</ServerReleaseDir>
     </PropertyGroup>
 
     <Message Text="--- Building combined release zip at $(ReleaseZipPath) ---" Importance="high" />

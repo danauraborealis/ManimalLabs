@@ -48,7 +48,7 @@ internal static class LabsBoilerShaders
         {
             if (!m || !m.shader || !seen.Add(m)) continue;
             
-            var game = Shader.Find(m.shader.name) ?? GClass872.Find(m.shader.name);
+            var game = Shader.Find(m.shader.name) ?? ShadersFinder.Find(m.shader.name);
             if (game && game != m.shader)
             {
                 m.shader = game; rebound++;
@@ -223,22 +223,22 @@ internal static class LabsBoilerShaders
         }
         
         var fBool0 = AccessTools.Field(alType, "bool_0");
-        var fMat1 = AccessTools.Field(alType, "material_1");
+        var fProxyMaterial = AccessTools.Field(alType, "m_ProxyMaterial");
         int verifiable = 0, verified = 0;
         foreach (var (light, active) in freshOnes)
         {
             if (!light || !active) continue;
             verifiable++;
-            if (fBool0 != null && (bool)fBool0.GetValue(light) && fMat1?.GetValue(light) != null) verified++;
+            if (fBool0 != null && (bool)fBool0.GetValue(light) && fProxyMaterial?.GetValue(light) != null) verified++;
         }
         if (verifiable > 0 && verified == verifiable && orphaned == 0)
         {
-            Plugin.Log.LogInfo($"[LabsBoiler] grafted area lights VERIFIED ({verified}/{verifiable} renderable) — deactivating native office light branch");
+            Plugin.Log.LogInfo($"[LabsBoiler] grafted area lights VERIFIED ({verified}/{verifiable} renderable) — muting exact native office emitters");
             
             for (var i = 0; i < 1800 && !LabsBoilerLights.NativeBranchHandled; i++)
             {
-                try { LabsBoilerLights.TryDeleteNativeOfficeBranch(); }
-                catch (Exception e) { Plugin.Log.LogError($"[LabsBoiler] native-branch deactivate failed: {e}"); break; }
+                try { LabsBoilerLights.TryMuteNativeOfficeLights(); }
+                catch (Exception e) { Plugin.Log.LogError($"[LabsBoiler] native-office light mute failed: {e}"); break; }
                 if (!LabsBoilerLights.NativeBranchHandled) yield return null;
             }
         }

@@ -5,6 +5,7 @@ obj/
 *.suo
 .vs/
 .idea/
+.dotnet-home/
 
 # Distribution zips emitted by PackageModForDistribution targets
 *.zip

@@ -11,9 +11,9 @@ namespace Manimal.LabsBoiler;
 [HarmonyPatch]
 internal static class LabsBoilerBakeMerge
 {
-    [HarmonyPatch(typeof(GClass1139), nameof(GClass1139.method_0))]
+    [HarmonyPatch(typeof(SpatialAudioDataLoader), nameof(SpatialAudioDataLoader.DataLoadedHandler))]
     [HarmonyPostfix]
-    private static void AfterBakeLoaded(GClass1138 dataContainer)
+    private static void AfterBakeLoaded(SpatialAudioDataContainer dataContainer)
     {
         try { Merge(dataContainer); }
         catch (Exception e)
@@ -23,7 +23,7 @@ internal static class LabsBoilerBakeMerge
         }
     }
 
-    private static void Merge(GClass1138 c)
+    private static void Merge(SpatialAudioDataContainer c)
     {
         if (c == null || c.IsDisposed) return;
         var ourRooms = new List<SpatialAudioRoom>();
@@ -46,9 +46,13 @@ internal static class LabsBoilerBakeMerge
             if (!p || c.PortalsByID.ContainsKey(p.ID)) continue;
             p.PortalClosureLevel = 1f;
             c.PortalsByID[p.ID] = p;
+            // SPT 4.1's CreatePortalData assumes both FrontRoom and BackRoom are
+            // non-null. Synthetic boundary portals can legitimately connect only
+            // one known room, so retain the null-safe data construction used by
+            // the 4.0 implementation instead of calling AddStaticPortalData.
             var data = BuildPortalData(p);
-            c.Dictionary_1[p.ID] = data;
-            c.Gclass1124_0.AddPortal(p.ID, data);
+            c._portalsDataByID[p.ID] = data;
+            c._portalDataBufferService.AddPortal(p.ID, data);
             if (!string.IsNullOrEmpty(p.DoorID)) c.InteractivePortalsByID[p.DoorID] = p;
             portalsAdded++;
         }
@@ -141,12 +145,12 @@ internal static class LabsBoilerBakeMerge
         var addIdx = 0;
         foreach (var (_, route, _) in newPairs) addIdx += route.Length;
 
-        var oldR = c.NativeArray_0;
+        var oldR = c._allRoutesData;
         var oldRLen = oldR.IsCreated ? oldR.Length : 0;
         var newR = new NativeArray<AudioRouteData>(oldRLen + newPairs.Count, Allocator.Persistent);
         if (oldRLen > 0) NativeArray<AudioRouteData>.Copy(oldR, newR, oldRLen);
 
-        var oldI = c.NativeArray_1;
+        var oldI = c._allRoutesPortalIndices;
         var oldILen = oldI.IsCreated ? oldI.Length : 0;
         var newI = new NativeArray<int>(oldILen + addIdx, Allocator.Persistent);
         if (oldILen > 0) NativeArray<int>.Copy(oldI, newI, oldILen);
@@ -159,7 +163,7 @@ internal static class LabsBoilerBakeMerge
             var ok = true;
             for (var i = 0; i < n; i++)
             {
-                idx[i] = c.Gclass1124_0.GetIndex(route[i]);
+                idx[i] = c._portalDataBufferService.GetIndex(route[i]);
                 if (idx[i] < 0) ok = false;
             }
             if (!ok) { n = 0; unresolvable++; }
@@ -171,16 +175,16 @@ internal static class LabsBoilerBakeMerge
                 StartIndex = 0,
                 NodeStartIndex = 0
             };
-            c.Dictionary_0[pair.ID] = new GClass1138.Struct207 { startIndex = ro, endExclusive = ro + 1 };
+            c._routesRangesByPair[pair.ID] = new SpatialAudioDataContainer.RouteRange { startIndex = ro, endExclusive = ro + 1 };
             ro++;
 
-            c.Dictionary_2[pair.ID] = new GClass1138.Struct207 { startIndex = io, endExclusive = io + n };
+            c._portalRangesByPair[pair.ID] = new SpatialAudioDataContainer.RouteRange { startIndex = io, endExclusive = io + n };
             for (var i = 0; i < n; i++) newI[io++] = idx[i];
         }
         if (oldR.IsCreated) oldR.Dispose();
-        c.NativeArray_0 = newR;
+        c._allRoutesData = newR;
         if (oldI.IsCreated) oldI.Dispose();
-        c.NativeArray_1 = newI;
+        c._allRoutesPortalIndices = newI;
 
         c.BuildRoomPairIndex();
 
@@ -196,7 +200,7 @@ internal static class LabsBoilerBakeMerge
         l.Add((portalId, b, pos));
     }
 
-    private static void AppendRelevant(GClass1138 c, short roomId, RoomPair pair)
+    private static void AppendRelevant(SpatialAudioDataContainer c, short roomId, RoomPair pair)
     {
         if (c.RelevantRoomPairsByRoomID.TryGetValue(roomId, out var arr) && arr != null)
         {

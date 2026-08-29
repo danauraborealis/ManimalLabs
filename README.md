@@ -1,6 +1,6 @@
 # ManimalLabs
 
-Runtime **map surgery** on SPT 4.x's native Labs: the retail 1.0 expansion
+Runtime **map surgery** on SPT 4.1.3's native Labs: the retail 1.0 expansion
 (the Office-Above-Boiler-Room floors 2-3) rebuilt in the WTT SDK and
 hot-swapped into the live map at raid load. Native Labs keeps doing 95% of the
 work — one scene in its multi-scene load is replaced with ours.
@@ -15,3 +15,9 @@ work — one scene in its multi-scene load is replaced with ours.
 The scene bundle (`manimal_labs_boiler.bundle`) is built in the WTT SDK
 (`Labs Boiler` menu: graft → rebake → wire → build) and ships beside the
 client DLL
+
+## Requirements
+
+- SPT 4.1.3
+- WTT - CommonLib 3.0.6 or newer compatible 3.0.x release
+- WTT - Content Backport 2.0.1 or newer compatible 2.0.x release

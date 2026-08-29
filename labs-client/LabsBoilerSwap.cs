@@ -18,7 +18,7 @@ internal static class LabsBoilerSwap
     private static AssetBundle _bundle;
     private static bool _bundleTried;
 
-    [HarmonyPatch(typeof(GClass2287), nameof(GClass2287.method_1))]
+    [HarmonyPatch(typeof(LoadScenesFromPresetOperation), nameof(LoadScenesFromPresetOperation.LoadPresetAsync))]
     [HarmonyPrefix]
     private static void BeforePresetLoad(ScenesPreset preset)
     {

@@ -1,24 +1,26 @@
 using JetBrains.Annotations;
+using SPTarkov.Common.Models.Logging;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Models.Eft.Common;
+using SPTarkov.Server.Core.Models.Spt.Tables;
 using SPTarkov.Server.Core.Models.Utils;
-using SPTarkov.Server.Core.Services;
 using SPTarkov.Server.Core.Utils;
 using SysPath = System.IO.Path;
 
 namespace Manimal.LabsBoiler.Server;
 
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 100), UsedImplicitly]
+[Injectable(TypePriority = OnLoadOrder.PostLoad + 100), UsedImplicitly]
 public class LabsBoilerServerMod(
-    DatabaseService databaseService,
+    LocationTable locationTable,
+    TemplateTable templateTable,
     JsonUtil jsonUtil,
     ISptLogger<LabsBoilerServerMod> logger)
     : IOnLoad
 {
-    public Task OnLoad()
+    public Task OnLoadAsync(CancellationToken cancellationToken)
     {
-        var labs = databaseService.GetLocations().Laboratory;
+        var labs = locationTable.Laboratory;
         if (labs.StaticContainers is null)
         {
             logger.Warning("[LabsBoiler] Laboratory.StaticContainers missing — office containers not registered");
@@ -104,7 +106,7 @@ public class LabsBoilerServerMod(
             var mine = jsonUtil.Deserialize<LooseLoot>(looseJson);
             if (mine?.Spawnpoints is null) return ll;
             
-            var itemDb = databaseService.GetItems();
+            var itemDb = templateTable.Items;
 
             var have = new HashSet<string>(ll.Spawnpoints
                 .Select(s => s.Template?.Id)
