@@ -17,6 +17,14 @@
     <Reference Include="0Harmony">
       <HintPath>$(SPTPath)\BepInEx\core\0Harmony.dll</HintPath>
     </Reference>
+    <Reference Include="spt-reflection">
+      <HintPath>$(SPTPath)\BepInEx\plugins\spt\spt-reflection.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ZLinq">
+      <HintPath>$(SPTPath)\BepInEx\plugins\UnityToolkit\ZLinq.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
     <Reference Include="BepInEx">
       <HintPath>$(SPTPath)\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
@@ -59,7 +67,7 @@
   </ItemGroup>
 
   <!-- generate BuildInfo.g.cs from Directory.Build.props so [BepInPlugin] can use
-       BuildInfo.Version / BuildInfo.ModGuid as compile-time constants. -->
+       the single-source identity and version constants. -->
   <Target Name="GenerateBuildInfo" BeforeTargets="CoreCompile">
     <PropertyGroup>
       <BuildInfoFile>$(IntermediateOutputPath)BuildInfo.g.cs</BuildInfoFile>
@@ -73,6 +81,8 @@
       <_BuildInfoLines Include="    {" />
       <_BuildInfoLines Include="        public const string Version = %22$(ModVersion)%22%3B" />
       <_BuildInfoLines Include="        public const string ModGuid = %22$(ModGuid)%22%3B" />
+      <_BuildInfoLines Include="        public const string ClientName = %22$(ModUsername)-$(ModDisplayName)%22%3B" />
+      <_BuildInfoLines Include="        public const string SourceUrl = %22$(ModSourceUrl)%22%3B" />
       <_BuildInfoLines Include="    }" />
       <_BuildInfoLines Include="}" />
     </ItemGroup>
@@ -83,7 +93,12 @@
   </Target>
 
   <!-- deploy the dll next to the bundle the SDK build already dropped -->
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+  <PropertyGroup>
+    <!-- Building must not mutate a live game install unless explicitly requested. -->
+    <DeployToGame Condition="'$(DeployToGame)' == ''">false</DeployToGame>
+  </PropertyGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="'$(DeployToGame)' == 'true'">
     <ItemGroup>
       <PluginData Include="$(ProjectDir)plugin-data\**\*.*" />
     </ItemGroup>

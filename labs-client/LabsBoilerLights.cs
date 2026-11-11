@@ -25,8 +25,9 @@ internal static class LabsBoilerLights
         foreach (var t in root.GetComponentsInChildren<Transform>(true))
         {
             if (!t || t.name != "Laboratory_Office_Above_Boiler_Room_floor_1") continue;
-            if (!t.parent || t.parent.name != "LightGroup" || !t.parent.parent || t.parent.parent.name != "OO"
-                || t.root.name != "SBG_Laboratory_Light")
+            // retail nests the branch under OO/LightGroup, the 4.1 client has it straight under OO
+            var group = t.parent && t.parent.name == "LightGroup" ? t.parent.parent : t.parent;
+            if (!group || group.name != "OO" || t.root.name != "SBG_Laboratory_Light")
             {
                 Plugin.Log.LogWarning($"[LabsBoiler] refused to mute unexpected native light branch path '{Path(t)}'");
                 continue;
@@ -203,5 +204,20 @@ internal static class LabsBoilerLights
         var path = t.name;
         for (var p = t.parent; p; p = p.parent) path = p.name + "/" + path;
         return path;
+    }
+
+    internal static void Reset()
+    {
+        NativeBranchHandled = false;
+        Lamps.Clear();
+        Areas.Clear();
+        _cloType = null;
+        _cadloType = null;
+        _baseLightType = null;
+        _cloMax = null;
+        _cloF1 = null;
+        _cadloMax = null;
+        _cadloMaxFinal = null;
+        _baseIntensity = null;
     }
 }

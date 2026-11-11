@@ -31,10 +31,7 @@ internal static class LabsBoilerShaders
     {
         if (scene.name != MxScene) return;
         RebindShaders(scene);
-        if (Plugin.Instance)
-        {
-            Plugin.Instance.StartCoroutine(CopyAreaLightShaders(scene));
-        }
+        Plugin.StartOwnedCoroutine(CopyAreaLightShaders(scene));
     }
 
     private static void RebindShaders(Scene scene)
@@ -247,5 +244,10 @@ internal static class LabsBoilerShaders
             Plugin.Log.LogWarning($"[LabsBoiler] grafted area lights NOT verified ({verified}/{verifiable} renderable, {orphaned} driverless) — " +
                                   "KEEPING the native light branch so the office stays lit (floor-1 may double-light once the graft works)");
         }
+    }
+
+    internal static void Reset()
+    {
+        Emissives.Clear();
     }
 }

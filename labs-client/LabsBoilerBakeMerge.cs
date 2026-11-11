@@ -1,18 +1,23 @@
 using System;
 using System.Collections.Generic;
+using System.Reflection;
 using Audio.SpatialSystem;
 using HarmonyLib;
+using SPT.Reflection.Patching;
 using Unity.Collections;
 using Unity.Mathematics;
 using UnityEngine;
 
 namespace Manimal.LabsBoiler;
 
-[HarmonyPatch]
-internal static class LabsBoilerBakeMerge
+internal sealed class LabsBoilerBakeMerge : ModulePatch
 {
-    [HarmonyPatch(typeof(SpatialAudioDataLoader), nameof(SpatialAudioDataLoader.DataLoadedHandler))]
-    [HarmonyPostfix]
+    internal LabsBoilerBakeMerge() : base(BuildInfo.ModGuid + "." + typeof(LabsBoilerBakeMerge).FullName) { }
+
+    protected override MethodBase GetTargetMethod() =>
+        AccessTools.Method(typeof(SpatialAudioDataLoader), nameof(SpatialAudioDataLoader.DataLoadedHandler));
+
+    [PatchPostfix]
     private static void AfterBakeLoaded(SpatialAudioDataContainer dataContainer)
     {
         try { Merge(dataContainer); }

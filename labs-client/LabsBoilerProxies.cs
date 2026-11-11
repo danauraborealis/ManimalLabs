@@ -38,7 +38,7 @@ internal static class LabsBoilerProxies
 
         FixNullTriggersMaps(scene);
         FixBrokenSmartGrips(scene);
-        if (Plugin.Instance) Plugin.Instance.StartCoroutine(FixWindowBreakers(scene));
+        Plugin.StartOwnedCoroutine(FixWindowBreakers(scene));
     }
 
     private static System.Collections.IEnumerator FixWindowBreakers(Scene scene)
@@ -262,5 +262,13 @@ internal static class LabsBoilerProxies
                 _ipField.SetValue(px, v);
             }
         }
+    }
+
+    internal static void Reset()
+    {
+        Proxies.Clear();
+        _proxyType = null;
+        _ipField = null;
+        _windowRows = null;
     }
 }

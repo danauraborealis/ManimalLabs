@@ -6,12 +6,12 @@ using Audio.AmbientSubsystem;
 using Audio.SpatialSystem;
 using HarmonyLib;
 using Newtonsoft.Json.Linq;
+using SPT.Reflection.Patching;
 using UnityEngine;
 
 namespace Manimal.LabsBoiler;
 
-[HarmonyPatch]
-internal static class LabsBoilerAcoustics
+internal sealed class LabsBoilerAcoustics : ModulePatch
 {
     private const string MxScene = "Laboratory_Office_Above_Boiler_Room_floor_1_MX";
 
@@ -29,8 +29,16 @@ internal static class LabsBoilerAcoustics
     internal static readonly List<SpatialAudioRoom> CreatedRooms = [];
     internal static readonly List<SpatialAudioPortal> CreatedPortals = [];
 
-    [HarmonyPatch(typeof(SpatialAudioSystem), nameof(SpatialAudioSystem.Initialize))]
-    [HarmonyPrefix]
+    private static GameObject _acousticsRoot;
+    private static GameObject _portalsRoot;
+    private static GameObject _fallbackRoot;
+
+    internal LabsBoilerAcoustics() : base(BuildInfo.ModGuid + "." + typeof(LabsBoilerAcoustics).FullName) { }
+
+    protected override MethodBase GetTargetMethod() =>
+        AccessTools.Method(typeof(SpatialAudioSystem), nameof(SpatialAudioSystem.Initialize));
+
+    [PatchPrefix]
     private static void BeforeInit()
     {
         try
@@ -111,6 +119,7 @@ internal static class LabsBoilerAcoustics
 
         
         var rootGo = new GameObject("LabsBoiler_Acoustics");
+        _acousticsRoot = rootGo;
         rootGo.SetActive(false);
         int rooms = 0, areas = 0, skipped = 0;
         
@@ -243,6 +252,7 @@ internal static class LabsBoilerAcoustics
         int portals = 0, portalsSkipped = 0;
 
         var portalsRoot = new GameObject("LabsBoiler_Portals");
+        _portalsRoot = portalsRoot;
         portalsRoot.SetActive(false);
 
         foreach (var pr in sound["SpatialAudioPortal"] as JArray ?? [])
@@ -343,7 +353,7 @@ internal static class LabsBoilerAcoustics
         Plugin.Log.LogInfo($"[LabsBoiler] acoustics injected: {rooms} office room(s) + {areas} trigger area(s) " +
                            $"({skipped} already native; tone '{(donorTone ? donorTone.name : "none")}')");
 
-        if (Plugin.Instance) Plugin.Instance.StartCoroutine(InitWatchdog(rootGo));
+        Plugin.StartOwnedCoroutine(InitWatchdog(rootGo));
     }
 
     private static void MakePortal(string name, Vector3 pos, JToken wt2, string doorId, bool window,
@@ -402,7 +412,7 @@ internal static class LabsBoilerAcoustics
         if (_fallbackStarted || _fallbackSound == null || Plugin.Instance == null) return;
         _fallbackStarted = true;
         Plugin.Log.LogWarning("[LabsBoiler] bake merge unavailable — falling back to plain ambient fill");
-        Plugin.Instance.StartCoroutine(AmbientFill(_fallbackSound));
+        Plugin.StartOwnedCoroutine(AmbientFill(_fallbackSound));
     }
 
     private static System.Collections.IEnumerator AmbientFill(JObject sound)
@@ -448,6 +458,11 @@ internal static class LabsBoilerAcoustics
             var scl = wt["scale"] != null
                 ? new Vector3((float)wt["scale"][0], (float)wt["scale"][1], (float)wt["scale"][2])
                 : Vector3.one * 6f;
+            if (!_fallbackRoot)
+            {
+                _fallbackRoot = new GameObject("LabsBoiler_Ambience");
+            }
+
             var go = new GameObject($"LabsBoiler_Ambience_{made}")
             {
                 transform =
@@ -455,6 +470,7 @@ internal static class LabsBoilerAcoustics
                     position = pos
                 }
             };
+            go.transform.SetParent(_fallbackRoot.transform, true);
             
             var src = go.AddComponent<AudioSource>();
             src.clip = tone;
@@ -571,5 +587,24 @@ internal static class LabsBoilerAcoustics
         }
 
         root.SetActive(true);
+    }
+
+    internal static void Reset()
+    {
+        if (_marker) UnityEngine.Object.Destroy(_marker);
+        if (_acousticsRoot) UnityEngine.Object.Destroy(_acousticsRoot);
+        if (_portalsRoot && _portalsRoot != _acousticsRoot) UnityEngine.Object.Destroy(_portalsRoot);
+        if (_fallbackRoot && _fallbackRoot != _acousticsRoot && _fallbackRoot != _portalsRoot)
+            UnityEngine.Object.Destroy(_fallbackRoot);
+
+        _marker = null;
+        _acousticsRoot = null;
+        _portalsRoot = null;
+        _fallbackRoot = null;
+        _pendingPortalsRoot = null;
+        _fallbackSound = null;
+        _fallbackStarted = false;
+        CreatedRooms.Clear();
+        CreatedPortals.Clear();
     }
 }
